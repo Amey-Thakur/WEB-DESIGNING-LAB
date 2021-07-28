@@ -15,7 +15,9 @@
   - WDL [Experiment - 9](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%209) | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9)
   - WDL [Experiment - 10](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%2010) | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%2010/WDL-10)
 
-## WDL Project Report | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Mini%20Project%20Report/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) 
+## WDL Project Report 
+
+  - [Project Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Mini%20Project%20Report/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) 
  
   - Chat-Room | [Source Code](https://github.com/Amey-Thakur/CHAT-ROOM)
   
