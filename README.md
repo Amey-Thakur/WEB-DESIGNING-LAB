@@ -34,8 +34,9 @@
   - [Quiz 1](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Modules 1, 2 & 3
   - [Quiz 2](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | Modules 4, 5 & 6
 
+## WDL Practical Exam 
 
-  >WDL Practical Exam | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20EXAM)
+  - [Practical Exam Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20EXAM)
 
 ## Submission Report 
 
