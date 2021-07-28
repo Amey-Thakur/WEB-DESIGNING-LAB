@@ -1,10 +1,9 @@
 # WEB DESIGNING LAB
  WDL [SEMESTER V]
 
+---
 
-## Web Designing Lab
-
-  >Experiments
+### Experiments
   
   - WDL [Experiment - 1](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%201) | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1)
   - WDL [Experiment - 2A](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%202A) | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A)
@@ -18,8 +17,9 @@
   - WDL [Experiment - 9](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%209) | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9)
   - WDL [Experiment - 10](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%2010) | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%2010/WDL-10)
 
+---
 
-  >WDL Project Report | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Mini%20Project%20Report/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) 
+### WDL Project Report | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Mini%20Project%20Report/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) 
  
   - Chat-Room | [Source Code](https://github.com/Amey-Thakur/CHAT-ROOM)
   
@@ -31,8 +31,9 @@
 
     [Published Paper @IRJET](https://www.irjet.net/archives/V8/i6/IRJET-V8I6348.pdf)
 
+---
 
-  >Quizzes
+### Quizzes
 
   - [Quiz 1](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Modules 1, 2 & 3
   - [Quiz 2](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | Modules 4, 5 & 6
@@ -40,5 +41,6 @@
 
   >WDL Practical Exam | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20EXAM)
 
+---
 
-  >Submission Report | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Submission%20Report/Amey_B-50_WDL_Submission_Report.pdf)
+### Submission Report | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Submission%20Report/Amey_B-50_WDL_Submission_Report.pdf)
