@@ -23,7 +23,7 @@
   
   - It is a simple Web-Based Chat Application using PHP, MySQL, JavaScript, Ajax.
     
-  >Research Paper
+  ### Research Paper
 
   - [Pre-print @arXiv](https://arxiv.org/abs/2106.14704)
 
