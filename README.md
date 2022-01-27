@@ -17,17 +17,17 @@
 
 ## Project Report 
 
-  - [Project Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Mini%20Project%20Report/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) 
+  >[Project Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Mini%20Project%20Report/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) 
  
-  - Chat-Room | [Source Code](https://github.com/Amey-Thakur/CHAT-ROOM)
+  >Chat-Room | [Source Code](https://github.com/Amey-Thakur/CHAT-ROOM)
   
-    It is a simple Web-Based Chat Application using PHP, MySQL, JavaScript, Ajax.
+  - It is a simple Web-Based Chat Application using PHP, MySQL, JavaScript, Ajax.
     
-  - Research Paper
+  >Research Paper
 
-    [Pre-print @arXiv](https://arxiv.org/abs/2106.14704)
+  - [Pre-print @arXiv](https://arxiv.org/abs/2106.14704)
 
-    [Published Paper @IRJET](https://www.irjet.net/archives/V8/i6/IRJET-V8I6348.pdf)
+  - [Published Paper @IRJET](https://www.irjet.net/archives/V8/i6/IRJET-V8I6348.pdf)
 
 ## Quizzes
 
