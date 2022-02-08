@@ -1,5 +1,5 @@
 # WEB DESIGNING LAB
- WDL [SEMESTER V]
+ CSL504: WDL [SEMESTER V]
 
 ## Experiments
   
