@@ -45,6 +45,13 @@
 
   - [Practical Exam Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20EXAM)
 
+## Online Exam
+
+ - Online Test [All Subjects - 1](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Online%20Exam/TE_B_Online_Test(All%20Subject)-1.pdf)
+ - Online Test [All Subjects - 2](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Online%20Exam/TE_B_Online_Test(All%20Subject)-2.pdf)
+ - Online Test [All Subjects - 3](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Online%20Exam/TE_B_Online_Test(All%20Subject)-3.pdf)
+ - Online Test [All Subjects - 4](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Online%20Exam/TE_B_Online_Test(All%20Subject)-4.pdf)
+
 ## Submission Report 
 
   - [Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Submission%20Report/Amey_B-50_WDL_Submission_Report.pdf)
