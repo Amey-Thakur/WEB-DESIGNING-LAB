@@ -22,9 +22,9 @@
   - WDL [Experiment - 9](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%209) | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9)
   - WDL [Experiment - 10](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%2010) | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [Source Code](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%2010/WDL-10)
 
-## Project Report 
+## Project
 
-  >[Project Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Mini%20Project%20Report/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) 
+  >[Project Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) | [Project Demo](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4)
  
   >Chat-Room | [Source Code](https://github.com/Amey-Thakur/CHAT-ROOM)
   
@@ -51,6 +51,11 @@
  - Online Test [All Subjects - 2](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Online%20Exam/TE_B_Online_Test(All%20Subject)-2.pdf)
  - Online Test [All Subjects - 3](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Online%20Exam/TE_B_Online_Test(All%20Subject)-3.pdf)
  - Online Test [All Subjects - 4](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Online%20Exam/TE_B_Online_Test(All%20Subject)-4.pdf)
+
+## Exit Survey
+
+ - WDL Course [Course Exit Survey](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Submission%20Report/WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf)
+ - WDL  [Lab Exit Survey](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Submission%20Report/WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf)
 
 ## Submission Report 
 
