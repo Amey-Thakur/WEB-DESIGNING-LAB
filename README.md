@@ -54,8 +54,8 @@
 
 ## Exit Survey
 
- - WDL Course [Course Exit Survey](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Submission%20Report/WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf)
- - WDL  [Lab Exit Survey](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Submission%20Report/WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf)
+ - WDL [Course Exit Survey](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Submission%20Report/WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf)
+ - WDL [Lab Exit Survey](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Submission%20Report/WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf)
 
 ## Submission Report 
 
