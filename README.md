@@ -42,7 +42,8 @@
  - [Quiz 2](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | Modules 4, 5 & 6
 
 ## Practical Exam 
- - [Practical Exam Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | [SOURCE CODE](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20EXAM)
+ - [Practical Exam Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) 
+ - [SOURCE CODE](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20EXAM)
 
 ## Online Exam
  - Online Test [All Subjects - 1](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Online%20Exam/TE_B_Online_Test(All%20Subject)-1.pdf)
