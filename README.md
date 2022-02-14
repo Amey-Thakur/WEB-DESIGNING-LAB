@@ -22,7 +22,7 @@
  - WDL [Experiment - 10](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%2010) | [File](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [SOURCE CODE](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL%20Experiments/WDL%20Experiment%20-%2010/WDL-10)
 
 ## Project
- >Chat Room using HTML, PHP, CSS, JS, AJAX | [SOURCE CODE](https://github.com/Amey-Thakur/CHAT-ROOM)
+ >Chat Room using HTML, PHP, CSS, JS, AJAX - [PROJECT REPOSITORY](https://github.com/Amey-Thakur/CHAT-ROOM)
   
  - It is a simple Web-Based Chat Application using PHP, MySQL, JavaScript, Ajax.
 
