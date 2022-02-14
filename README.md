@@ -4,7 +4,7 @@
 ---
  
  - [X] **[Syllabus](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Syllabus/TE%20BE%20Comp%20Engg%20CBCGS%20Syllabus.pdf)**
- - [x] **WDL - [Reference Books](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Syllabus/TE%20BE%20Comp%20Engg%20CBCGS%20Syllabus.pdf)**
+ - [X] **WDL - [Reference Books](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Syllabus/TE%20BE%20Comp%20Engg%20CBCGS%20Syllabus.pdf)**
 
 ---
 
