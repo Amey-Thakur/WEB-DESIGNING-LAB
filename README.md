@@ -27,15 +27,21 @@
  - It is a simple Web-Based Chat Application using PHP, MySQL, JavaScript, Ajax.
 
  - **[Certificate](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf)**
+ 
  - **IRJET | Volume 8 Issue 6 | [Published Article](https://www.irjet.net/archives/V8/i6/IRJET-V8I6348.pdf)**
+ 
  - **arXiv | [Preprint](https://arxiv.org/abs/2106.14704)** 
+ 
  - **[Presentation](http://dx.doi.org/10.13140/RG.2.2.16257.38248)** 
+ 
  - **[Poster](http://dx.doi.org/10.13140/RG.2.2.19421.95203)**
+ 
  - **[Project Report](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) | [Project Demo](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4)**
   
  ### Research Paper
- - [Pre-print @arXiv](https://arxiv.org/abs/2106.14704)
- - [Published Paper @IRJET](https://www.irjet.net/archives/V8/i6/IRJET-V8I6348.pdf)
+  - [Pre-print @arXiv](https://arxiv.org/abs/2106.14704)
+ 
+  - [Published Paper @IRJET](https://www.irjet.net/archives/V8/i6/IRJET-V8I6348.pdf)
 
 ## Quizzes
  - [Quiz 1](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/blob/main/Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Modules 1, 2 & 3
