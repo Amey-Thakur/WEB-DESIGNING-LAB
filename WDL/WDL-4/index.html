@@ -3,7 +3,7 @@
     GitHub: https://github.com/Amey-Thakur
     Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
     Description: Web Designing Laboratory - Experiment 4: Interest Calculator (index.html)
-    Task: Create a Simple and Compound Interest Calculator using External JavaScript.
+    Task: Create a Simple and Compound Interest Calculator using Internal JavaScript.
 -->
 <DOCTYPE html>
   <html lang="en" dir="ltr">
@@ -18,8 +18,41 @@
     <title>Amey B-50</title>
     <!-- External CSS -->
     <link rel="stylesheet" href="./css/style.css">
-    <!-- External JavaScript -->
-    <script src="javascript.js"></script>
+
+    <!-- External JS Import (Unused but kept for consistency with original) -->
+    <script src="javascript.js">
+    </script>
+
+    <!-- Internal CSS -->
+    <style>
+      body {
+        background-color: aqua;
+      }
+
+      h1.hc {
+        font-family: cursive;
+        font-size: 50px;
+        color: #ff0000;
+        position: absolute;
+        left: auto;
+      }
+
+      div.ex {
+        width: auto;
+        padding: 30px;
+        border: 0px solid gray;
+        margin: 0px;
+      }
+
+      p.in {
+        font-family: cursive;
+        font-size: 15px;
+      }
+
+      .color-class {
+        color: red;
+      }
+    </style>
   </head>
 
   <body>
@@ -51,7 +84,7 @@
 
     <!-- Main Header -->
     <center>
-      <p style="color:#000dff">WDL EXAM</p>
+      <p style="color:#000dff">Web Designing Laboratory Experiment - 4</p>
       <p style="color:#ff0000">INTEREST CALCULATOR</p>
     </center>
 
@@ -80,7 +113,7 @@
         </tr>
         <tr>
           <td>
-            <!-- Calculate Button calling external JS function myFunction1 -->
+            <!-- Calculate Button calling Internal JS function -->
             <button style="color:#ff0000" onclick="myFunction1()">CALCULATE</button>
           </td>
         </tr>
@@ -117,7 +150,7 @@
         </tr>
         <tr>
           <td>
-            <!-- Calculate Button calling external JS function myFunction2 -->
+            <!-- Calculate Button calling Internal JS function -->
             <button style="color:#ff0000" onclick="myFunction2()">CALCULATE</button>
           </td>
         </tr>
@@ -130,7 +163,35 @@
       </table>
     </div>
 
+    <!-- Internal JavaScript Logic -->
+    <script>
+      /* Simple Interest Calculation Function */
+      function myFunction1() {
+        var p = document.getElementById('sprincipal').value;
+        var r = document.getElementById('srate').value;
+        var t = document.getElementById('syear').value;
+        var inr = p * r * t;
+        var inrst = inr / 100;
+        document.getElementById('SI').innerHTML = "<span class='color-class'>Simple Interest is " + inrst + "</span>";
+      }
 
+      /* Compound Interest Calculation Function */
+      function myFunction2() {
+        var p = document.getElementById('cprincipal').value;
+        var r = document.getElementById('crate').value;
+        var t = document.getElementById('cyear').value;
+        var n = document.getElementById('cnd').value;
+        var r1 = r / 100;
+        var nbr = r1 / n;
+        var x = (1 + nbr);
+        var nt = n * t;
+        var xnt = Math.pow(x, nt);
+        var cmpndint = p * xnt;
+        var z = cmpndint.toFixed(2);
+        document.getElementById('CI').innerHTML = "<span class='color-class'>Compound Interest is " + z + "</span>";
+      }
+
+    </script>
   </body>
 
   </html>
