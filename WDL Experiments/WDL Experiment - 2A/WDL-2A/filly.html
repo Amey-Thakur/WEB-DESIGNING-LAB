@@ -1,79 +1,47 @@
-<!--
-    Author: Amey Thakur
-    GitHub: https://github.com/Amey-Thakur
-    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
-    Description: Web Designing Laboratory - Experiment 2A: Content Page - Milky Way (filly.html)
-    Task: Demonstrate a multi-media column layout with images and lists.
--->
-
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Amey B-50 | Galaxy Details</title>
+  <title>Amey B-50</title>
 </head>
-
 <body bgcolor="#b8b8b8">
 
   <section id="col">
-    <div class="container">
-      <center>
-        <style>
-          /* Grid Layout Styles */
-          * {
-            box-sizing: border-box;
-          }
-
-          .col {
-            float: left;
-            width: 33.33%;
-            padding: 10px;
-          }
-
-          /* Ensures floating columns don't break the container layout */
-          .row::after {
-            content: "";
-            clear: both;
-            display: table;
-          }
-        </style>
-
-        <!-- Left Column: Milky Way Image -->
-        <div class="col">
-          <h3 style="color:#0044ff">The Milky Way</h3>
-          <img src="./img/milkyway.jpg" alt="Galaxy View" width="100%">
+        <div class="container">
+          <center>
+          <style>
+  * {
+    box-sizing: border-box;
+  }
+  .col {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  </style>
+            <div class="col">
+              <h3 style="color:#0044ff">The milky Way</h3>
+            <img src="./img/milkyway.jpg">
+          </div>
+            <div class="col">
+            <h3 style="color:#0044ff">Planets</h3>
+            <p style="color:#d40000"><br><br>Mercury<br><br>Venus<br><br>Earth<br><br>Mars<br><br>Jupiter<br><br>Saturn<br><br>Uranus<br><br>Neptune</p>
+          </div>
+          <div class="col">
+            <h3 style="color:#0044ff">The milky Way</h3>
+          <img src="./img/milkyway.jpg">
         </div>
-
-        <!-- Middle Column: Planetary List -->
-        <div class="col">
-          <h3 style="color:#0044ff">Planets</h3>
-          <p style="color:#d40000">
-            Mercury<br>
-            Venus<br>
-            Earth<br>
-            Mars<br>
-            Jupiter<br>
-            Saturn<br>
-            Uranus<br>
-            Neptune
-          </p>
+          </center>
         </div>
+      </section>
+     <footer> <center>
+        <p style="color:#0044ff">Search Space | Explore Extent © Amey Thakur B-50</p>
+  </center>  </footer>
 
-        <!-- Right Column: Repeat Galaxy View for Symmetry -->
-        <div class="col">
-          <h3 style="color:#0044ff">The Milky Way</h3>
-          <img src="./img/milkyway.jpg" alt="Galaxy View" width="100%">
-        </div>
-      </center>
-    </div>
-  </section>
 
-  <footer>
-    <center>
-      <p style="color:#0044ff">Search Space | Explore Extent &copy; Amey Thakur B-50</p>
-    </center>
-  </footer>
 </body>
-
 </html>
