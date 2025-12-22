@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--
-    Author: Mega Satish
-    GitHub: https://github.com/Mega-Satish
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
     Description: Web Designing Laboratory - Experiment 7: Prime Number Identifier (index.php)
     Task: Create a PHP-based form to identify prime numbers within a specified range.
 -->
@@ -11,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Prime Number Identifier using PHP">
     <meta name="author" content="Amey Thakur">
-    <title>Prime Identifier | Mega Satish B-58</title>
+    <title>Prime Identifier | Amey Thakur B-50</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
