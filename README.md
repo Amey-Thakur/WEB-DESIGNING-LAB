@@ -183,7 +183,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 | <kbd>calculator.html</kbd> | DOM & Events | Advanced arithmetic DOM mapping | [View](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/calculator.html) |
 | <kbd>javascript.js</kbd> | Logic Implementation | Core operational logic for DOM events | [View](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/javascript.js) |
 
-**Result Screenshots**: [Calci UI](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/Outputs/Calci.png) · [Calculator UI](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/Outputs/Calculator.png) · [Code Preview](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/Outputs/Code.png)
+**Result Screenshots**: [Interest Calculator](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/Outputs/Interest%20Calculator.png) · [Calculator UI](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/Outputs/Calculator.png)
 
 </details>
 
@@ -195,7 +195,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 | <kbd>filly.xml</kbd> | Data Hierarchy | Structured student mark sheet data | [View](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5/filly.xml) |
 | <kbd>filly.xsl</kbd> | Data Rendering | XSLT transformation to HTML table | [View](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5/filly.xsl) |
 
-**Result Screenshots**: [Mark Sheet Results](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5/Outputs/Mark%20Sheet.png)
+**Result Screenshots**: [Mark Sheet Results](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5/Outputs/result.png)
 
 </details>
 
