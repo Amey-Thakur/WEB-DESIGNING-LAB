@@ -1,27 +1,80 @@
-body{
+/*
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 4: Stylesheet (style.css)
+    Task: Interest Calculator layout and interactive styling.
+*/
+
+/* Base page setup with modern font choices and vibrant background */
+body {
+  font: 15px/1.5 'Inter', 'Segoe UI', Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
   background-color: #00fbff;
+  /* Aqua theme */
+  min-height: 100vh;
 }
 
-h1.hc{
-  font-family: cursive;
+/* Heading styles for specific experiment elements */
+h1.hc {
+  font-family: 'Inter', sans-serif;
   font-size: 50px;
   color: #ff0000;
   position: absolute;
   left: auto;
 }
 
-div.ex{
+/* Container for the calculator section */
+div.ex {
   width: auto;
   padding: 20px;
   border: 0px;
   margin: 0px;
 }
 
-p.in{
-  font-family: cursive;
+/* Descriptive text styling */
+p.in {
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
 }
 
-.color-class{
-   color:red;
+/* Styling for result text shown via JS */
+.color-class {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/* Enhanced Table Styling */
+table {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+/* Interactive Button Styling */
+button {
+  height: 40px;
+  background: #263dd4;
+  border: 0;
+  padding: 0 25px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #1e31a8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(38, 61, 212, 0.4);
+}
+
+/* Input field styling for better UI */
+input[type="number"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
 }

@@ -1,167 +1,168 @@
-<DOCTYPE html>
+<!--
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 4: Interest Calculator (calci.html)
+    Note: This is an alternative/legacy version of the calculator.
+-->
+
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="calculator">
-	  <meta name="keywords" content="calculator">
-  	<meta name="author" content="Amey Thakur">
-    <title>Amey B-50</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="javascript.js">
-</script>
-    <style>
-      body{
-        background-color: aqua;
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interest Calculator for SI and CI">
+  <meta name="keywords" content="calculator, simple interest, compound interest, javascript">
+  <meta name="author" content="Amey Thakur">
+  <title>Interest Calculator (Legacy) | Amey Thakur B-50</title>
+  <!-- External stylesheet for calculator layout -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Inline styles for legacy layout support -->
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .id-table {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Student Identification Section -->
+    <header class="id-table">
+      <table border="0" bgcolor="#000000" align="center" cellspacing="20" style="border-radius: 10px;">
+        <tr style="color:#000dff">
+          <th>Name</th>
+          <th>College</th>
+          <th>Department</th>
+          <th>Class</th>
+          <th>Division</th>
+          <th>Roll Number</th>
+        </tr>
+        <tr style="color:#ff0000; text-align: center;">
+          <td>Amey Thakur</td>
+          <td>Terna Engineering College</td>
+          <td>Computer Engineering</td>
+          <td>Third Year</td>
+          <td>B</td>
+          <td>50</td>
+        </tr>
+      </table>
+      <div style="text-align: center; margin-top: 15px; font-weight: bold;">
+        <p style="color:#000dff; margin: 0; font-size: 20px;">WDL EXPERIMENT - 4</p>
+        <p style="color:#ff0000; margin: 5px 0 0 0; font-size: 18px;">LEGACY CALCULATOR VIEW</p>
+      </div>
+    </header>
+
+    <main class="ex">
+      <table border="0" bgcolor="#000000" align="center" cellspacing="20" style="border-radius: 15px; color: white;">
+        <!-- Simple Interest Section -->
+        <tr style="color:#000dff">
+          <th align="right">SIMPLE</th>
+          <th align="left">INTEREST</th>
+        </tr>
+        <tr>
+          <td>Principal Amount</td>
+          <td><input type="number" placeholder="Enter Amount" id="sprincipal" required></td>
+        </tr>
+        <tr>
+          <td>Interest Rate</td>
+          <td><input type="number" placeholder="Enter Rate in %" id="srate" required></td>
+        </tr>
+        <tr>
+          <td>Total Years</td>
+          <td><input type="number" placeholder="Enter Years" id="syear" required></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <button onclick="myFunction1()">CALCULATE SI</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <p id="SI" style="margin: 0; min-height: 25px;"></p>
+          </td>
+        </tr>
+
+        <!-- Compound Interest Section -->
+        <tr style="color:#000dff">
+          <th align="right">COMPOUND</th>
+          <th align="left">INTEREST</th>
+        </tr>
+        <tr>
+          <td>Principal Amount</td>
+          <td><input type="number" placeholder="Enter Amount" id="cprincipal" required></td>
+        </tr>
+        <tr>
+          <td>Interest Rate</td>
+          <td><input type="number" placeholder="Enter Rate in %" id="crate" required></td>
+        </tr>
+        <tr>
+          <td>Total Years</td>
+          <td><input type="number" placeholder="Enter Years" id="cyear" required></td>
+        </tr>
+        <tr>
+          <td>Compounding Periods</td>
+          <td><input type="number" placeholder="Times per year" id="cnd" required></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <button onclick="myFunction2()">CALCULATE CI</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <p id="CI" style="margin: 0; min-height: 25px;"></p>
+          </td>
+        </tr>
+      </table>
+    </main>
+
+    <!-- Logic Script -->
+    <script>
+      /**
+       * Calculates Simple Interest (SI)
+       */
+      function myFunction1() {
+        var p = document.getElementById('sprincipal').value;
+        var r = document.getElementById('srate').value;
+        var t = document.getElementById('syear').value;
+        var inr = p * r * t;
+        var inrst = inr / 100;
+        document.getElementById('SI').innerHTML = "<span class='color-class'>Simple Interest is ₹" + inrst + "</span>";
       }
 
-      h1.hc{
-        font-family: cursive;
-        font-size: 50px;
-        color: #ff0000;
-        position: absolute;
-        left: auto;
+      /**
+       * Calculates Compound Interest (CI)
+       */
+      function myFunction2() {
+        var p = document.getElementById('cprincipal').value;
+        var r = document.getElementById('crate').value;
+        var t = document.getElementById('cyear').value;
+        var n = document.getElementById('cnd').value;
+        var r1 = r / 100;
+        var nbr = r1 / n;
+        var x = (1 + nbr);
+        var nt = n * t;
+        var xnt = Math.pow(x, nt);
+        var cmpndint = p * xnt;
+        var z = cmpndint.toFixed(2);
+        document.getElementById('CI').innerHTML = "<span class='color-class'>Compound Interest is ₹" + z + "</span>";
       }
+    </script>
 
-      div.ex{
-        width: auto;
-        padding: 30px;
-        border: 0px solid gray;
-        margin: 0px;
-      }
-
-      p.in{
-        font-family: cursive;
-        font-size: 15px;
-      }
-
-      .color-class{
-         color:red;
-      }
-    </style>
-    </head>
-  <body>
-    <aside id="sidebar">
-                  <p>
-                  <table border="0" bgcolor="#000000" align="center" cellspacing= "20">
-                  <tr style="color:#000dff">
-                  <th >Name</th>
-                  <th>College</th>
-                  <th>Department</th>
-                  <th>Class</th>
-                  <th>Division</th>
-                  <th>Roll Number</th>
-                  </tr>
-                  <tr style="color:#ff0000">
-                  <td>Amey Thakur</td>
-                  <td>Terna Engineering College</td>
-                  <td>Computer Engineering</td>
-                  <td>Third Year</td>
-                  <td>B</td>
-                  <td>50</td>
-                  </tr>
-                  </table>
-                </p>
-                </aside>
-                <center>
-                  <p style="color:#000dff">Web Designing Laboratory Experiment - 4</p>
-                  <p style="color:#ff0000">INTEREST CALCULATOR</p>
-                </center>
-
-<div class="ex">
-  <table border="0" bgcolor="#000000" align="center" cellspacing= "20">
-  <tr style="color:#000dff">
-      <th align="right">SIMPLE</th>
-      <th align="left">INTEREST</th>
-  </tr>
-  <tr style="color:#ffffff">
-    <td>Principal Amount</td>
-    <td><input type="number" placeholder="Enter Amount" size="25" id="sprincipal" name="sprincipal" required></td>
-  </tr>
-  <tr style="color:#ffffff">
-    <td>Interest Rate</td>
-    <td><input type="number" placeholder="Enter Rate in %" size="25" id="srate" name="srate" required></td>
-  </tr>
-  <tr style="color:#ffffff">
-    <td>Total Years</td>
-    <td><input type="number" placeholder="Enter Years" size="25" id="syear" name="syear" required></td>
-  </tr>
-  <tr>
-    <td>
-      <button style="color:#ff0000" onclick="myFunction1()">CALCULATE</button>
-      </td>
-  </tr>
-  <tr>
-    <td>
-      <p id="SI"></p>
-      </td>
-  </tr>
-
-
-  <tr style="color:#000dff">
-    <th align="right">COMPOUND</th>
-    <th align="left">INTEREST</th>
-  </tr>
-  <tr style="color:#ffffff">
-    <td>Principal Amount</td>
-    <td><input type="number" placeholder="Enter Amount" size="25" id="cprincipal" name="sprincipal" required></td>
-  </tr>
-  <tr style="color:#ffffff">
-    <td>Interest Rate</td>
-    <td><input type="number" placeholder="Enter Rate in %" size="25" id="crate" name="srate" required></td>
-  </tr>
-  <tr style="color:#ffffff">
-    <td>Total Years</td>
-    <td><input type="number" placeholder="Enter Years" size="25" id="cyear" name="syear" required></td>
-  </tr>
-  <tr style="color:#ffffff">
-    <td>Compound Rate Per Year</td>
-    <td><input type="number" placeholder="Enter Compound Rate" size="25" id="cnd" name="syear" required></td>
-  </tr>
-  <tr>
-    <td>
-      <button style="color:#ff0000" onclick="myFunction2()">CALCULATE</button>
-      </td>
-  </tr>
-  <tr>
-    <td>
-      <p id="CI"></p>
-      </td>
-  </tr>
-</table>
-</div>
-
-<script>
-function myFunction1(){
-  var p = document.getElementById('sprincipal').value;
-  var r = document.getElementById('srate').value;
-  var t = document.getElementById('syear').value;
-  var inr = p*r*t;
-  var inrst = inr/100;
-  document.getElementById('SI').innerHTML=  "<span class='color-class'>Simple Interest is "+inrst+"</span>";
-}
-
-function myFunction2(){
-  var p = document.getElementById('cprincipal').value;
-  var r = document.getElementById('crate').value;
-  var t = document.getElementById('cyear').value;
-  var n = document.getElementById('cnd').value;
-  var r1 = r/100;
-  var nbr = r1/n;
-  var x = (1+nbr);
-  var nt = n*t;
-  var xnt = Math.pow(x,nt);
-  var cmpndint = p*xnt;
-  var z = cmpndint.toFixed(2);
-  document.getElementById('CI').innerHTML=  "<span class='color-class'>Compound Interest is "+z+"</span>";
-}
-
-</script>
+    <!-- Global Footer -->
+    <footer style="margin-top: 40px;">
+      <p style="color:#f70000; font-weight: bold; text-align: center;">Amey Thakur B-50 | TEC Computer Engineering</p>
+    </footer>
+  </div>
 </body>
-</html>
 
-<footer>
-    <center><p style="color:#f70000">Amey Thakur B-50</p></center>
-</footer>
-</body>
 </html>
