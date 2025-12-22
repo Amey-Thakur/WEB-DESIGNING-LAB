@@ -132,7 +132,7 @@ A real-time, web-based chat application developed using the full-stack WDL toolk
      ========================================================================================= -->
 ## Practical Exam
 
-Laboratory practical examination and submission: [![Live Demo](https://img.shields.io/badge/Live%20Demo-Informational?style=flat&logo=github&logoColor=white&color=2bbc8a)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR)
+Laboratory practical examination and submission: [![Live Demo](https://img.shields.io/badge/Live%20Demo-Informational?style=flat&logo=github&logoColor=white&color=007bff)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR)
 
 | # | Resource | Description | Date | Link |
 |:-:|:---|:---|:---:|:---:|
