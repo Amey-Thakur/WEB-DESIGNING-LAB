@@ -1,0 +1,173 @@
+<!--
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 1: About Us Page (about.html)
+    Task: Create a secondary page with tables and maps using Internal CSS & Center tags.
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Standard Meta Tags -->
+  <title>Search Space | Explore Extent</title>
+</head>
+
+<body bgcolor="#000000"> <!-- bgcolor attribute -->
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <!-- Branding Area -->
+      <div id="branding">
+        <center>
+          <h1 style="color:#0044ff">Search <span class="highlight">Space</span> | <span class="highlight">Explore</span>
+            Extent</h1>
+        </center>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav>
+        <center>
+          <p>
+            <!-- Internal CSS for Navigation Links -->
+            <style>
+              a:link {
+                color: #db0000;
+                background-color: transparent;
+                text-decoration: none;
+              }
+
+              a:visited {
+                color: #db0000;
+                background-color: transparent;
+                text-decoration: none;
+              }
+
+              a:hover {
+                color: #db0000;
+                background-color: transparent;
+                text-decoration: underline;
+              }
+
+              a:active {
+                color: #db0000;
+                background-color: transparent;
+                text-decoration: underline;
+              }
+            </style>
+            <a href="index.html">Home</a>
+            <a href="galaxy.html">Galaxy</a>
+            <a href="about.html">About</a>
+          </p>
+        </center>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Section: Two-column layout using internal styles -->
+  <section id="main">
+    <div class="container">
+      <!-- Internal CSS for specific page layout -->
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        .col {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+
+        /* Clearfix */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        /* Box Styling */
+        div {
+          border: 1px solid black;
+          margin-right: 100px;
+          margin-left: 100px;
+          background-color: #000000;
+        }
+      </style>
+
+      <!-- About Content Column -->
+      <article id="main-col">
+        <div class="col">
+          <h1 style="color:#0044ff" class="page-title">About Us</h1>
+          <p style="color:#ffffff">Search Space | Explore Extent Leadership</p>
+          <p style="color:#ffffff">Search Space is led by Administrator Amey Thakur, Search Space's 1st administrator.
+            Before building Space Search Organisation, Amey served in the NBA, representing Laker’s First MVP, serving
+            on the NBA Services Committee and the Science, Space and Technology Committee. Amey’s career in Space
+            Research began in the NBA.</p>
+
+          <!-- Student Info Sidebar with Table -->
+          <aside id="sidebar">
+            <h3 style="color:#0044ff">What We do</h3>
+            <p style="color:#ffffff">
+            <table border="1">
+              <tr style="color:#ffffff">
+                <th>Name</th>
+                <th>Department</th>
+                <th>Class</th>
+                <th>Division</th>
+                <th>Roll Number</th>
+                <P style="color:#ffffff">Web Designing Laboratory
+                  Experiment - 1 </P>
+              </tr>
+              <tr style="color:#db0000">
+                <td>Amey Thakur</td>
+                <td>Computer Engineering</td>
+                <td>Third Year</td>
+                <td>B</td>
+                <td>50</td>
+              </tr>
+            </table>
+            </p>
+          </aside>
+        </div>
+      </article>
+
+      <!-- Contact/Map Section -->
+      <section id="map">
+        <div class="col">
+          <h1 style="color:#0044ff" class="page-title">Contact Us</h1>
+          <p style="color:#ffffff">
+            <strong>Address:</strong>
+            <br>Plot No. 12, Sector-22, Opp. Nerul Railway Station,
+            <br>Phase-II, Nerul (W), Navi Mumbai 400706.
+          </p>
+          <p style="color:#ffffff">
+            <strong>Phone:</strong>
+            <!-- Typo Fixed: Spacing correction -->
+            <br>100 / 112
+          </p>
+          <!-- Google Maps Embed -->
+          <p><iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60348.39629541313!2d73.016516!3d19.029644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9459161291e7ded5!2sTerna%20Engineering%20College!5e0!3m2!1sen!2sin!4v1595193146892!5m2!1sen!2sin"
+              width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe></p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <section id="ft">
+      <div class="center">
+        <center>
+          <p style="color:#0044ff">Search Space | Explore Extent © Amey Thakur B-50</p>
+        </center>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
