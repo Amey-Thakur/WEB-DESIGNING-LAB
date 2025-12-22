@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 6: PHP Introduction (index.html)
+    Task: Create a form to accept two numbers and send them to a PHP script for addition.
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDL Exp 6 | PHP Addition</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>Web Designing Laboratory</h1>
+        <h2>Experiment No. 06: Introduction to PHP</h2>
+    </header>
+
+    <main class="container">
+        <!-- Student Identification Section -->
+        <section class="student-info">
+            <table class="id-table">
+                <tr>
+                    <th>Name:</th>
+                    <td>Amey Thakur</td>
+                    <th>Roll No:</th>
+                    <td>B-50</td>
+                </tr>
+                <tr>
+                    <th>Branch:</th>
+                    <td>Computer Engineering</td>
+                    <th>Semester:</th>
+                    <td>V</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- PHP Addition Form -->
+        <section class="calculator-card">
+            <h3>Arithmetic Addition Identifier</h3>
+            <p class="description">Enter two integers to perform addition using server-side PHP processing.</p>
+
+            <form action="addition.php" method="POST" class="calc-form">
+                <div class="form-group">
+                    <label for="num1">First Number:</label>
+                    <input type="number" id="num1" name="num1" placeholder="e.g. 20" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="num2">Second Number:</label>
+                    <input type="number" id="num2" name="num2" placeholder="e.g. 20" required>
+                </div>
+
+                <div class="button-group">
+                    <button type="submit" class="btn btn-submit">ADD NUMBERS</button>
+                    <button type="reset" class="btn btn-reset">RESET</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Amey Thakur B-50 | TEC Computer Engineering</p>
+    </footer>
+</body>
+
+</html>
