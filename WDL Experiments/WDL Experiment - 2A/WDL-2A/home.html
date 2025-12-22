@@ -10,19 +10,32 @@
 <head>
   <title>Amey B-50</title>
 </head>
-<!-- Nested Frameset Structure -->
+<!-- 
+  Frameset Structure:
+  The page is divided into rows and columns to create a layout grid without using CSS Grid.
+  - Row 1 (16%): Title Frame (title.html)
+  - Row 2 (84%): Main Content Area
+-->
 <frameset rows="16%, 84%">
+  <!-- Top Frame: Displays the website title -->
   <frame src="title.html" name="title">
+
+    <!-- Nested Frameset for the Main Content Area -->
     <frameset rows="16%, 84%">
+
+      <!-- Navigation Row: Split into 3 columns for Home, Galaxy, About links -->
       <frameset cols="33%, 34%, 33%">
-        <frame src="index.html" name="index">
-          <frame src="galaxy.html" name="galaxy">
-            <frame src="about.html" name="about">
+        <frame src="index.html" name="index"> <!-- Home Link Frame -->
+          <frame src="galaxy.html" name="galaxy"> <!-- Galaxy Link Frame -->
+            <frame src="about.html" name="about"> <!-- About Link Frame -->
       </frameset>
+
+      <!-- Content Row: Split into Main Content (80%) and Sidebar (20%) -->
       <frameset cols="80%, 20%">
-        <frame src="info.html" name="info">
-          <frame src="reach.html" name="reach">
+        <frame src="info.html" name="info"> <!-- Main Information Display -->
+          <frame src="reach.html" name="reach"> <!-- Sidebar / Contact Form -->
       </frameset>
+
     </frameset>
 </frameset>
 

@@ -16,6 +16,12 @@
   <section id="col">
     <div class="container">
       <center>
+        <!-- 
+            Internal CSS for Column Layout:
+            Creates a responsive-like grid using simple floats.
+            - .col: each takes up 33.33% width
+            - .row::after: clearfix hack to handle floating elements
+          -->
         <style>
           * {
             box-sizing: border-box;
@@ -34,12 +40,16 @@
             display: table;
           }
         </style>
+
+        <!-- Column 1: Dark Matter -->
         <div class="col">
           <img src="./img/Dark_matter.png">
           <h3 style="color:#0044ff">Dark Matter</h3>
           <p style="color:#d40000">Dark matter is a form of matter thought to account for approximately 85% of the
             matter in the universe and about a quarter of its total mass–energy density or about 2.241×10−27 kg/m3.</p>
         </div>
+
+        <!-- Column 2: Stars -->
         <div class="col">
           <img src="./img/Stars.png">
           <h3 style="color:#0044ff">Stars</h3>
@@ -47,6 +57,8 @@
             and heat from the churning nuclear forges inside their cores. Aside from our sun, the dots of light we see
             in the sky are all light-years from Earth.</p>
         </div>
+
+        <!-- Column 3: Gas and Dust -->
         <div class="col">
           <img src="./img/Gas_and_Dust.png">
           <h3 style="color:#0044ff">Gas and Dust</h3>
@@ -57,6 +69,8 @@
       </center>
     </div>
   </section>
+
+  <!-- Footer Section -->
   <footer>
     <center>
       <p style="color:#0044ff">Search Space | Explore Extent © Amey Thakur B-50</p>
