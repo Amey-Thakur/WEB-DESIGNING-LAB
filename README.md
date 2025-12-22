@@ -175,11 +175,32 @@ WDL final practical examination details:
 ---
 
 <!-- =========================================================================================
+                                     USAGE GUIDELINES SECTION
+     ========================================================================================= -->
+## Usage Guidelines
+
+This repository is openly shared to support learning and knowledge exchange across the academic community.
+
+**For Students**  
+Use these resources as reference materials for understanding web engineering, semantic structure, and preparing for examinations. All content is organized for self-paced learning.
+
+**For Educators**  
+These materials may serve as curriculum references or supplementary teaching resources. Attribution is appreciated when utilizing content.
+
+**For Researchers**  
+The documentation and organization may provide insights into academic resource curation and educational content structuring.
+
+---
+
+<!-- =========================================================================================
                                      LICENSE SECTION
      ========================================================================================= -->
 ## License
 
-This repository and all linked laboratory content are made available under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. See the [LICENSE](LICENSE) file for complete terms.
+This repository and all linked academic content are made available under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. See the [LICENSE](LICENSE) file for complete terms.
+
+> [!NOTE]
+> **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
 
 ---
 
