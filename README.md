@@ -121,12 +121,12 @@ A real-time, web-based chat application developed using the full-stack WDL toolk
      ========================================================================================= -->
 ## Quizzes
 
-WDL theory assessments conducted during the semester:
+WDL-specific quizzes conducted during the course:
 
-| Quiz | Topics | Submission |
-|:---:|:---|:---:|
-| Quiz 1 | Modules 1, 2 & 3 (HMTL, CSS, JS) | [📄 View](Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) |
-| Quiz 2 | Modules 4, 5 & 6 (PHP, XML, AJAX) | [📄 View](Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) |
+| Quiz | Topics | Date | Marks |
+|:---|:---|:---:|:---:|
+| [Quiz 1](Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Introduction, HTML, CSS, JavaScript (CO1-CO3) | September 25, 2020 | **19/20** |
+| [Quiz 2](Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | PHP, XML, AJAX (CO4-CO6) | October 25, 2020 | **10/10** |
 
 ---
 
