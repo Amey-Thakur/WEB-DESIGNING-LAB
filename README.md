@@ -163,15 +163,6 @@ Online assessments conducted during the semester:
 <!-- =========================================================================================
                                      PRACTICAL EXAM SECTION
      ========================================================================================= -->
-## Practical Exam
-
-WDL final practical examination details:
-
-| Resource | Description | Source Code |
-|:---|:---|:---:|
-| 📝 [Practical Report](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | WDL Practical Exam Lab Report | [💻 View](WDL%20EXAM/) |
-
----
 
 <!-- =========================================================================================
                                      SYLLABUS SECTION
