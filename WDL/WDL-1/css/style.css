@@ -217,6 +217,7 @@ footer {
   color: #ffffff;
   background-color: #263dd4;
   text-align: center;
+  clear: both;
 }
 
 /* CLEARFIX: Ensures floating areas clear properly */
