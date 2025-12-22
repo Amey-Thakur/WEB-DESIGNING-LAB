@@ -68,9 +68,9 @@ All materials here were implemented and documented by me during my undergraduate
 | # | Resource | Description |
 |:-:|:---|:---|
 | 1 | [WDL Experiments](WDL%20Experiments/) | Comprehensive list of 10 major experiments |
-| 2 | [Submission Report](Amey_B-50_WDL_Submission_Report.pdf) | Final laboratory completion report |
-| 3 | [Course Exit Survey](WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Formal course feedback documentation |
-| 4 | [Lab Exit Survey](WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Laboratory session feedback |
+| 2 | [Submission Report](Submission%20Report/Amey_B-50_WDL_Submission_Report.pdf) | Final laboratory completion report |
+| 3 | [Course Exit Survey](Submission%20Report/WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Formal course feedback documentation |
+| 4 | [Lab Exit Survey](Submission%20Report/WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Laboratory session feedback |
 | 5 | [Reference Books](Reference%20Books/Semester%205%20Books.png) | Curated recommendations for web engineering |
 
 ---
