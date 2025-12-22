@@ -19,7 +19,7 @@
   <header>
     <div class="container">
 
-      <!-- Branding Area -->
+      <!-- Branding Area: Displays the main title of the website -->
       <div id="branding">
         <center>
           <h1 style="color:#0044ff">Search <span class="highlight">Space</span> | <span class="highlight">Explore</span>
@@ -27,11 +27,15 @@
         </center>
       </div>
 
-      <!-- Navigation Menu -->
+      <!-- Navigation Menu: Links to other pages (Galaxy, About) -->
       <nav>
         <center>
           <p>
-            <!-- Internal CSS: Styling for navigation links -->
+            <!-- 
+              Internal CSS: Styling for navigation links.
+              - a:link/visited: Default state (white/transparent)
+              - a:hover/active: State when hovered or clicked (red underline)
+            -->
             <style>
               a:link {
                 color: #db0000;
@@ -68,7 +72,7 @@
     </div>
   </header>
 
-  <!-- Showcase Section: Main hero/introductory content -->
+  <!-- Showcase Section: Main hero/introductory content area -->
   <section id="showcase">
     <div class="container">
       <h1 style="color:#0044ff">
@@ -86,10 +90,10 @@
     </div>
   </section>
 
-  <!-- Newsletter Section: Subscription form -->
+  <!-- Newsletter Section: A simple subscription form for users -->
   <section id="newsletter">
     <div class="filly">
-      <!-- Internal CSS for specific div alignment -->
+      <!-- Internal CSS for specific div alignment to center content -->
       <style>
         div.filly {
           text-align: center;
@@ -103,11 +107,15 @@
     </div>
   </section>
 
-  <!-- Three Column Section: Information Grid -->
+  <!-- Three Column Section: Information Grid for Dark Matter, Stars, and Gas/Dust -->
   <section id="col">
     <div class="container">
       <center>
-        <!-- Internal CSS: Grid layout using floats -->
+        <!-- 
+          Internal CSS: Grid layout using floats.
+          - .col: Each column takes up 33.33% of the width.
+          - .row::after: Clearfix to ensure the container wraps around floating elements.
+        -->
         <style>
           * {
             box-sizing: border-box;
@@ -127,7 +135,7 @@
           }
         </style>
 
-        <!-- Column 1: Dark Matter -->
+        <!-- Column 1: Dark Matter Info -->
         <div class="col">
           <img src="./img/Dark_matter.jpg">
           <h3 style="color:#999999">Dark Matter</h3>
@@ -135,7 +143,7 @@
             matter in the universe and about a quarter of its total mass–energy density or about 2.241×10−27 kg/m3.</p>
         </div>
 
-        <!-- Column 2: Stars -->
+        <!-- Column 2: Stars Info -->
         <div class="col">
           <img src="./img/Stars.jpg">
           <h3 style="color:#999999">Stars</h3>
@@ -144,7 +152,7 @@
             in the sky are all light-years from Earth.</p>
         </div>
 
-        <!-- Column 3: Gas and Dust -->
+        <!-- Column 3: Gas and Dust Info -->
         <div class="col">
           <img src="./img/Gas_and_Dust.jpg">
           <h3 style="color:#999999">Gas and Dust</h3>
@@ -156,7 +164,7 @@
     </div>
   </section>
 
-  <!-- Footer Section -->
+  <!-- Footer Section: Copyright and Credits -->
   <footer>
     <center>
       <p style="color:#0044ff">Search Space | Explore Extent © Amey Thakur B-50</p>
