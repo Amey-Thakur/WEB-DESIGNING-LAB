@@ -1,20 +1,28 @@
-table{
+/*
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: CSS Styling for WDL Experiment 8 - Registration Form
+*/
+
+table {
   color: #ffffff;
   border-radius: 20px;
 }
 
-body{
+body {
   font: 15px/1.5 cursive;
-  padding:0;
-  margin:0;
-  background-color:aqua;
+  padding: 0;
+  margin: 0;
+  background-color: aqua;
+  /* Professional background color for contrast */
 }
 
-button{
-  height:38px;
-  background:#263dd4;
-  border:0;
+button {
+  height: 38px;
+  background: #263dd4;
+  border: 0;
   padding-left: 20px;
-  padding-right:20px;
-  color:#000dff;
+  padding-right: 20px;
+  color: #000dff;
 }
