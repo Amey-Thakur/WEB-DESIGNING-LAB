@@ -10,15 +10,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Prime Numbers">
-	  <meta name="keywords" content="Prime Numbers">
+    <!-- Metadata for identification and structure -->
+    <meta name="description" content="Prime Numbers Tracker">
+	<meta name="keywords" content="Prime, Numbers, PHP, WDL">
   	<meta name="author" content="Amey Thakur">
-    <title>Amey B-50</title>
+    <title>Amey B-50 | Prime Numbers</title>
+    <!-- Linking external CSS for consistent table and body styling -->
     <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body><br>
-      <!-- Metadata/Sidebar section displaying student identification -->
+      <!-- Academic context: Student Identification Details -->
       <aside id="sidebar">
                     <p>
                     <table border="0" bgcolor="#000000" align="center" cellspacing= "20">
@@ -47,7 +49,7 @@
                     <p style="color:#ff0000">PRIME NUMBERS IDENTIFIER</p>
                   </center>
 
-<!-- Input form for the numeric range -->
+<!-- Form Section: Accepting numeric range for server-side processing -->
 <form name="Filly" action="Prime.php" method="post" class="docs">
 <table border="0" bgcolor="#000000" align="center" cellspacing= "40">
   <tr style="color:#000dff">
@@ -70,15 +72,16 @@
 <div>
 <tr>
   <td colspan="2" align="center">
-    <input type="reset" value="RESET" name="reset" id="button" style="color:#ff0000">&nbsp &nbsp &nbsp &nbsp &nbsp
-    <input type="submit" value="FIND" name="submit" id="button" style="color:#ff0000"></td>
+    <input type="reset" value="RESET" name="reset" id="button-reset" style="color:#ff0000">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="FIND" name="submit" id="button-submit" style="color:#ff0000"></td>
 </tr>
 </div>
 </table>
 </form>
 
     <footer>
-        <center><p style="color:#f70000">MEGA SATISH B-50</p></center>
+        <center><p style="color:#f70000">MEGA SATISH B-58</p></center>
     </footer>
   </body>
 </html>
