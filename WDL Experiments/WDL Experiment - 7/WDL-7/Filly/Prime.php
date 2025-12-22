@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--
-    Author: Mega Satish
-    GitHub: https://github.com/Mega-Satish
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
     Description: Web Designing Laboratory - Experiment 7: Prime Logic (Prime.php)
     Task: Calculate and display all prime numbers within a range received from index.php.
 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prime Results | Mega Satish</title>
+    <title>Prime Results | Amey Thakur</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
