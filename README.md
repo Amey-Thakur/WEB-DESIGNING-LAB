@@ -128,6 +128,21 @@ A real-time, web-based chat application developed using the full-stack WDL toolk
 ---
 
 <!-- =========================================================================================
+                                     PRACTICAL EXAM SECTION
+     ========================================================================================= -->
+## Practical Exam
+
+Laboratory practical examination and submission:
+
+| Resource | Description | Date | Link |
+|:---|:---|:---:|:---:|
+| 📄 **Practical Exam Report** | Write a JavaScript function to calculate compound and simple interest of user-provided input. | December 17, 2020 | [View](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) |
+| 💻 **Interest Calculator** | Source code for the interest calculator implementation. | December 17, 2020 | [View](WDL%20EXAM/calculator.html) |
+| 📋 **Exam Submission** | Official Practical Exam Submission (10:30am-12:30pm) | December 17, 2020 | [View](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) |
+
+---
+
+<!-- =========================================================================================
                                      QUIZZES SECTION
      ========================================================================================= -->
 ## Quizzes
