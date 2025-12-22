@@ -1,0 +1,95 @@
+<!--
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 2B: Home Page (index.html)
+    Task: Create a professional website layout using external CSS for styling and structure.
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Viewport tag ensures the page is responsive on different devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the Galaxy">
+  <meta name="keywords" content="The Milky Way, Explore the Galaxy, Search Space">
+  <meta name="author" content="Amey Thakur">
+  <title>Search Space | Home</title>
+  <!-- Linking an external CSS stylesheet for better separation of concerns -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- Header Section: Includes Branding and Navigation -->
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Search <span class="highlight">Space</span> | <span class="highlight">Explore</span> Extent</h1>
+      </div>
+      <nav>
+        <ul>
+          <!-- 'current' class identifies the active page for the user -->
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="galaxy.html">Galaxy</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Showcase Section: Main visual area with a call to action -->
+  <section id="showcase">
+    <div class="container">
+      <h1>Explore The Universe</h1>
+      <p>Galaxies are concentrations of stars, gas, dust, and dark matter.</p>
+      <p>Astronomers classify galaxies into three major categories: elliptical, spiral and irregular.</p>
+      <p>These galaxies span a wide range of sizes, from dwarf galaxies to giant galaxies with more than a trillion
+        stars.</p>
+    </div>
+  </section>
+
+  <!-- Newsletter Section: A simple subscription form -->
+  <section id="newsletter">
+    <div class="container">
+      <h1>Travel The Milky Way</h1>
+      <form>
+        <input type="email" placeholder="Best Email" required>
+        <button type="submit" class="button_1">Dive In</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Boxes Section: Informational blocks in a column layout -->
+  <section id="boxes">
+    <div class="container">
+      <!-- Each .box div represents a separate info column -->
+      <div class="box">
+        <img src="./img/Dark_matter.jpg" alt="Dark Matter visualization">
+        <h3>Dark Matter</h3>
+        <p>Dark matter accounts for approximately 85% of the matter in the universe and about a quarter of its total
+          mass–energy density.</p>
+      </div>
+      <div class="box">
+        <img src="./img/Stars.jpg" alt="Bright Stars visualization">
+        <h3>Stars</h3>
+        <p>Stars are huge celestial bodies made mostly of hydrogen and helium that produce light and heat from their
+          cores.</p>
+      </div>
+      <div class="box">
+        <img src="./img/Gas_and_Dust.jpg" alt="Interstellar Gas and Dust">
+        <h3>Gas and Dust</h3>
+        <p>Much of the space between stars is filled with atomic and molecular gas and tiny pieces of solid particles or
+          dust.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Search Space | Explore Extent &copy; 2020 | Amey Thakur B-50</p>
+  </footer>
+</body>
+
+</html>

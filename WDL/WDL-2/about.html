@@ -1,0 +1,65 @@
+<!--
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 2A: Navigation Frame - About (about.html)
+    Task: Create a navigation link that targets the top-level parent document.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Amey B-50 | Nav About</title>
+</head>
+
+<body bgcolor="#0044ff">
+  <header>
+    <div class="container">
+      <nav>
+        <center>
+          <p>
+            <style>
+              /* Consistent styling for frame navigation links */
+              a:link {
+                color: #ffffff;
+                background-color: transparent;
+                text-decoration: none;
+              }
+
+              a:visited {
+                color: #ffffff;
+                background-color: transparent;
+                text-decoration: none;
+              }
+
+              a:hover {
+                color: #db0000;
+                background-color: transparent;
+                text-decoration: underline;
+              }
+
+              a:active {
+                color: #db0000;
+                background-color: transparent;
+                text-decoration: underline;
+              }
+            </style>
+
+            <!-- 
+                            FRAMESET INTERACTION:
+                            - Clicking 'ABOUT' loads 'map.html' in the parent window.
+                            - 'map.html' contains its own internal layout/navigation and replaces the current frameset.
+                        -->
+          <h1 style="margin-top:40px; font-size:30px; color:#ffffff">
+            <a href="map.html" target="_parent">ABOUT</a>
+          </h1>
+          </p>
+        </center>
+      </nav>
+    </div>
+  </header>
+</body>
+
+</html>
