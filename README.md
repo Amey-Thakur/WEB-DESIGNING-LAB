@@ -91,19 +91,19 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 > [!TIP]
 > **Pro-Tip**: Use **Browser Developer Tools** (F12) to inspect elements, debug JavaScript in real-time, and test responsive layouts across various screen sizes. For Experiments 8-10, the **Network** tab is invaluable for monitoring AJAX requests and backend PHP responses.
 
-| # | Experiment Name | Description | Date | Marks | Resource |
-|:-:|:---|:---|:---:|:---:|:-:|
-| 1 | **Semantic HTML5** | Structural elements and semantic markup | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) |
-| 2A | **CSS3 Layouts** | Flexbox and Grid layout implementations | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) |
-| 2B | **Responsive Design** | Media queries and mobile-first principles | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) |
-| 3 | **JavaScript Basics** | Functions, scripting, and client-side logic | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) |
-| 4 | **DOM Manipulation** | Event handling and dynamic UI updates | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) |
-| 5 | **Server-Side PHP** | Introduction to PHP and backend logic | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) |
-| 6 | **Database Connectivity** | PHP and MySQL database integration | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) |
-| 7 | **XML & DTD** | Data representation and validation | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) |
-| 8 | **AJAX & JSON** | Asynchronous requests and data interchange | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) |
-| 9 | **XSLT & Web Data** | Transformation and formatting of XML data | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) |
-| 10 | **Application Security** | Web deployment, session management, and security | October 17, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) |
+| # | Experiment Name | Description | Date | Marks | Resource | Live Demo |
+|:-:|:---|:---|:---:|:---:|:-:|:-:|
+| 1 | **Semantic HTML5** | Structural elements and semantic markup | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-1/) |
+| 2A | **CSS3 Layouts** | Flexbox and Grid layout implementations | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2A/) |
+| 2B | **Responsive Design** | Media queries and mobile-first principles | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2B/) |
+| 3 | **JavaScript Basics** | Functions, scripting, and client-side logic | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-3/) |
+| 4 | **DOM Manipulation** | Event handling and dynamic UI updates | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-4/) |
+| 5 | **XML & XSLT** | Data representation and transformation | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-5/) |
+| 6 | **Server-Side PHP** | Introduction to PHP and backend logic | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-6/) |
+| 7 | **PHP Prime Numbers** | Server-side algorithms and form processing | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-7/) |
+| 8 | **Database Connectivity** | PHP and MySQL database integration | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-8/) |
+| 9 | **AJAX & Dynamic Web** | Asynchronous requests and dynamic content | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/) |
+| 10 | **Web Frameworks Study** | Analysis of modern web application frameworks | October 17, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/) |
 
 ---
 
