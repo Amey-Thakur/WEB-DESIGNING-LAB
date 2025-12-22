@@ -1,0 +1,326 @@
+<!--
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 1: Galaxy Info Page (galaxy.html)
+    Task: Create a content-heavy page with various HTML formatting elements.
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the Galaxy">
+  <meta name="keywords" content="The Milky Way, Explore the Galaxy, Search Space">
+  <meta name="author" content="Amey Thakur">
+  <title>Search Space | Discovery</title>
+  <!-- Task requirement: external CSS linking (Note: link relative path points to CSS dir if exists) -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- Standard Header Branding -->
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Search <span class="highlight">Space</span> | <span class="highlight">Explore</span> Extent</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="galaxy.html">Galaxy</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sub-heading/Newsletter section for consistent UI -->
+  <section id="newsletter">
+    <div class="container">
+      <h1>Travel The Milky Way</h1>
+      <form>
+        <input type="email" placeholder="Best Email">
+        <button type="submit" class="button_1">Dive In</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Main Content: Detailed data on planets using lists and tables -->
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">The Planets in our Solar System</h1>
+        <ul>
+          <p>Having covered the basics of definition and classification, let’s get talking about those celestial bodies
+            in our Solar System that are still classified as planets (sorry Pluto!). Here is a brief look at the eight
+            planets in our Solar System. Included are quick facts and links so you can find out more about each planet.
+          </p>
+
+          <!-- Planet Item: Mercury -->
+          <li>
+            <h3>Mercury</h3>
+            <p>Mercury is the closest planet to our Sun, at just 58 million km (36 million miles) or 0.39 Astronomical
+              Unit (AU) out. But despite its reputation for being sun-baked and molten, it is not the hottest planet in
+              our Solar System.</p>
+            <p>Mercury is also the smallest planet in our Solar System, and is also smaller than its largest moon
+              (Ganymede, which orbits Jupiter). And being equivalent in size to 0.38 Earths, it is just slightly larger
+              than the Earth’s own Moon.</p>
+            <table border="1">
+              <caption>Mercury Quick Facts</caption>
+              <tr>
+                <th>Diameter</th>
+                <th>Mass</th>
+                <th>Length of Orbit</th>
+                <th>Length of Day</th>
+                <th>Moons</th>
+                <th>Temperature</th>
+                <th>Weight</th>
+              </tr>
+              <tr>
+                <td>4,879 km (3,032 miles)</td>
+                <td>3.3011 x 10^23 kg (0.055 Earths)</td>
+                <td>87.97 Earth days</td>
+                <td>59 Earth days</td>
+                <td>None</td>
+                <td>-173 to 427 °C</td>
+                <td>45 kg on Earth = 17 kg on Mercury</td>
+              </tr>
+            </table>
+          </li>
+
+          <!-- Planet Item: Venus -->
+          <li>
+            <h3>Venus</h3>
+            <p>Venus is the second closest planet to our Sun. It is often called Earth’s “sister planet,” as it is just
+              a little smaller than Earth. Due to its thick atmosphere and proximity to the Sun, it is the Solar Systems
+              hottest planet, with temperatures reaching up to a scorching 735 K (462 °C).</p>
+            <table border="1">
+              <caption>Venus Quick Facts</caption>
+              <tr>
+                <th>Diameter</th>
+                <th>Mass</th>
+                <th>Length of Orbit</th>
+                <th>Length of Day</th>
+                <th>Moons</th>
+                <th>Temperature</th>
+                <th>Weight</th>
+              </tr>
+              <tr>
+                <td>12,104 km (7,521 miles)</td>
+                <td>4.867 x 10^24 kg (0.815 Earths)</td>
+                <td>225 days</td>
+                <td>243 Earth days</td>
+                <td>None</td>
+                <td>462 °C (864 °F)</td>
+                <td>45 kg on Earth = 41 kg on Venus</td>
+              </tr>
+            </table>
+          </li>
+
+          <!-- Planet Item: Earth -->
+          <li>
+            <h3>Earth</h3>
+            <p>Our home, and the only planet in our Solar System (that we know of) that actively supports life. It is
+              the third planet from our Sun, orbiting at an average distance of 150 million km (93 million miles).</p>
+            <table border="1">
+              <caption>Earth Quick Facts</caption>
+              <tr>
+                <th>Diameter</th>
+                <th>Mass</th>
+                <th>Length of Orbit</th>
+                <th>Length of Day</th>
+                <th>Moons</th>
+                <th>Temperature</th>
+                <th>Atmosphere</th>
+              </tr>
+              <tr>
+                <td>12,760 km (7,926 miles)</td>
+                <td>5.97 x 10^24 kg</td>
+                <td>365 days</td>
+                <td>24 hours</td>
+                <td>One Moon</td>
+                <td>Avg. 14 °C (-88 to 58)</td>
+                <td>78% N2, 21% O2</td>
+              </tr>
+            </table>
+          </li>
+
+          <!-- Planet Item: Mars -->
+          <li>
+            <h3>Mars</h3>
+            <p>Mars is the fourth planet from the sun at a distance of about 228 million km (142 million miles). It is
+              also known as “the Red Planet” because of its reddish hue, due to the prevalence of iron oxide on its
+              surface.</p>
+            <table border="1">
+              <caption>Mars Quick Facts</caption>
+              <tr>
+                <th>Diameter</th>
+                <th>Mass</th>
+                <th>Length of Orbit</th>
+                <th>Length of Day</th>
+                <th>Moons</th>
+                <th>Temperature</th>
+                <th>Weight</th>
+              </tr>
+              <tr>
+                <td>6,787 km (4,217 miles)</td>
+                <td>6.4171 x 10^23 kg (0.107 Earths)</td>
+                <td>687 Earth days</td>
+                <td>24 hours 37 minutes</td>
+                <td>2 (Phobos, Deimos)</td>
+                <td>Avg. -55 °C</td>
+                <td>45 kg on Earth = 17 kg on Mars</td>
+              </tr>
+            </table>
+          </li>
+
+          <!-- Planet Item: Jupiter -->
+          <li>
+            <h3>Jupiter</h3>
+            <p>Jupiter is the fifth planet from the Sun, and the most massive planet in our Solar System, being 317
+              times the mass of Earth. It is a gas giant primarily composed of hydrogen and helium.</p>
+            <table border="1">
+              <caption>Jupiter Quick Facts</caption>
+              <tr>
+                <th>Diameter</th>
+                <th>Mass</th>
+                <th>Length of Orbit</th>
+                <th>Length of Day</th>
+                <th>Moons</th>
+                <th>Temperature</th>
+                <th>Weight</th>
+              </tr>
+              <tr>
+                <td>142,800 km (88,730 miles)</td>
+                <td>1.8986 × 10^27 kg (317.8 Earths)</td>
+                <td>11.9 Earth years</td>
+                <td>9.8 Earth hours</td>
+                <td>79 identified moons</td>
+                <td>-148 °C (-234 °F)</td>
+                <td>45 kg on Earth = 115 kg on Jupiter</td>
+              </tr>
+            </table>
+          </li>
+
+          <!-- Planet Item: Saturn -->
+          <li>
+            <h3>Saturn</h3>
+            <p>Saturn is the sixth planet from the Sun and a gas giant like Jupiter. It is most famous and easily
+              recognized for its spectacular ring system, which is made of seven rings composed of ice and rock
+              particles.</p>
+            <table border="1">
+              <caption>Saturn Quick Facts</caption>
+              <tr>
+                <th>Diameter</th>
+                <th>Mass</th>
+                <th>Length of Orbit</th>
+                <th>Length of Day</th>
+                <th>Moons</th>
+                <th>Temperature</th>
+                <th>Weight</th>
+              </tr>
+              <tr>
+                <td>120,500 km (74,900 miles)</td>
+                <td>5.6836 x 10^26 kg (95.159 Earths)</td>
+                <td>29.5 Earth years</td>
+                <td>10.7 Earth hours</td>
+                <td>53 known (+9 pending)</td>
+                <td>-178 °C (-288 °F)</td>
+                <td>45 kg on Earth = 48 kg on Saturn</td>
+              </tr>
+            </table>
+          </li>
+
+          <!-- Planet Item: Uranus -->
+          <li>
+            <h3>Uranus</h3>
+            <p>Uranus is the seventh planet from the sun and is often referred to as an “ice giant” due to the presence
+              of ammonia, methane, water, and hydrocarbons in ice form. Its bluish appearance comes from methane ice.
+            </p>
+            <table border="1">
+              <caption>Uranus Quick Facts</caption>
+              <tr>
+                <th>Diameter</th>
+                <th>Mass</th>
+                <th>Length of Orbit</th>
+                <th>Length of Day</th>
+                <th>Moons</th>
+                <th>Temperature</th>
+                <th>Weight</th>
+              </tr>
+              <tr>
+                <td>51,120 km (31,763 miles)</td>
+                <td>8.681 × 10^25 kg (14.5 Earths)</td>
+                <td>84 Earth years</td>
+                <td>18 Earth hours</td>
+                <td>27 moons</td>
+                <td>-216 °C (-357 °F)</td>
+                <td>45 kg on Earth = 41 kg on Uranus</td>
+              </tr>
+            </table>
+          </li>
+
+          <!-- Planet Item: Neptune -->
+          <li>
+            <h3>Neptune</h3>
+            <p>Neptune is the eighth and farthest planet from the Sun. It is similar in many respects to Uranus,
+              consisting of gases, ices, and methane ice, with a series of moons and faint rings.</p>
+            <table border="1">
+              <caption>Neptune Quick Facts</caption>
+              <tr>
+                <th>Diameter</th>
+                <th>Mass</th>
+                <th>Length of Orbit</th>
+                <th>Length of Day</th>
+                <th>Moons</th>
+                <th>Temperature</th>
+                <th>Weight</th>
+              </tr>
+              <tr>
+                <td>49,530 km (30,775 miles)</td>
+                <td>1.0243 x 10^26 kg (17 Earths)</td>
+                <td>165 Earth years</td>
+                <td>16 Earth hours</td>
+                <td>13 confirmed (+1 pending)</td>
+                <td>-214 °C (-353 °F)</td>
+                <td>45 kg on Earth = 52 kg on Neptune</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </article>
+
+      <!-- Sidebar Section: Interactive user form -->
+      <aside id="sidebar">
+        <div class="dark">
+          <h1 style="color:#263dd4;"><span class="highlight">Reach us</span></h1>
+          <form class="quote">
+            <div>
+              <label>Name</label><br>
+              <input type="text" placeholder="First Name">
+            </div>
+            <div>
+              <label>Email</label><br>
+              <input type="email" placeholder="Best Email">
+            </div>
+            <div>
+              <label>Query</label><br>
+              <textarea placeholder="Ask your question..."></textarea>
+            </div>
+            <button class="button_1" type="submit">Submit</button>
+          </form>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Site Footer Section -->
+  <footer>
+    <p>Search Space | Explore Extent © 2020 | student identification: Amey Thakur B-50</p>
+  </footer>
+</body>
+
+</html>
