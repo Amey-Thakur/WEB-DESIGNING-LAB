@@ -71,7 +71,14 @@ All materials in this repository were implemented, organized, and documented by 
 | 2 | [Submission Report](Submission%20Report/Amey_B-50_WDL_Submission_Report.pdf) | Final laboratory completion report |
 | 3 | [Course Exit Survey](Submission%20Report/WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Formal course feedback documentation |
 | 4 | [Lab Exit Survey](Submission%20Report/WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Laboratory session feedback |
-| 5 | [Reference Books](Reference%20Books/Semester%205%20Books.png) | Curated recommendations for web engineering |
+
+### Reference Books
+
+This collection includes **comprehensive reference materials** covering all major topics:
+
+| # | Resource | Focus Area |
+|:-:|:---|:---|
+| 1 | [Semester 5 Books](Reference%20Books/Semester%205%20Books.png) | Curated book recommendations |
 
 ---
 
