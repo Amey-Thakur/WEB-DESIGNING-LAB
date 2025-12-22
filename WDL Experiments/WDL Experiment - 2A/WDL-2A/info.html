@@ -1,49 +1,88 @@
-<html>
+<!--
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 2A: Content Page - Space Components (info.html)
+    Task: Implement a responsive-style 3-column layout using CSS floats.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>Amey B-50</title>
+  <meta charset="utf-8">
+  <title>Amey B-50 | Space Info</title>
 </head>
+
 <body bgcolor="#b8b8b8">
 
   <section id="col">
-        <div class="container">
-          <center>
-          <style>
-  * {
-    box-sizing: border-box;
-  }
-  .col {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  </style>
-            <div class="col">
-            <img src="./img/Dark_matter.png">
-            <h3 style="color:#0044ff">Dark Matter</h3>
-            <p style="color:#d40000">Dark matter is a form of matter thought to account for approximately 85% of the matter in the universe and about a quarter of its total mass–energy density or about 2.241×10−27 kg/m3.</p> </div>
-          <div class="col">
-            <img src="./img/Stars.png">
-            <h3 style="color:#0044ff">Stars</h3>
-            <p style="color:#d40000">Stars are huge celestial bodies made mostly of hydrogen and helium that produce light and heat from the churning nuclear forges inside their cores. Aside from our sun, the dots of light we see in the sky are all light-years from Earth.</p>
-          </div>
-          <div class="col">
-            <img src="./img/Gas_and_Dust.png">
-            <h3 style="color:#0044ff">Gas and Dust</h3>
-            <p style="color:#d40000">Much of the space between the stars is filled with atomic and molecular gas (primarily hydrogen and helium) and tiny pieces of solid particles or dust (composed mainly of carbon, silicon and oxygen). </p>
-          </div>
-        </center>
+    <div class="container">
+      <center>
+        <style>
+          /* 
+                       Universal box-sizing: Includes padding and border in the element's total width/height.
+                       This is critical for calculating percentage-based column widths.
+                    */
+          * {
+            box-sizing: border-box;
+          }
+
+          /* 
+                       Column layout: Divide the container into three equal parts.
+                       Using 'float: left' allows elements to sit side-by-side.
+                    */
+          .col {
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+            /* Increased padding for better readability */
+          }
+
+          /* 
+                       Clearfix Hack: Ensures the parent container expands to fit its floating children.
+                       Without this, the footer or subsequent content might overlap the columns.
+                    */
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+        </style>
+
+        <!-- Column 1: Dark Matter -->
+        <div class="col">
+          <img src="./img/Dark_matter.png" alt="Visualizing Dark Matter">
+          <h3 style="color:#0044ff">Dark Matter</h3>
+          <p style="color:#d40000">Dark matter is a form of matter thought to account for approximately 85% of the
+            matter in the universe and about a quarter of its total mass–energy density.</p>
         </div>
-      </section>
-     <footer> <center>
-        <p style="color:#0044ff">Search Space | Explore Extent © Amey Thakur B-50</p>
-  </center>  </footer>
 
+        <!-- Column 2: Stars -->
+        <div class="col">
+          <img src="./img/Stars.png" alt="Bright Celestial Stars">
+          <h3 style="color:#0044ff">Stars</h3>
+          <p style="color:#d40000">Stars are huge celestial bodies made mostly of hydrogen and helium that produce light
+            and heat from the churning nuclear forges inside their cores.</p>
+        </div>
 
+        <!-- Column 3: Gas and Dust -->
+        <div class="col">
+          <img src="./img/Gas_and_Dust.png" alt="Interstellar Gas and Dust">
+          <h3 style="color:#0044ff">Gas and Dust</h3>
+          <p style="color:#d40000">Much of the space between the stars is filled with atomic and molecular gas and tiny
+            pieces of solid particles or dust.</p>
+        </div>
+      </center>
+    </div>
+  </section>
+
+  <!-- Page Footer -->
+  <footer>
+    <center>
+      <p style="color:#0044ff">Search Space | Explore Extent &copy; Amey Thakur B-50</p>
+    </center>
+  </footer>
 </body>
+
 </html>
