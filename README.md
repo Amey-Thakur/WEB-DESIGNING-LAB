@@ -125,136 +125,11 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 | 9 | **AJAX & Dynamic Web** | Asynchronous requests and dynamic content | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/) |
 | 10 | **Web Frameworks Study** | Analysis of modern web application frameworks | October 17, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/) |
 
-### Program Details
+### Laboratory Documentation
 
-<details>
-<summary><b>📁 Experiment 1: Semantic HTML5 (3 Programs)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>index.html</kbd> | Frontend Design | Primary semantic structure and navigation | [View](WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1/index.html) |
-| <kbd>about.html</kbd> | Frontend Design | Personal profile information page | [View](WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1/about.html) |
-| <kbd>galaxy.html</kbd> | Frontend Design | Topic-based content with HTML5 semantics | [View](WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1/galaxy.html) |
-
-</details>
-
-<details>
-<summary><b>⭐ Experiment 2A: CSS3 Layouts (10 Programs)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>index.html</kbd> | Layout Design | Main landing page with CSS3 layout | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/index.html) |
-| <kbd>home.html</kbd> | Layout Design | Multi-column informational layout | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/home.html) |
-| <kbd>title.html</kbd> | Layout Design | Specialized header component | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/title.html) |
-| <kbd>about.html</kbd> | Layout Design | Informational page with styled content | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/about.html) |
-| <kbd>galaxy.html</kbd> | Layout Design | Grid/Flexbox integration example | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/galaxy.html) |
-| <kbd>info.html</kbd> | Layout Design | Detailed data presentation | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/info.html) |
-| <kbd>filly.html</kbd> | Layout Design | Interactive layout component | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/filly.html) |
-| <kbd>map.html</kbd> | Layout Design | Image mapping and visual navigation | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/map.html) |
-| <kbd>reach.html</kbd> | Layout Design | Styled contact/reach section | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/reach.html) |
-| <kbd>milky.html</kbd> | Layout Design | Multimedia integration in layouts | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/milky.html) |
-
-</details>
-
-<details>
-<summary><b>📱 Experiment 2B: Responsive Design (3 Programs)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>index.html</kbd> | Responsive Web | Mobile-first primary landing page | [View](WDL%20Experiments/WDL%20Experiment%20-%202B/WDL-2B/index.html) |
-| <kbd>about.html</kbd> | Responsive Web | Adaptive profile page with media queries | [View](WDL%20Experiments/WDL%20Experiment%20-%202B/WDL-2B/about.html) |
-| <kbd>galaxy.html</kbd> | Responsive Web | Structured content for various viewports | [View](WDL%20Experiments/WDL%20Experiment%20-%202B/WDL-2B/galaxy.html) |
-
-</details>
-
-<details>
-<summary><b>🔄 Experiment 3: JavaScript Basics (1 Program)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>index.html</kbd> | Client Scripting | Fundamental JS logic and scripting | [View](WDL%20Experiments/WDL%20Experiment%20-%203/WDL-3/index.html) |
-
-</details>
-
-<details>
-<summary><b>🌳 Experiment 4: DOM Manipulation (3 Programs)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>calci.html</kbd> | DOM & Events | Calculator UI with dynamic updates | [View](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/calci.html) |
-| <kbd>calculator.html</kbd> | DOM & Events | Advanced arithmetic DOM mapping | [View](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/calculator.html) |
-| <kbd>javascript.js</kbd> | Logic Implementation | Core operational logic for DOM events | [View](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/javascript.js) |
-
-**Result Screenshots**: [Interest Calculator](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/Outputs/Interest%20Calculator.png) · [Calculator UI](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/Outputs/Calculator.png)
-
-</details>
-
-<details>
-<summary><b>📁 Experiment 5: XML & XSLT (2 Programs)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>filly.xml</kbd> | Data Hierarchy | Structured student mark sheet data | [View](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5/filly.xml) |
-| <kbd>filly.xsl</kbd> | Data Rendering | XSLT transformation to HTML table | [View](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5/filly.xsl) |
-
-**Result Screenshots**: [Mark Sheet Results](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5/Outputs/result.png)
-
-</details>
-
-<details>
-<summary><b>🔀 Experiment 6: Server-Side PHP (2 Programs)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>index.html</kbd> | Server Interaction | Input interface for server-side processing | [View](WDL%20Experiments/WDL%20Experiment%20-%206/WDL-6/index.html) |
-| <kbd>addition.php</kbd> | PHP Logic | Server-side arithmetic and dynamic response | [View](WDL%20Experiments/WDL%20Experiment%20-%206/WDL-6/addition.php) |
-
-</details>
-
-<details>
-<summary><b>💻 Experiment 7: PHP Prime Numbers (2 Programs)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>index.php</kbd> | Form Handling | Interactive input for algorithmic processing | [View](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7/Filly/index.php) |
-| <kbd>Prime.php</kbd> | Algorithmic PHP | Core iterations for prime number identification | [View](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7/Filly/Prime.php) |
-
-**Result Screenshots**: [Identifier](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7/Filly/Output/Prime%20Number%20Identifier.png) · [Finder Output](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7/Filly/Output/Finder%20(1-50).png) · [Findings Log](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7/Filly/Output/Findings%20(1-50).png)
-
-</details>
-
-<details>
-<summary><b>🔍 Experiment 8: Database Connectivity (2 Programs)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>form.html</kbd> | Database UI | Data input form for MySQL integration | [View](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/form.html) |
-| <kbd>insert.php</kbd> | MySQL Integration | Prepared statements for data persistence | [View](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/insert.php) |
-
-**Result Screenshots**: Registration Flow [Step 1](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/1.png) · [Step 2](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/2.png) · [Step 3](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/3.png) · [Step 4](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/4.png) · [Step 5](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/5.png) · [Step 6](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/6.png) · [Step 7](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/7.png) · [Step 8](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/8.png) · [Step 9](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/9.png) · [Step 10](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/10.png) · [Step 11](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/11.png)
-
-</details>
-
-<details>
-<summary><b>🔗 Experiment 9: AJAX & Dynamic Web (2 Programs)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>index.php</kbd> | AJAX Interaction | Dynamic UI for asynchronous image loading | [View](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/index.php) |
-| <kbd>action.php</kbd> | Async CRUD | Server-side responders for AJAX requests | [View](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/action.php) |
-
-**Result Screenshots**: Image Gallery Flow [Step 1](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/1.png) · [Step 2](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/2.png) · [Step 3](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/3.png) · [Step 4](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/4.png) · [Step 5](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/5.png) · [Step 6](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/6.png) · [Step 7](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/7.png) · [Step 8](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/8.png) · [Step 9](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/9.png) · [Step 10](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/10.png)
-
-</details>
-
-<details>
-<summary><b>🌐 Experiment 10: Web Frameworks Study (1 Program)</b></summary>
-
-| Program | Category | Description | Code |
-|:---|:---|:---|:---:|
-| <kbd>index.html</kbd> | Framework Analysis | Comparative analysis of modern web architectures | [View](WDL%20Experiments/WDL%20Experiment%20-%2010/WDL-10/index.html) |
-
-</details>
+| Resource | Description |
+|:---|:---|
+| 📖 [Lab README](WDL%20Experiments/README.md) | Detailed navigation guide with program descriptions |
 
 ---
 
@@ -463,6 +338,10 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
   **[⬆ Back to Top](#web-designing-lab)**
 
   **[📖 Overview](#overview)** &nbsp;·&nbsp; **[📂 Contents](#repository-contents)** &nbsp;·&nbsp; **[🧪 Laboratory](#web-designing-laboratory)** &nbsp;·&nbsp; **[🚀 Mini Project](#web-designing-mini-project)** &nbsp;·&nbsp; **[🎓 Practical Exam](#practical-exam)** &nbsp;·&nbsp; **[🧠 Quizzes](#quizzes)** &nbsp;·&nbsp; **[💻 Online Exam](#online-exam)** &nbsp;·&nbsp; **[✅ Submission Report](#submission-completion-report)** &nbsp;·&nbsp; **[📋 Syllabus](#syllabus)** &nbsp;·&nbsp; **[📘 Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[📜 License](#license)** &nbsp;·&nbsp; **[ℹ️ About](#about-this-repository)** &nbsp;·&nbsp; **[🙏🏻 Acknowledgments](#acknowledgments)**
+
+  <br>
+
+  **[🧪 Web Designing Lab](WDL%20Experiments/README.md)** &nbsp;·&nbsp; **[💬 Chat Room](https://github.com/Amey-Thakur/CHAT-ROOM)**
 
 </div>
 
