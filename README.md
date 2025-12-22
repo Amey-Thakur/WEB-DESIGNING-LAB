@@ -125,6 +125,96 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 ---
 
+## Program Details
+
+<details>
+<summary><b>📁 Experiment 1: Semantic HTML5 (3 Programs)</b></summary>
+
+- [index.html](WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1/index.html)
+- [about.html](WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1/about.html)
+- [galaxy.html](WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1/galaxy.html)
+</details>
+
+<details>
+<summary><b>⭐ Experiment 2A: CSS3 Layouts (10 Programs)</b></summary>
+
+- [index.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/index.html)
+- [home.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/home.html)
+- [title.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/title.html)
+- [about.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/about.html)
+- [galaxy.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/galaxy.html)
+- [info.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/info.html)
+- [filly.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/filly.html)
+- [map.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/map.html)
+- [reach.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/reach.html)
+- [milky.html](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A/milky.html)
+</details>
+
+<details>
+<summary><b>📱 Experiment 2B: Responsive Design (3 Programs)</b></summary>
+
+- [index.html](WDL%20Experiments/WDL%20Experiment%20-%202B/WDL-2B/index.html)
+- [about.html](WDL%20Experiments/WDL%20Experiment%20-%202B/WDL-2B/about.html)
+- [galaxy.html](WDL%20Experiments/WDL%20Experiment%20-%202B/WDL-2B/galaxy.html)
+</details>
+
+<details>
+<summary><b>🔄 Experiment 3: JavaScript Basics (1 Program)</b></summary>
+
+- [index.html](WDL%20Experiments/WDL%20Experiment%20-%203/WDL-3/index.html)
+</details>
+
+<details>
+<summary><b>🌳 Experiment 4: DOM Manipulation (3 Programs)</b></summary>
+
+- [calci.html](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/calci.html)
+- [calculator.html](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/calculator.html)
+- [javascript.js](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4/javascript.js)
+</details>
+
+<details>
+<summary><b>📁 Experiment 5: XML & XSLT (2 Programs)</b></summary>
+
+- [filly.xml](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5/filly.xml)
+- [filly.xsl](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5/filly.xsl)
+</details>
+
+<details>
+<summary><b>🔀 Experiment 6: Server-Side PHP (2 Programs)</b></summary>
+
+- [index.html](WDL%20Experiments/WDL%20Experiment%20-%206/WDL-6/index.html)
+- [addition.php](WDL%20Experiments/WDL%20Experiment%20-%206/WDL-6/addition.php)
+</details>
+
+<details>
+<summary><b>💻 Experiment 7: PHP Prime Numbers (2 Programs)</b></summary>
+
+- [index.php](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7/Filly/index.php)
+- [Prime.php](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7/Filly/Prime.php)
+</details>
+
+<details>
+<summary><b>🔍 Experiment 8: Database Connectivity (2 Programs)</b></summary>
+
+- [form.html](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/form.html)
+- [insert.php](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/insert.php)
+</details>
+
+<details>
+<summary><b>🔗 Experiment 9: AJAX & Dynamic Web (2 Programs)</b></summary>
+
+- [index.php](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/index.php)
+- [action.php](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/action.php)
+</details>
+
+<details>
+<summary><b>🌐 Experiment 10: Web Frameworks Study (1 Program)</b></summary>
+
+- [index.html](WDL%20Experiments/WDL%20Experiment%20-%2010/WDL-10/index.html)
+</details>
+
+---
+
 <!-- =========================================================================================
                                      MINI PROJECT SECTION
      ========================================================================================= -->
