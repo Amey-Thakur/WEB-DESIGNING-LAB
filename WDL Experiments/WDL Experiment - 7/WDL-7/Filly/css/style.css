@@ -1,171 +1,20 @@
-/*
-    Author: Amey Thakur
-    GitHub: https://github.com/Amey-Thakur
-    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
-    Description: CSS Styling for Prime Number Identifier (Experiment 7)
-*/
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
-:root {
-  --primary-color: #263dd4;
-  --secondary-color: #6c757d;
-  --accent-color: #ff0000;
-  --bg-color: #f4f7f6;
-  --card-bg: #ffffff;
-  --text-color: #333;
-  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+table{
+  color: #ffffff;
+  border-radius: 20px;
 }
 
-body {
-  font-family: 'Inter', -apple-system, sans-serif;
-  background-color: var(--bg-color);
-  margin: 0;
-  padding: 0;
-  color: var(--text-color);
+body{
+  font: 15px/1.5 cursive;
+  padding:0;
+  margin:0;
+  background-color:aqua;
 }
 
-.container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-}
-
-.main-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.main-header h1 {
-  color: var(--primary-color);
-  font-size: 2.2rem;
-  margin-bottom: 5px;
-}
-
-.main-header h2 {
-  color: var(--accent-color);
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-
-.student-info {
-  margin-bottom: 30px;
-}
-
-.id-table {
-  width: 100%;
-  background: var(--card-bg);
-  border-collapse: collapse;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: var(--box-shadow);
-}
-
-.id-table th,
-.id-table td {
-  padding: 12px 15px;
-  border: 1px solid #eee;
-  text-align: left;
-}
-
-.id-table th {
-  background-color: #f8f9fa;
-  color: var(--primary-color);
-  width: 20%;
-}
-
-.calculator-card {
-  background: var(--card-bg);
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: var(--box-shadow);
-  text-align: center;
-}
-
-.calculator-card h3 {
-  margin: 0 0 10px 0;
-  color: var(--primary-color);
-  font-size: 1.5rem;
-}
-
-.description {
-  color: var(--secondary-color);
-  font-size: 1rem;
-  margin-bottom: 30px;
-}
-
-.calc-form {
-  max-width: 450px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-  color: #555;
-}
-
-.form-group input {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ced4da;
-  border-radius: 6px;
-  font-size: 1rem;
-  transition: all 0.3s;
-}
-
-.form-group input:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(38, 61, 212, 0.1);
-}
-
-.button-group {
-  display: flex;
-  gap: 15px;
-  margin-top: 25px;
-}
-
-.btn {
-  flex: 1;
-  padding: 12px;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.btn-submit {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-.btn-submit:hover {
-  background-color: #1e31aa;
-  transform: translateY(-2px);
-}
-
-.btn-reset {
-  background-color: #f1f3f5;
-  color: #495057;
-}
-
-.btn-reset:hover {
-  background-color: #e9ecef;
-}
-
-.main-footer {
-  text-align: center;
-  padding: 40px 20px;
-  color: var(--accent-color);
-  font-weight: bold;
+button{
+  height:38px;
+  background:#263dd4;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#000dff;
 }

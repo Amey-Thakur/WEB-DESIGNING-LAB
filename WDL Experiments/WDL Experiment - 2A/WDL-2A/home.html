@@ -1,45 +1,19 @@
-<!--
-    Author: Amey Thakur
-    GitHub: https://github.com/Amey-Thakur
-    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
-    Description: Web Designing Laboratory - Experiment 2A: Home Entry Frameset (home.html)
-    Task: Define the initial state of the frameset-driven website.
--->
-
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Amey B-50 | Home Layout</title>
+  <title>Amey B-50</title>
 </head>
-
-<!-- 
-    NESTED FRAMESET STRUCTURE:
-    - 16% / 84% Rows (Header vs Body)
-    - Within Body: 16% / 84% Rows (Navigation vs Content)
-    - Within Content: 80% / 20% Columns (Main Content vs Sidebar)
--->
-
 <frameset rows="16%, 84%">
-  <!-- Top Branding Frame -->
-  <frame src="title.html" name="title" scrolling="no" noresize>
-
-    <frameset rows="16%, 84%">
-      <!-- Navigation Row: Three interactive columns -->
-      <frameset cols="33%, 34%, 33%">
-        <frame src="index.html" name="index">
-          <frame src="galaxy.html" name="galaxy">
-            <frame src="about.html" name="about">
-      </frameset>
-
-      <!-- Main Body Area -->
-      <frameset cols="80%, 20%">
-        <!-- Targeted content frame (info) and Sidebar (reach) -->
-        <frame src="info.html" name="info">
-          <frame src="reach.html" name="reach">
-      </frameset>
+  <frame src="title.html" name="title">
+  <frameset rows="16%, 84%">
+    <frameset cols="33%, 34%, 33%">
+      <frame src="index.html" name="index">
+      <frame src="galaxy.html" name="galaxy">
+      <frame src="about.html" name="about">
     </frameset>
+    <frameset cols="80%, 20%">
+      <frame src="info.html" name="info">
+      <frame src="reach.html" name="reach">
+  </frameset>
+  </frameset>
 </frameset>
-
 </html>

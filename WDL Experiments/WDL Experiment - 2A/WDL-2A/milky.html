@@ -1,53 +1,19 @@
-<!--
-    Author: Amey Thakur
-    GitHub: https://github.com/Amey-Thakur
-    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
-    Description: Web Designing Laboratory - Experiment 2A: Main Frameset (milky.html)
-    Task: Demonstrate the use of nested framesets to create a complex web layout.
--->
-
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Amey B-50 | Main Frameset</title>
+  <title>Amey B-50</title>
 </head>
-
-<!-- 
-    The <frameset> tag is used to divide the browser window into multiple sections (frames).
-    Each section can load a separate HTML document.
-    Note: Framesets are deprecated in HTML5 but remain essential for understanding legacy web architecture.
--->
-
-<!-- Main outer frameset: Divides the window into a top header (16%) and a bottom area (84%) -->
 <frameset rows="16%, 84%">
-  <!-- TOP FRAME: Loads the title/branding -->
-  <frame src="title.html" name="title" scrolling="no" noresize>
-
-    <!-- MIDDLE/BOTTOM NESTED FRAMESET: Further divides the remaining 84% area -->
-    <frameset rows="16%, 84%">
-      <!-- NAVIGATION ROW: Divided into 3 columns for Home, Galaxy, and About navigation frames -->
-      <frameset cols="33%, 34%, 33%">
-        <frame src="index.html" name="index">
-          <frame src="galaxy.html" name="galaxy">
-            <frame src="about.html" name="about">
-      </frameset>
-
-      <!-- CONTENT AREA: Divided into 80% main content (info) and 20% sidebar (reach) -->
-      <frameset cols="80%, 20%">
-        <frame src="filly.html" name="info">
-          <frame src="reach.html" name="reach">
-      </frameset>
+  <frame src="title.html" name="title">
+  <frameset rows="16%, 84%">
+    <frameset cols="33%, 34%, 33%">
+      <frame src="index.html" name="index">
+      <frame src="galaxy.html" name="galaxy">
+      <frame src="about.html" name="about">
     </frameset>
-
-    <!-- NOFRAMES: Fallback for browsers that do not support frames -->
-    <noframes>
-
-      <body>
-        <p>Your browser does not support frames. Please update to a modern browser.</p>
-      </body>
-    </noframes>
+    <frameset cols="80%, 20%">
+      <frame src="filly.html" name="info">
+      <frame src="reach.html" name="reach">
+  </frameset>
+  </frameset>
 </frameset>
-
 </html>
