@@ -11,6 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Result | Addition</title>
+    <!-- Linking shared stylesheet for consistent UI -->
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
@@ -21,32 +22,37 @@
     </header>
 
     <main class="container">
+        <!-- Results Card to display the calculation output -->
         <section class="calculator-card result-card">
             <h3>Arithmetic Addition Result</h3>
             
             <?php
-            // Check if data was sent via POST
+            // Server-side logic to handle the form data
+            // Checking if the script was accessed via a POST request
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                // Capturing data from the form using superglobal $_POST
-                // Using intval() for basic input sanitization (ensuring numeric values)
+                // Retrieving values from the $_POST superglobal
+                // isset() checks if the keys exist; intval() converts input to integers for safety
                 $val1 = isset($_POST['num1']) ? intval($_POST['num1']) : 0;
                 $val2 = isset($_POST['num2']) ? intval($_POST['num2']) : 0;
 
-                // Performing the arithmetic addition operation
+                // Simple arithmetic addition logic
                 $sum = $val1 + $val2;
 
-                // Displaying the pedagogical explanation and result
+                // Rendering the result section with dynamic data
                 echo "<div class='result-display'>";
                 echo "<p class='formula'>Operation: <code>$val1 + $val2</code></p>";
                 echo "<div class='final-sum'>Sum: <span>$sum</span></div>";
                 echo "</div>";
                 
-                echo "<p class='logic-note'><strong>Logic:</strong> This program uses the <code>+</code> assignment operator to add two integers provided by the user via an HTML form.</p>";
+                // Educational note explaining the PHP operation
+                echo "<p class='logic-note'><strong>Logic:</strong> This program utilizes the standard arithmetic addition operator <code>+</code> to compute the sum of integers captured from the global <code>\$_POST</code> array.</p>";
             } else {
-                echo "<p class='error'>Invalid request method. Please use the form.</p>";
+                // Error handling for direct script access without form submission
+                echo "<p class='error'>Invalid request method. Please access this page through the provided form.</p>";
             }
             ?>
 
+            <!-- Navigation back to the input form -->
             <div class="button-group" style="justify-content: center; max-width: 200px; margin: 30px auto 0;">
                 <a href="index.html" class="btn btn-submit" style="text-decoration: none; display: block; text-align: center;">GO BACK</a>
             </div>
@@ -57,6 +63,7 @@
         <p>Amey Thakur B-50 | TEC Computer Engineering</p>
     </footer>
 
+    <!-- Result-specific styling -->
     <style>
         .result-display {
             background-color: #f0f7ff;

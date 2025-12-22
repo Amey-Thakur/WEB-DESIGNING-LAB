@@ -3,9 +3,11 @@
     GitHub: https://github.com/Amey-Thakur
     Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
     Description: CSS Styling for PHP Introduction (Experiment 6)
+    Task: Layout and design system for the PHP Addition application.
 */
 
 :root {
+    /* Color Palette and UI Tokens */
     --primary-color: #007bff;
     --secondary-color: #6c757d;
     --success-color: #28a745;
@@ -16,6 +18,7 @@
     --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Base Resets */
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +33,7 @@ body {
     padding: 20px;
 }
 
+/* Layout Containers */
 .container {
     max-width: 800px;
     margin: 40px auto;
@@ -53,6 +57,7 @@ body {
     letter-spacing: 1px;
 }
 
+/* Student Information Table Styling */
 .student-info {
     margin-bottom: 30px;
 }
@@ -79,6 +84,7 @@ body {
     width: 20%;
 }
 
+/* Calculator Card Interface */
 .calculator-card {
     background: var(--card-bg);
     padding: 40px;
@@ -98,6 +104,7 @@ body {
     margin-bottom: 30px;
 }
 
+/* Form Design */
 .calc-form {
     max-width: 400px;
     margin: 0 auto;
@@ -128,6 +135,7 @@ body {
     border-color: var(--primary-color);
 }
 
+/* Generic Button System */
 .button-group {
     display: flex;
     gap: 15px;
@@ -165,6 +173,7 @@ body {
     transform: translateY(-2px);
 }
 
+/* Global Footer */
 .main-footer {
     text-align: center;
     margin-top: 50px;

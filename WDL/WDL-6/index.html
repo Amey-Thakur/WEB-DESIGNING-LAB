@@ -11,19 +11,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for SEO and identification -->
+    <meta name="description" content="Experiment 6: Introduction to PHP - Addition Form">
+    <meta name="author" content="Amey Thakur">
     <title>WDL Exp 6 | PHP Addition</title>
+    <!-- External CSS for layout and styling -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts import for modern typography -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Main Lab Header -->
     <header class="main-header">
         <h1>Web Designing Laboratory</h1>
         <h2>Experiment No. 06: Introduction to PHP</h2>
     </header>
 
     <main class="container">
-        <!-- Student Identification Section -->
+        <!-- Student Identification Section: Displaying user credentials in a structured table -->
         <section class="student-info">
             <table class="id-table">
                 <tr>
@@ -41,11 +47,13 @@
             </table>
         </section>
 
-        <!-- PHP Addition Form -->
+        <!-- PHP Addition Form Card: Main interface for numeric input -->
         <section class="calculator-card">
             <h3>Arithmetic Addition Identifier</h3>
-            <p class="description">Enter two integers to perform addition using server-side PHP processing.</p>
+            <p class="description">Enter two integers to perform addition using server-side PHP processing via POST
+                method.</p>
 
+            <!-- Form submits to addition.php using the POST method for secure data transfer -->
             <form action="addition.php" method="POST" class="calc-form">
                 <div class="form-group">
                     <label for="num1">First Number:</label>
@@ -57,6 +65,7 @@
                     <input type="number" id="num2" name="num2" placeholder="e.g. 20" required>
                 </div>
 
+                <!-- Action buttons for submission and form clearing -->
                 <div class="button-group">
                     <button type="submit" class="btn btn-submit">ADD NUMBERS</button>
                     <button type="reset" class="btn btn-reset">RESET</button>
@@ -65,6 +74,7 @@
         </section>
     </main>
 
+    <!-- Lab Footer -->
     <footer class="main-footer">
         <p>Amey Thakur B-50 | TEC Computer Engineering</p>
     </footer>
