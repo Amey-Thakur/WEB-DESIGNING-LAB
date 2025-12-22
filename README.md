@@ -106,6 +106,9 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 > [!NOTE]
 > **Documentation Standard**: All laboratory experiments have been meticulously refined to include standardized authorship headers and comprehensive inline comments. This documentation serves to clarify both the structural markup and the complex server-side logic implemented throughout the course.
 
+> [!IMPORTANT]
+> **Logical Integrity**: The core functional logic of all experiments (including PHP algorithms, database queries, and AJAX handlers) has been strictly preserved from the original laboratory implementations. The refinements focus exclusively on documentation quality, typo corrections, and professional presentation without altering the underlying technical solutions.
+
 > [!TIP]
 > **Live Verification**: Use the **🚀 (Rocket)** links in the 'Live Demo' column for instant visual validation. For experiments involving server-side PHP (Experiments 6-9), the primary HTML/CSS interface remains visible on GitHub Pages for structural review.
 
