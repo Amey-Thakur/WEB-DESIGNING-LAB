@@ -29,32 +29,32 @@
      ========================================================================================= -->
 ## Overview
 
-Web Designing Lab (CSL504) is a core laboratory course in the Third Year (Semester V) of the Computer Engineering curriculum at the University of Mumbai. The course provides hands-on experience in building modern, responsive, and interactive web applications using current industry standards and technologies.
+Web Designing Lab (CSL504) is a core laboratory course in the Third Year (Semester V) of the Computer Engineering curriculum at the University of Mumbai. The course provides hands-on experience in building modern, responsive, and interactive web applications, focusing on semantic structure, styling, client-side behavior, and server-side integration using industry-standard technologies.
 
-### Course Objectives
+### Course Topics
 
 The curriculum focuses on mastering several key web technologies:
 
-- **Frontend Development**: Semantic HTML5 structure, CSS3 styling (Flexbox, Grid), and responsive design.
-- **Client-Side Scripting**: Dynamic behavior using JavaScript (ES6+), DOM manipulation, and event handling.
+- **Frontend Development**: Semantic HTML5 structure, CSS3 styling, and responsive design.
+- **Client-Side Scripting**: Dynamic behavior using JavaScript, DOM manipulation, and event handling.
 - **Backend Development**: Server-side logic with PHP and database integration using MySQL.
 - **Data Interchange**: Structured data representation using XML, DTD, and XSLT.
 - **Modern Web Flows**: Asynchronous requests with AJAX and UI enhancement techniques.
 
 ### Repository Purpose
 
-This repository represents a curated collection of laboratory experiments, project work, and study materials compiled during my academic journey. The primary motivation for this archive is to **preserve technical knowledge for continuous learning and future reference**.
+This repository represents a curated collection of laboratory experiments, project work, and academic resources compiled during my academic journey. The primary motivation for creating and maintaining this archive is simple yet profound: **to preserve knowledge for continuous learning and future reference**.
 
-As a web developer, having a structured history of fundamental implementations is invaluable. This repository serves as my technical reference point for re-reviewing core web concepts and implementation patterns used in modern web engineering.
+As a computer engineer, mastering web technologies is essential for developing scalable applications, interactive platforms, and digital services. This repository serves as my intellectual reference point: a resource I can return to for relearning concepts, reviewing methodologies, and strengthening understanding when needed.
 
 **Why this repository exists:**
 
 - **Knowledge Preservation**: To maintain organized access to foundational web development implementations.
-- **Continuous Learning**: To support lifelong learning by enabling easy revisitation of core technologies.
+- **Continuous Learning**: To support lifelong learning by enabling easy revisitation of core web technologies.
 - **Academic Documentation**: To authentically document my learning journey through WDL.
-- **Community Contribution**: To share these resources with fellow developers and students.
+- **Community Contribution**: To share these resources with students and learners who may benefit from them.
 
-All materials here were implemented and documented by me during my undergraduate studies (2018-2022).
+All materials in this repository were implemented, organized, and documented by me during my undergraduate studies (2018-2022) as part of my coursework and practical training.
 
 ---
 
