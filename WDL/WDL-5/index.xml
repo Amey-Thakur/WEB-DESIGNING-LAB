@@ -3,7 +3,7 @@
     Author: Amey Thakur
     GitHub: https://github.com/Amey-Thakur
     Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
-    Description: Web Designing Laboratory - Experiment 5: XML Marksheet
+    Description: Web Designing Laboratory - Experiment 5: XML Marksheet (index.xml)
     Task: Create an XML file storing student marks for transformation.
 -->
 <?xml-stylesheet type="text/xsl" href="filly.xsl"?>
