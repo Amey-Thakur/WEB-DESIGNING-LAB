@@ -2,7 +2,7 @@
     Author: Amey Thakur
     GitHub: https://github.com/Amey-Thakur
     Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
-    Description: Web Designing Laboratory - Experiment 2A: Milky Way Frameset (milky.html)
+    Description: Web Designing Laboratory - Experiment 2A: Main Frameset (milky.html)
     Task: Alternative frameset layout loading specific content (filly.html) for the Milky Way section.
 -->
 <html>
@@ -10,19 +10,27 @@
 <head>
   <title>Amey B-50</title>
 </head>
+<!-- 
+  Frameset Structure (Galaxy View):
+  Similar to home.html, but loads specific content for the Galaxy section.
+-->
 <frameset rows="16%, 84%">
   <frame src="title.html" name="title">
+
     <frameset rows="16%, 84%">
+      <!-- Navigation Area -->
       <frameset cols="33%, 34%, 33%">
         <frame src="index.html" name="index">
           <frame src="galaxy.html" name="galaxy">
             <frame src="about.html" name="about">
       </frameset>
+
+      <!-- Content Area: Loads 'filly.html' instead of 'info.html' -->
       <frameset cols="80%, 20%">
-        <!-- Loads filly.html instead of info.html -->
-        <frame src="filly.html" name="info">
-          <frame src="reach.html" name="reach">
+        <frame src="filly.html" name="info"> <!-- Milky Way Content -->
+          <frame src="reach.html" name="reach"> <!-- Sidebar -->
       </frameset>
+
     </frameset>
 </frameset>
 
