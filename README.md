@@ -146,14 +146,17 @@ WDL-specific quizzes conducted during the course:
      ========================================================================================= -->
 ## Online Exam
 
-Curated online test submissions for all subjects during Semester V:
+> [!IMPORTANT]
+> **COVID-19 Impact**: This coursework was completed during the COVID-19 pandemic. All examinations and assessments were conducted in a digital format.
 
-| Resource | Description | Date |
-|:---|:---|:---:|
-| 📊 [Online Test 1](Online%20Exam/TE_B_Online_Test(All%20Subjects)-1.pdf) | Online Test (All Subjects) - 1 | 2020 |
-| 📊 [Online Test 2](Online%20Exam/TE_B_Online_Test(All%20Subjects)-2.pdf) | Online Test (All Subjects) - 2 | 2020 |
-| 📊 [Online Test 3](Online%20Exam/TE_B_Online_Test(All%20Subjects)-3.pdf) | Online Test (All Subjects) - 3 | 2020 |
-| 📊 [Online Test 4](Online%20Exam/TE_B_Online_Test(All%20Subjects)-4.pdf) | Online Test (All Subjects) - 4 | 2020 |
+Online assessments conducted during the semester:
+
+| Resource | Date | Marks | Description |
+|:---|:---:|:---:|:---|
+| 📊 [Online Test 1](Online%20Exam/TE_B_Online_Test(All%20Subjects)-1.pdf) | July 18, 2020 | **40/40** | Online Test (All Subjects) - 1 |
+| 📊 [Online Test 2](Online%20Exam/TE_B_Online_Test(All%20Subjects)-2.pdf) | July 25, 2020 | **50/50** | Online Test (All Subjects) - 2 |
+| 📊 [Online Test 3](Online%20Exam/TE_B_Online_Test(All%20Subjects)-3.pdf) | August 03, 2020 | **50/50** | Online Test (All Subjects) - 3 |
+| 📊 [Online Test 4](Online%20Exam/TE_B_Online_Test(All%20Subjects)-4.pdf) | August 08, 2020 | **50/50** | Online Test (All Subjects) - 4 |
 
 ---
 
