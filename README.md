@@ -103,9 +103,6 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 </div>
 
-> [!NOTE]
-> **Documentation Standard**: All laboratory experiments have been meticulously refined to include standardized authorship headers and comprehensive inline comments. This documentation serves to clarify both the structural markup and the complex server-side logic implemented throughout the course.
-
 > [!IMPORTANT]
 > **Experimental Setup**: To execute the server-side logic (Experiments 6-9), a local PHP environment such as **XAMPP**, **WAMP**, or **MAMP** is required. Ensure your local MySQL server is configured with a database named `filly` to synchronize with the connection strings provided in the source code.
 
