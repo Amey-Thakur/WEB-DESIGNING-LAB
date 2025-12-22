@@ -1,167 +1,227 @@
-body{
-  font: 15px/1.5 cursive;
-  padding:0;
-  margin:0;
-  background-color:#cfcfcf;
+/*
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 2B: Stylesheet (style.css)
+    Task: Implement a professional, responsive-style CSS layout for a galaxy-themed website.
+*/
+
+/* 
+   BASE STYLES: 
+   Resetting browser defaults and setting global font/typography.
+*/
+body {
+  font: 15px/1.5 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #cfcfcf;
 }
 
-ul{
-  margin:0;
-  padding:0;
+/* GLOBAL LIST RESET */
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-/* Global */
-.container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
+/* 
+   UTILITY CLASSES:
+   Reusable layout and styling tokens.
+*/
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-.button_1{
-  height:38px;
-  background:#263dd4;
-  border:0;
+/* Custom styled button with a consistent theme color */
+.button_1 {
+  height: 38px;
+  background: #263dd4;
+  border: 0;
   padding-left: 20px;
-  padding-right:20px;
-  color:#ffffff;
+  padding-right: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
-.dark{
-  padding:15px;
-  background:#000000;
-  color:#ffffff;
-  margin-top:10px;
-  margin-bottom:10px;
+.button_1:hover {
+  background: #1e31ad;
 }
 
-/* Header **/
-header{
-  background:#000000;
-  color:#ffffff;
-  padding-top:30px;
-  min-height:70px;
-  border-bottom:#263dd4 3px solid;
+/* Dark theme utility box for sidebar widgets */
+.dark {
+  padding: 15px;
+  background: #000000;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
-header a{
-  color:#ffffff;
-  text-decoration:none;
+/* 
+   HEADER & NAVIGATION:
+   Using floats to align branding (left) and nav (right).
+*/
+header {
+  background: #000000;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #263dd4 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
   text-transform: uppercase;
-  font-size:16px;
+  font-size: 16px;
 }
 
-header li{
-  float:left;
+header li {
+  float: left;
   display: inline;
   padding: 0 20px 0 20px;
+  list-style: none;
 }
 
-header #branding{
-  float:left;
+header #branding {
+  float: left;
 }
 
-header #branding h1{
-  margin:0;
+header #branding h1 {
+  margin: 0;
 }
 
-header nav{
-  float:right;
-  margin-top:10px;
+header nav {
+  float: right;
+  margin-top: 10px;
 }
 
-header .highlight, header .current a{
+/* Highlighted and active navigation states */
+header .highlight,
+header .current a {
   color: #263dd4;
   font-weight: bold;
 }
 
-header a:hover{
-  color:#263dd4;
-  font-weight:bold;
+header a:hover {
+  color: #263dd4;
+  transition: color 0.3s ease;
 }
 
-/* Showcase */
-#showcase{
-  min-height:400px;
-  background:url('../img/showcase.jpg')no-repeat 0 -400px;
-  text-align:center;
-  color:#ffffff;
+/* 
+   SHOWCASE SECTION:
+   Large hero area with background image and centered text.
+*/
+#showcase {
+  min-height: 400px;
+  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: #ffffff;
 }
 
-#showcase h1{
-  margin-top:100px;
-  font-size:55px;
-  margin-bottom:10px;
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
 }
 
-#showcase p{
-  font-size:20px;
+#showcase p {
+  font-size: 20px;
 }
 
-/* Newsletter */
-#newsletter{
-  padding:15px;
-  color:#ffffff;
-  background:#000000
+/* 
+   NEWSLETTER SECTION:
+   Horizonally aligned form elements.
+*/
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #000000;
 }
 
-#newsletter h1{
-  float:left;
+#newsletter h1 {
+  float: left;
 }
 
 #newsletter form {
-  float:right;
-  margin-top:15px;
+  float: right;
+  margin-top: 15px;
 }
 
-#newsletter input[type="email"]{
-  padding:4px;
-  height:25px;
-  width:250px;
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
 }
 
-/* Boxes */
-#boxes{
-  margin-top:20px;
+/* 
+   GRID LAYOUT (Boxes):
+   Feature blocks aligned horizontally using percentage widths.
+*/
+#boxes {
+  margin-top: 20px;
 }
 
-#boxes .box{
-  float:left;
+#boxes .box {
+  float: left;
   text-align: center;
-  width:30%;
-  padding:10px;
+  width: 30%;
+  padding: 10px;
 }
 
-/* Sidebar */
-aside#sidebar{
-  float:left;
-  width:30%;
-  margin-top:10px;
+#boxes .box img {
+  width: 90px;
+  border-radius: 50%;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-  width:90%;
-  padding:5px;
+/* 
+   CONTENT STRUCTURE (Sidebar & Main):
+   Two-column layout for inner pages.
+*/
+aside#sidebar {
+  float: right;
+  /* Changed to right for standard sidebar practices */
+  width: 30%;
+  margin-top: 10px;
 }
 
-/* Main-col */
-article#main-col{
-  float:left;
-  width:65%;
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
 }
 
-/* Services */
-ul#services li{
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/* 
+   SERVICES / LISTS:
+   Styling for structured lists in Experiment pages.
+*/
+ul#services li {
   list-style: none;
-  padding:20px;
+  padding: 20px;
   border: #cccccc solid 1px;
-  margin-bottom:5px;
-  background:#e6e6e6;
+  margin-bottom: 5px;
+  background: #e6e6e6;
 }
 
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#263dd4;
+/* GLOBAL FOOTER */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #263dd4;
   text-align: center;
+}
+
+/* CLEARFIX: Ensures floating areas clear properly */
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
