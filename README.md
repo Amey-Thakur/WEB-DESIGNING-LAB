@@ -107,10 +107,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 > **Experimental Setup**: To execute the server-side logic (Experiments 6-9), a local PHP environment such as **XAMPP**, **WAMP**, or **MAMP** is required. Ensure your local MySQL server is configured with a database named `filly` to synchronize with the connection strings provided in the source code.
 
 > [!TIP]
-> **Live Verification**: Use the **🚀 (Rocket)** links in the 'Live Demo' column for instant visual validation. For experiments involving server-side PHP (Experiments 6-9), the primary HTML/CSS interface remains visible on GitHub Pages for structural review.
-
-> [!TIP]
-> **Pro-Tip**: Use **Browser Developer Tools** (F12) to inspect elements, debug JavaScript in real-time, and test responsive layouts across various screen sizes. For Experiments 8-10, the **Network** tab is invaluable for monitoring AJAX requests and backend PHP responses.
+> **Developer Workflow**: Leverage the **Browser Developer Tools** (F12) for real-time JavaScript debugging and use the **Network** tab to monitor AJAX/PHP payloads in Experiments 8-10. For a quick structural and responsive evaluation, use the **🚀 (Rocket)** links in the 'Live Demo' column to view the implementations directly in your browser.
 
 | # | Experiment Name | Description | Date | Marks | Resource | Live Demo |
 |:-:|:---|:---|:---:|:---:|:-:|:-:|
