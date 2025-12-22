@@ -80,19 +80,19 @@ This collection includes **comprehensive reference materials** covering all majo
 
 A detailed collection of experiments covering the full spectrum of modern web design:
 
-| Exp | Experiment Topic | Submission | Source Code | Marks |
-|:---:|:---|:---:|:---:|:---:|
-| 1 | Semantic HTML5 & Structure | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1) | **09/10** |
-| 2A | CSS3 Layouts (Flexbox/Grid) | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A) | **09/10** |
-| 2B | Responsive Design & Media Queries | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%202B/WDL-2B) | **09/10** |
-| 3 | JavaScript Functions & Validation | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%203/WDL-3) | **09/10** |
-| 4 | Event Handling & DOM Manipulation | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4) | **09/10** |
-| 5 | PHP Basics & Server-Side Logic | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5) | **09/10** |
-| 6 | Database Connectivity (PHP/MySQL) | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%206/WDL-6) | **09/10** |
-| 7 | XML, DTD, and Schema Validation | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7) | **09/10** |
-| 8 | Asynchronous Requests (AJAX) | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8) | **09/10** |
-| 9 | XSLT Transformation & Formatting | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9) | **09/10** |
-| 10 | Application Deployment & Security | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%2010/WDL-10) | **09/10** |
+| Exp | Experiment Topic | Submission | Source Code | Marks | Date |
+|:---:|:---|:---:|:---:|:---:|:---:|
+| 1 | Semantic HTML5 & Structure | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1) | **09/10** | October 15, 2020 |
+| 2A | CSS3 Layouts (Flexbox/Grid) | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A) | **09/10** | October 15, 2020 |
+| 2B | Responsive Design & Media Queries | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%202B/WDL-2B) | **09/10** | October 15, 2020 |
+| 3 | JavaScript Functions & Validation | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%203/WDL-3) | **09/10** | October 15, 2020 |
+| 4 | Event Handling & DOM Manipulation | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4) | **09/10** | October 15, 2020 |
+| 5 | PHP Basics & Server-Side Logic | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5) | **09/10** | October 15, 2020 |
+| 6 | Database Connectivity (PHP/MySQL) | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%206/WDL-6) | **09/10** | October 15, 2020 |
+| 7 | XML, DTD, and Schema Validation | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7) | **09/10** | October 15, 2020 |
+| 8 | Asynchronous Requests (AJAX) | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8) | **09/10** | October 15, 2020 |
+| 9 | XSLT Transformation & Formatting | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9) | **09/10** | October 15, 2020 |
+| 10 | Application Deployment & Security | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%2010/WDL-10) | **09/10** | October 17, 2020 |
 
 ---
 
