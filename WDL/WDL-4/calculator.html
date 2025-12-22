@@ -2,8 +2,8 @@
     Author: Amey Thakur
     GitHub: https://github.com/Amey-Thakur
     Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
-    Description: Web Designing Laboratory - Experiment 4: Interest Calculator (calci.html)
-    Task: Create a Simple and Compound Interest Calculator using Internal JavaScript.
+    Description: Web Designing Laboratory - Experiment 4: Interest Calculator (index.html)
+    Task: Create a Simple and Compound Interest Calculator using External JavaScript.
 -->
 <DOCTYPE html>
   <html lang="en" dir="ltr">
@@ -11,47 +11,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <!-- Meta tags for SEO -->
     <meta name="description" content="calculator">
     <meta name="keywords" content="calculator">
     <meta name="author" content="Amey Thakur">
     <title>Amey B-50</title>
-    <!-- Linking external CSS -->
+    <!-- External CSS -->
     <link rel="stylesheet" href="./css/style.css">
-
-    <!-- Importing external JS (not used by inline functions below but kept for consistency) -->
-    <script src="javascript.js">
-    </script>
-
-    <!-- Internal CSS -->
-    <style>
-      body {
-        background-color: aqua;
-      }
-
-      h1.hc {
-        font-family: cursive;
-        font-size: 50px;
-        color: #ff0000;
-        position: absolute;
-        left: auto;
-      }
-
-      div.ex {
-        width: auto;
-        padding: 30px;
-        border: 0px solid gray;
-        margin: 0px;
-      }
-
-      p.in {
-        font-family: cursive;
-        font-size: 15px;
-      }
-
-      .color-class {
-        color: red;
-      }
-    </style>
+    <!-- External JavaScript -->
+    <script src="javascript.js"></script>
   </head>
 
   <body>
@@ -60,6 +28,7 @@
       <p>
       <table border="0" bgcolor="#000000" align="center" cellspacing="20">
         <tr style="color:#000dff">
+          <!-- Table Headers -->
           <th>Name</th>
           <th>College</th>
           <th>Department</th>
@@ -68,6 +37,7 @@
           <th>Roll Number</th>
         </tr>
         <tr style="color:#ff0000">
+          <!-- Student Data -->
           <td>Amey Thakur</td>
           <td>Terna Engineering College</td>
           <td>Computer Engineering</td>
@@ -81,7 +51,7 @@
 
     <!-- Main Header -->
     <center>
-      <p style="color:#000dff">Web Designing Laboratory Experiment - 4</p>
+      <p style="color:#000dff">WDL EXAM</p>
       <p style="color:#ff0000">INTEREST CALCULATOR</p>
     </center>
 
@@ -110,13 +80,13 @@
         </tr>
         <tr>
           <td>
-            <!-- Calls internal myFunction1 -->
+            <!-- Calculate Button calling external JS function myFunction1 -->
             <button style="color:#ff0000" onclick="myFunction1()">CALCULATE</button>
           </td>
         </tr>
         <tr>
           <td>
-            <!-- Result Display -->
+            <!-- Result Display Area -->
             <p id="SI"></p>
           </td>
         </tr>
@@ -147,52 +117,25 @@
         </tr>
         <tr>
           <td>
-            <!-- Calls internal myFunction2 -->
+            <!-- Calculate Button calling external JS function myFunction2 -->
             <button style="color:#ff0000" onclick="myFunction2()">CALCULATE</button>
           </td>
         </tr>
         <tr>
           <td>
-            <!-- Result Display -->
+            <!-- Result Display Area -->
             <p id="CI"></p>
           </td>
         </tr>
       </table>
     </div>
 
-    <!-- Internal JavaScript Logic -->
-    <script>
-      /* Function to calculate Simple Interest */
-      function myFunction1() {
-        var p = document.getElementById('sprincipal').value;
-        var r = document.getElementById('srate').value;
-        var t = document.getElementById('syear').value;
-        var inr = p * r * t;
-        var inrst = inr / 100;
-        document.getElementById('SI').innerHTML = "<span class='color-class'>Simple Interest is " + inrst + "</span>";
-      }
 
-      /* Function to calculate Compound Interest */
-      function myFunction2() {
-        var p = document.getElementById('cprincipal').value;
-        var r = document.getElementById('crate').value;
-        var t = document.getElementById('cyear').value;
-        var n = document.getElementById('cnd').value;
-        var r1 = r / 100;
-        var nbr = r1 / n;
-        var x = (1 + nbr);
-        var nt = n * t;
-        var xnt = Math.pow(x, nt);
-        var cmpndint = p * xnt;
-        var z = cmpndint.toFixed(2);
-        document.getElementById('CI').innerHTML = "<span class='color-class'>Compound Interest is " + z + "</span>";
-      }
-
-    </script>
   </body>
 
   </html>
 
+  <!-- Footer Section -->
   <footer>
     <center>
       <p style="color:#f70000">Amey Thakur B-50</p>
