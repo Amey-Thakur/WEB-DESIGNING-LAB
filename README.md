@@ -103,6 +103,12 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 </div>
 
+> [!NOTE]
+> **Documentation Standard**: All laboratory experiments have been meticulously refined to include standardized authorship headers and comprehensive inline comments. This documentation serves to clarify both the structural markup and the complex server-side logic implemented throughout the course.
+
+> [!TIP]
+> **Live Verification**: Use the **🚀 (Rocket)** links in the 'Live Demo' column for instant visual validation. For experiments involving server-side PHP (Experiments 6-9), the primary HTML/CSS interface remains visible on GitHub Pages for structural review.
+
 > [!TIP]
 > **Pro-Tip**: Use **Browser Developer Tools** (F12) to inspect elements, debug JavaScript in real-time, and test responsive layouts across various screen sizes. For Experiments 8-10, the **Network** tab is invaluable for monitoring AJAX requests and backend PHP responses.
 
