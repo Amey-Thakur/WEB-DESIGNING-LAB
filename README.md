@@ -132,13 +132,13 @@ A real-time, web-based chat application developed using the full-stack WDL toolk
      ========================================================================================= -->
 ## Practical Exam
 
-Laboratory practical examination and submission:
+Laboratory practical examination and submission: [![Live Demo](https://img.shields.io/badge/Live%20Demo-Informational?style=flat&logo=github&logoColor=white&color=2bbc8a)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR)
 
-| Resource | Description | Date | Link |
-|:---|:---|:---:|:---:|
-| 📄 **Practical Exam Report** | Write a JavaScript function to calculate compound and simple interest of user-provided input. | December 17, 2020 | [View](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) |
-| 💻 **Interest Calculator** | Source code for the interest calculator implementation. | December 17, 2020 | [Source](WDL%20EXAM/Source%20Code/interest_calculator.html) · [![Live Demo](https://img.shields.io/badge/Live%20Demo-Informational?style=flat&logo=github&logoColor=white&color=2bbc8a)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR) |
-| 📋 **Exam Submission** | Official Practical Exam Submission (10:30am-12:30pm) | December 17, 2020 | [View](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) |
+| # | Resource | Description | Date | Link |
+|:-:|:---|:---|:---:|:---:|
+| 1 | 📄 **Practical Exam Report** | Write a JavaScript function to calculate compound and simple interest of user-provided input. | December 17, 2020 | [View](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) |
+| 2 | 💻 **Interest Calculator** | Source code for the interest calculator implementation. | December 17, 2020 | [Source](WDL%20EXAM/Source%20Code/interest_calculator.html) · [**Live Demo**](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR) |
+| 3 | 📋 **Exam Submission** | Official Practical Exam Submission (10:30am-12:30pm) | December 17, 2020 | [View](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) |
 
 ---
 
