@@ -123,7 +123,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 | 9 | **AJAX & Dynamic Web** | Asynchronous requests and dynamic content | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/) |
 | 10 | **Web Frameworks Study** | Analysis of modern web application frameworks | October 17, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/) |
 
-**Program Details**
+### Program Details
 
 <details>
 <summary><b>📁 Experiment 1: Semantic HTML5 (3 Programs)</b></summary>
