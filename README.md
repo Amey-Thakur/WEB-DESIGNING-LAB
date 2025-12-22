@@ -74,25 +74,36 @@ This collection includes **comprehensive reference materials** covering all majo
 ---
 
 <!-- =========================================================================================
-                                     LABORATORY EXPERIMENTS SECTION
+                                     LABORATORY SECTION
      ========================================================================================= -->
-## Laboratory Experiments
+## Web Designing Lab
 
-A detailed collection of experiments covering the full spectrum of modern web design:
+The laboratory component (CSL504) focuses on hands-on implementation of building modern, responsive, and interactive web applications using current industry standards and technologies.
 
-| Exp | Experiment Topic | Submission | Source Code | Marks | Date |
-|:---:|:---|:---:|:---:|:---:|:---:|
-| 1 | Semantic HTML5 & Structure | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%201/WDL-1) | **09/10** | October 15, 2020 |
-| 2A | CSS3 Layouts (Flexbox/Grid) | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%202A/WDL-2A) | **09/10** | October 15, 2020 |
-| 2B | Responsive Design & Media Queries | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%202B/WDL-2B) | **09/10** | October 15, 2020 |
-| 3 | JavaScript Functions & Validation | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%203/WDL-3) | **09/10** | October 15, 2020 |
-| 4 | Event Handling & DOM Manipulation | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%204/WDL-4) | **09/10** | October 15, 2020 |
-| 5 | PHP Basics & Server-Side Logic | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%205/WDL-5) | **09/10** | October 15, 2020 |
-| 6 | Database Connectivity (PHP/MySQL) | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%206/WDL-6) | **09/10** | October 15, 2020 |
-| 7 | XML, DTD, and Schema Validation | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%207/WDL-7) | **09/10** | October 15, 2020 |
-| 8 | Asynchronous Requests (AJAX) | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8) | **09/10** | October 15, 2020 |
-| 9 | XSLT Transformation & Formatting | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9) | **09/10** | October 15, 2020 |
-| 10 | Application Deployment & Security | [📄 Report](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [💻 View](WDL%20Experiments/WDL%20Experiment%20-%2010/WDL-10) | **09/10** | October 17, 2020 |
+<div align="center">
+
+  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-11-yellowgreen.svg)](WDL%20Experiments/)
+  [![Language](https://img.shields.io/badge/Language-HTML%2FCSS%2FJS-blueviolet.svg)](WDL%20Experiments/)
+  [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](WDL%20Experiments/)
+
+</div>
+
+> [!TIP]
+> **Source Code**: For the complete source code and detailed documentation of each experiment, visit the [**WDL Experiments**](WDL%20Experiments/) directory.
+
+| # | Experiment Name | Description | Date | Marks | Resource |
+|:-:|:---|:---|:---:|:---:|:-:|
+| 1 | **Semantic HTML5** | Structural elements and semantic markup | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) |
+| 2A | **CSS3 Layouts** | Flexbox and Grid layout implementations | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) |
+| 2B | **Responsive Design** | Media queries and mobile-first principles | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) |
+| 3 | **JavaScript Basics** | Functions, scripting, and client-side logic | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) |
+| 4 | **DOM Manipulation** | Event handling and dynamic UI updates | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) |
+| 5 | **Server-Side PHP** | Introduction to PHP and backend logic | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) |
+| 6 | **Database Connectivity** | PHP and MySQL database integration | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) |
+| 7 | **XML & DTD** | Data representation and validation | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) |
+| 8 | **AJAX & JSON** | Asynchronous requests and data interchange | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) |
+| 9 | **XSLT & Web Data** | Transformation and formatting of XML data | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) |
+| 10 | **Application Security** | Web deployment, session management, and security | October 17, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) |
 
 ---
 
