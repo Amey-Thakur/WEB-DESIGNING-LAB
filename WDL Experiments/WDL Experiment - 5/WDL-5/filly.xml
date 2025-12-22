@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: Web Designing Laboratory - Experiment 5: XML Structures (filly.xml)
+    Task: Define a structured XML document to store marksheet/grade card data.
+-->
+
+<!-- Linking the XSL stylesheet for data transformation/presentation -->
 <?xml-stylesheet type="text/xsl" href="filly.xsl"?>
+
+<!-- Root element containing all academic records -->
 <marksheet>
+    <!-- Student Information Block -->
 	<stud>
 		<name>THAKUR AMEY MAHENDRA MRUNALINI</name>
 		<exam>FIRST YEAR ENGINEERING SEMESTER - I (CHOICE BASED CREDIT AND GRADING SYSTEM)</exam>
 		<heldin>MAY 2019</heldin>
 		<seat>3087200 &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PRN: 2018016402517845</seat>
 	</stud>
+
+    <!-- Collection of Individual Course Results -->
 	<course>
 		<code>FEC101</code>
 		<title>APPLIED MATHEMATICS - I</title>
@@ -75,7 +89,7 @@
 	</course>
 	<course>
 		<code>FEL101</code>
-		<title>BASIC WORKSHOP AND PRACTICE - I&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</title>
+		<title>BASIC WORKSHOP AND PRACTICE - I</title>
 		<cr>2</cr>
 		<or>--</or>
 		<ia>O</ia>
