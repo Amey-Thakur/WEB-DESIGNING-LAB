@@ -1,8 +1,16 @@
-body{
-  background-color: #00fbff;
+/*
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+    Description: External Stylesheet (style.css)
+    Task: Styling for the Interest Calculator application.
+*/
+
+body {
+  background-color: aqua;
 }
 
-h1.hc{
+h1.hc {
   font-family: cursive;
   font-size: 50px;
   color: #ff0000;
@@ -10,18 +18,19 @@ h1.hc{
   left: auto;
 }
 
-div.ex{
+div.ex {
   width: auto;
-  padding: 20px;
-  border: 0px;
+  padding: 30px;
+  border: 0px solid gray;
   margin: 0px;
 }
 
-p.in{
+p.in {
   font-family: cursive;
   font-size: 15px;
 }
 
-.color-class{
-   color:red;
+/* Utility Class for Text Color */
+.color-class {
+  color: red;
 }
