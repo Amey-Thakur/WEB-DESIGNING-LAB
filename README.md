@@ -229,7 +229,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 | <kbd>form.html</kbd> | Database UI | Data input form for MySQL integration | [View](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/form.html) |
 | <kbd>insert.php</kbd> | MySQL Integration | Prepared statements for data persistence | [View](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/insert.php) |
 
-**Result Screenshots**: [Registration Flow (View All)](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/)
+**Result Screenshots**: Registration Flow [1](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/1.png) · [2](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/2.png) · [3](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/3.png) · [4](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/4.png) · [5](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/5.png) · [6](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/6.png) · [7](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/7.png) · [8](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/8.png) · [9](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/9.png) · [10](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/10.png) · [11](WDL%20Experiments/WDL%20Experiment%20-%208/WDL-8/Output/11.png)
 
 </details>
 
@@ -241,7 +241,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 | <kbd>index.php</kbd> | AJAX Interaction | Dynamic UI for asynchronous image loading | [View](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/index.php) |
 | <kbd>action.php</kbd> | Async CRUD | Server-side responders for AJAX requests | [View](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/action.php) |
 
-**Result Screenshots**: [Image Gallery Flow (View All)](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/)
+**Result Screenshots**: Image Gallery Flow [1](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/1.png) · [2](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/2.png) · [3](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/3.png) · [4](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/4.png) · [5](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/5.png) · [6](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/6.png) · [7](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/7.png) · [8](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/8.png) · [9](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/9.png) · [10](WDL%20Experiments/WDL%20Experiment%20-%209/WDL-9/Output/10.png)
 
 </details>
 
