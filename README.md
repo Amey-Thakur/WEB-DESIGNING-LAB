@@ -89,7 +89,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </div>
 
 > [!TIP]
-> **Source Code**: For the complete source code and detailed documentation of each experiment, visit the [**WDL Experiments**](WDL%20Experiments/) directory.
+> **Pro-Tip**: Use **Browser Developer Tools** (F12) to inspect elements, debug JavaScript in real-time, and test responsive layouts across various screen sizes. For Experiments 8-10, the **Network** tab is invaluable for monitoring AJAX requests and backend PHP responses.
 
 | # | Experiment Name | Description | Date | Marks | Resource |
 |:-:|:---|:---|:---:|:---:|:-:|
