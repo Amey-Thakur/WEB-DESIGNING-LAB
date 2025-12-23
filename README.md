@@ -369,12 +369,12 @@ Laboratory practical examination and submission:
 
 Online assessments conducted during the semester:
 
-| # | Resource | Description |
-|:-:|:---|:---|
-| 1 | [**Online Test 1**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-1.pdf) | Online Test (All Subjects) - 1 |
-| 2 | [**Online Test 2**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-2.pdf) | Online Test (All Subjects) - 2 |
-| 3 | [**Online Test 3**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-3.pdf) | Online Test (All Subjects) - 3 |
-| 4 | [**Online Test 4**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-4.pdf) | Online Test (All Subjects) - 4 |
+| # | Resource | Description | Date | Marks |
+|:-:|:---|:---|:-:|:-:|
+| 1 | [**Online Test 1**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-1.pdf) | Online Test (All Subjects) - 1 | July 18, 2020 | **40/40** |
+| 2 | [**Online Test 2**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-2.pdf) | Online Test (All Subjects) - 2 | July 25, 2020 | **50/50** |
+| 3 | [**Online Test 3**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-3.pdf) | Online Test (All Subjects) - 3 | August 03, 2020 | **50/50** |
+| 4 | [**Online Test 4**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-4.pdf) | Online Test (All Subjects) - 4 | August 08, 2020 | **50/50** |
 
 ---
 
