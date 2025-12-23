@@ -90,7 +90,6 @@ WDL-specific quizzes conducted during the course:
 <!-- =========================================================================================
                                      LABORATORY SECTION
      ========================================================================================= -->
-## Repository Contents
 
 ## Web Designing Laboratory
 
