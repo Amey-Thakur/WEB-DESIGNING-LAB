@@ -24,7 +24,7 @@
 ---
 
 > [!TIP]
-> **Lab Manual**: This directory contains source code and implementations for all experiments. For live demos and the final Mini Project, please visit the [**Web Designing Lab**](../README.md#web-designing-laboratory) section in the main repository.
+> **Lab Manual**: This directory contains source code and implementations for all experiments. For live demos and the final Mini Project, please visit the [**Web Designing Lab**](../README.md#web-designing-laboratory) section in the main repository. Additionally, for experiments involving database connectivity, ensure the `filly` database is correctly imported or created in **phpMyAdmin** before execution.
 
 > [!WARNING]
 > **Runtime Environment**: Experiments 6-10 involve Server-Side Scripting (PHP), Database Connectivity (MySQL), and AJAX. These cannot be executed directly by opening files in a browser; they require a local server environment (e.g., **XAMPP**, **WAMP**, or **MAMP**) to function correctly.
