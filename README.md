@@ -324,14 +324,14 @@ A comprehensive real-time chat platform developed as a mini project for the Web 
 
 ### Resources
 
-| # | Resource | Description | Marks | Link |
-|:-:|:---|:---|:-:|:-:|
-| 1 | **Project Repository** | Complete source code and documentation | - | [View](https://github.com/Amey-Thakur/CHAT-ROOM) |
-| 2 | **Project Report** | Detailed documentation and system design | **09/10** | [View](WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) |
-| 3 | **Project Presentation** | Visual overview of the development lifecycle | **09/10** | [View](WDL%20Mini%20Project/CHAT%20ROOM%20USING%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX%20PRESENTATION.pdf) |
-| 4 | **Project Demo (YouTube)** | Real-time demonstration of features | - | [View](https://youtu.be/Aem0k2Dl9fU) |
-| 5 | **Project Demo (MP4)** | Local video demonstration of features | - | [View](WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4) |
-| 6 | **Award Certificate** | Recognition for project excellence | - | [View](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf) |
+| # | Resource | Description | Date | Marks | Link |
+|:-:|:---|:---|:-:|:-:|:-:|
+| 1 | **Project Repository** | Complete source code and documentation | - | - | [View](https://github.com/Amey-Thakur/CHAT-ROOM) |
+| 2 | **Project Report** | Detailed documentation and system design | December 02, 2020 | **09/10** | [View](WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) |
+| 3 | **Project Presentation** | Visual overview of the development lifecycle | December 02, 2020 | **09/10** | [View](WDL%20Mini%20Project/CHAT%20ROOM%20USING%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX%20PRESENTATION.pdf) |
+| 4 | **Project Demo (YouTube)** | Real-time demonstration of features | - | - | [View](https://youtu.be/Aem0k2Dl9fU) |
+| 5 | **Project Demo (MP4)** | Local video demonstration of features | - | - | [View](WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4) |
+| 6 | **Award Certificate** | Recognition for project excellence | - | - | [View](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf) |
 
 ---
 
