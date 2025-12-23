@@ -324,7 +324,7 @@ A comprehensive real-time chat platform developed as a mini project for the Web 
 
 ### Resources
 
-| # | Resource | Description | Date | Marks | Report |
+| # | Resource | Description | Date | Marks | Link |
 |:-:|:---|:---|:-:|:-:|:-:|
 | 1 | **Project Repository** | Complete source code and documentation | - | - | [View](https://github.com/Amey-Thakur/CHAT-ROOM) |
 | 2 | **Project Report** | Detailed documentation and system design | December 02, 2020 | **09/10** | [View](WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) |
