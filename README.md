@@ -125,19 +125,19 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 > [!TIP]
 > **Developer Workflow**: Leverage the **Browser Developer Tools** (F12) for real-time JavaScript debugging and use the **Network** tab to monitor AJAX/PHP payloads in Experiments 8-10. For a quick structural and responsive evaluation, use the **🚀 (Rocket)** links in the 'Live Demo' column to view the implementations directly in your browser.
 
-| # | Experiment Name | Description | Live Demo |
-|:-:|:---|:---|:-:|
-| 1 | [**Semantic HTML5**](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | Structural elements and semantic markup | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-1/) |
-| 2A | [**CSS3 Layouts**](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | Flexbox and Grid layout implementations | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2A/) |
-| 2B | [**Responsive Design**](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) | Media queries and mobile-first principles | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2B/) |
-| 3 | [**JavaScript Basics**](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) | Functions, scripting, and client-side logic | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-3/) |
-| 4 | [**DOM Manipulation**](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) | Event handling and dynamic UI updates | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-4/) |
-| 5 | [**XML & XSLT**](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) | Data representation and transformation | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-5/) |
-| 6 | [**Server-Side PHP**](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) | Introduction to PHP and backend logic | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-6/) |
-| 7 | [**PHP Prime Numbers**](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) | Server-side algorithms and form processing | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-7/) |
-| 8 | [**Database Connectivity**](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) | PHP and MySQL database integration | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-8/) |
-| 9 | [**AJAX & Dynamic Web**](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | Asynchronous requests and dynamic content | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/) |
-| 10 | [**Web Frameworks Study**](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | Analysis of modern web application frameworks | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/) |
+| # | Experiment Name | Description | Report | Live Demo |
+|:-:|:---|:---|:-:|:-:|
+| 1 | **Semantic HTML5** | Structural elements and semantic markup | [View](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-1/) |
+| 2A | **CSS3 Layouts** | Flexbox and Grid layout implementations | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2A/) |
+| 2B | **Responsive Design** | Media queries and mobile-first principles | [View](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2B/) |
+| 3 | **JavaScript Basics** | Functions, scripting, and client-side logic | [View](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-3/) |
+| 4 | **DOM Manipulation** | Event handling and dynamic UI updates | [View](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-4/) |
+| 5 | **XML & XSLT** | Data representation and transformation | [View](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-5/) |
+| 6 | **Server-Side PHP** | Introduction to PHP and backend logic | [View](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-6/) |
+| 7 | **PHP Prime Numbers** | Server-side algorithms and form processing | [View](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-7/) |
+| 8 | **Database Connectivity** | PHP and MySQL database integration | [View](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-8/) |
+| 9 | **AJAX & Dynamic Web** | Asynchronous requests and dynamic content | [View](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/) |
+| 10 | **Web Frameworks Study** | Analysis of modern web application frameworks | [View](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/) |
 
 ### Program Details
 
