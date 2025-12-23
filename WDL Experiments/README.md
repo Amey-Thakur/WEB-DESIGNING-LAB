@@ -29,6 +29,8 @@
 > [!WARNING]
 > **Runtime Environment**: Experiments 6-10 involve Server-Side Scripting (PHP), Database Connectivity (MySQL), and AJAX. These cannot be executed directly by opening files in a browser; they require a local server environment (e.g., **XAMPP**, **WAMP**, or **MAMP**) to function correctly.
 
+---
+
 ### How to Run
 
 1.  **Static Experiments (1-5)**:
@@ -41,6 +43,8 @@
     *   Move the specific experiment folder to the `htdocs` directory (usually `C:\xampp\htdocs`).
     *   Open your browser and navigate to `http://localhost/YourFolderName/index.html` (or `.php`).
     *   For database experiments, ensure the `filly` database is imported/created in phpMyAdmin.
+
+---
 
 ### Learning Path
 
