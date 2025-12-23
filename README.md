@@ -272,9 +272,9 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 ### Laboratory Documentation
 
-| Resource | Description |
-|:---|:---|
-| 📖 [Lab README](WDL%20Experiments/README.md) | Detailed navigation guide with program descriptions |
+| # | Resource | Description |
+|:-:|:---|:---|
+| 1 | [**Lab README**](WDL%20Experiments/README.md) | Detailed navigation guide with program descriptions |
 
 ---
 
