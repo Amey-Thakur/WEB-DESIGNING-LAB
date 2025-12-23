@@ -251,10 +251,10 @@ Comparative analysis of modern web architectures.
 
 <div align="center">
 
-  ### [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
+  ### [Web Designing Lab](https://github.com/Amey-Thakur/WEB-DESIGNING-LAB)
 
-  **Computer Engineering (B.E.) - University of Mumbai**
+  **CSL504 · Semester V · Computer Engineering**
 
-  *Semester-wise curriculum, laboratories, projects, and academic notes.*
+  *University of Mumbai · Curated by [Amey Thakur](https://github.com/Amey-Thakur)*
 
 </div>
