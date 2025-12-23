@@ -323,7 +323,7 @@ A comprehensive real-time chat platform developed as a mini project for the Web 
 > - [Preprint @arXiv](https://arxiv.org/abs/2106.14704)
 > - [Published Paper @IRJET](https://www.irjet.net/archives/V8/i6/IRJET-V8I6348.pdf)
 
-### 🔗 Resources
+### Resources
 
 | # | Resource | Description |
 |:-:|:---|:---|
