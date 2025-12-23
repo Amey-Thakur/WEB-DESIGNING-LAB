@@ -125,7 +125,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 > [!TIP]
 > **Developer Workflow**: Leverage the **Browser Developer Tools** (F12) for real-time JavaScript debugging and use the **Network** tab to monitor AJAX/PHP payloads in Experiments 8-10. For a quick structural and responsive evaluation, use the **🚀 (Rocket)** links in the 'Live Demo' column to view the implementations directly in your browser.
 
-| # | Experiment Name | Description | Report | Live Demo |
+| Experiment | Experiment Name | Description | Report | Live Demo |
 |:-:|:---|:---|:-:|:-:|
 | 1 | **Semantic HTML5** | Structural elements and semantic markup | [View](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-1/) |
 | 2A | **CSS3 Layouts** | Flexbox and Grid layout implementations | [View](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2A/) |
