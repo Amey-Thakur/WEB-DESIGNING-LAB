@@ -29,6 +29,28 @@
 > [!WARNING]
 > **Runtime Environment**: Experiments 6-10 involve Server-Side Scripting (PHP), Database Connectivity (MySQL), and AJAX. These cannot be executed directly by opening files in a browser; they require a local server environment (e.g., **XAMPP**, **WAMP**, or **MAMP**) to function correctly.
 
+### How to Run
+
+1.  **Static Experiments (1-5)**:
+    *   Navigate to the specific experiment folder (e.g., `WDL Experiment - 1`).
+    *   Open `index.html` directly in any modern web browser.
+
+2.  **Server-Side Experiments (6-10)**:
+    *   Install and launch a local server environment like **XAMPP**.
+    *   Start **Apache** and **MySQL** modules from the XAMPP control panel.
+    *   Move the specific experiment folder to the `htdocs` directory (usually `C:\xampp\htdocs`).
+    *   Open your browser and navigate to `http://localhost/YourFolderName/index.html` (or `.php`).
+    *   For database experiments, ensure the `filly` database is imported/created in phpMyAdmin.
+
+### Learning Path
+
+1.  **Frontend Foundation**: Master semantic structure with **HTML5** (Exp 1) and styling layouts with **CSS3** (Exp 2).
+2.  **Scripting Logic**: Implement client-side interactivity using **JavaScript** and **DOM Manipulation** (Exp 3-4).
+3.  **Data Representation**: Understand data transport and transformation using **XML** and **XSLT** (Exp 5).
+4.  **Backend Development**: Develop server-side logic with **PHP** for dynamic content generation (Exp 6-7).
+5.  **Full Stack Integration**: Connect your application to a **MySQL** database and implement asynchronous updates with **AJAX** (Exp 8-9).
+6.  **Comparative Analysis**: Study modern web frameworks to understand enterprise-level architecture (Exp 10).
+
 ---
 
 <!-- =========================================================================================
