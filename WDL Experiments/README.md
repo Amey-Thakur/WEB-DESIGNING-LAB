@@ -238,11 +238,13 @@ Comparative analysis of modern web architectures.
   <!-- Footer Navigation -->
   **[↑ Back to Top](#web-designing-lab)**
 
-  **[Exp 1](#experiment-1-semantic-html5)** &nbsp;·&nbsp; **[Exp 2A](#experiment-2a-css3-layouts)** &nbsp;·&nbsp; **[Exp 2B](#experiment-2b-responsive-design)** &nbsp;·&nbsp; **[Exp 3](#experiment-3-javascript-basics)** &nbsp;·&nbsp; **[Exp 4](#experiment-4-dom-manipulation)** &nbsp;·&nbsp; **[Exp 5](#experiment-5-xml--xslt)** &nbsp;·&nbsp; **[Exp 6](#experiment-6-server-side-php)** &nbsp;·&nbsp; **[Exp 7](#experiment-7-php-prime-numbers)** &nbsp;·&nbsp; **[Exp 8](#experiment-8-database-connectivity)** &nbsp;·&nbsp; **[Exp 9](#experiment-9-ajax--dynamic-web)** &nbsp;·&nbsp; **[Exp 10](#experiment-10-web-frameworks-study)**
+  **[How to Run](#how-to-run)** &nbsp;·&nbsp; **[Learning Path](#learning-path)** &nbsp;·&nbsp;
+  **[Experiment 1](#experiment-1-semantic-html5)** &nbsp;·&nbsp; **[Experiment 2A](#experiment-2a-css3-layouts)** &nbsp;·&nbsp; **[Experiment 2B](#experiment-2b-responsive-design)** &nbsp;·&nbsp; **[Experiment 3](#experiment-3-javascript-basics)** &nbsp;·&nbsp; **[Experiment 4](#experiment-4-dom-manipulation)** &nbsp;·&nbsp; **[Experiment 5](#experiment-5-xml--xslt)** &nbsp;·&nbsp;
+  **[Experiment 6](#experiment-6-server-side-php)** &nbsp;·&nbsp; **[Experiment 7](#experiment-7-php-prime-numbers)** &nbsp;·&nbsp; **[Experiment 8](#experiment-8-database-connectivity)** &nbsp;·&nbsp; **[Experiment 9](#experiment-9-ajax--dynamic-web)** &nbsp;·&nbsp; **[Experiment 10](#experiment-10-web-frameworks-study)**
 
   <br>
 
-  **[Back to Main Repository](../)**
+  **[🏠 Back to Main Repository](../)**
 
 </div>
 
