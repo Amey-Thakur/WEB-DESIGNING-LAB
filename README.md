@@ -142,7 +142,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 ### Program Details
 
 <details>
-<summary><b>📁 Experiment 1: Semantic HTML5 (3 Programs)</b></summary>
+<summary><b>Experiment 1: Semantic HTML5 (3 Programs)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -153,7 +153,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>⭐ Experiment 2A: CSS3 Layouts (10 Programs)</b></summary>
+<summary><b>Experiment 2A: CSS3 Layouts (10 Programs)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -171,7 +171,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>📱 Experiment 2B: Responsive Design (3 Programs)</b></summary>
+<summary><b>Experiment 2B: Responsive Design (3 Programs)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -182,7 +182,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>🔄 Experiment 3: JavaScript Basics (1 Program)</b></summary>
+<summary><b>Experiment 3: JavaScript Basics (1 Program)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -191,7 +191,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>🌳 Experiment 4: DOM Manipulation (3 Programs)</b></summary>
+<summary><b>Experiment 4: DOM Manipulation (3 Programs)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -204,7 +204,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>📁 Experiment 5: XML & XSLT (2 Programs)</b></summary>
+<summary><b>Experiment 5: XML & XSLT (2 Programs)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -216,7 +216,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>🔀 Experiment 6: Server-Side PHP (2 Programs)</b></summary>
+<summary><b>Experiment 6: Server-Side PHP (2 Programs)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -226,7 +226,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>💻 Experiment 7: PHP Prime Numbers (2 Programs)</b></summary>
+<summary><b>Experiment 7: PHP Prime Numbers (2 Programs)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -238,7 +238,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>🔍 Experiment 8: Database Connectivity (2 Programs)</b></summary>
+<summary><b>Experiment 8: Database Connectivity (2 Programs)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -250,7 +250,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>🔗 Experiment 9: AJAX & Dynamic Web (2 Programs)</b></summary>
+<summary><b>Experiment 9: AJAX & Dynamic Web (2 Programs)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
@@ -262,7 +262,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 </details>
 
 <details>
-<summary><b>🌐 Experiment 10: Web Frameworks Study (1 Program)</b></summary>
+<summary><b>Experiment 10: Web Frameworks Study (1 Program)</b></summary>
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:---:|
