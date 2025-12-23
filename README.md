@@ -324,14 +324,14 @@ A comprehensive real-time chat platform developed as a mini project for the Web 
 
 ### Resources
 
-| # | Resource | Description |
-|:-:|:---|:---|
-| 1 | [**Project Repository**](https://github.com/Amey-Thakur/CHAT-ROOM) | Complete source code and documentation |
-| 2 | [**Project Report**](WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) | Detailed documentation and system design |
-| 3 | [**Project Presentation**](WDL%20Mini%20Project/CHAT%20ROOM%20USING%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX%20PRESENTATION.pdf) | Visual overview of the development lifecycle |
-| 4 | [**Project Demo (YouTube)**](https://youtu.be/Aem0k2Dl9fU) | Real-time demonstration of features |
-| 5 | [**Project Demo (MP4)**](WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4) | Local video demonstration of features |
-| 6 | [**Award Certificate**](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf) | Recognition for project excellence |
+| # | Resource | Description | Marks | Link |
+|:-:|:---|:---|:-:|:-:|
+| 1 | **Project Repository** | Complete source code and documentation | - | [View](https://github.com/Amey-Thakur/CHAT-ROOM) |
+| 2 | **Project Report** | Detailed documentation and system design | **09/10** | [View](WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) |
+| 3 | **Project Presentation** | Visual overview of the development lifecycle | **09/10** | [View](WDL%20Mini%20Project/CHAT%20ROOM%20USING%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX%20PRESENTATION.pdf) |
+| 4 | **Project Demo (YouTube)** | Real-time demonstration of features | - | [View](https://youtu.be/Aem0k2Dl9fU) |
+| 5 | **Project Demo (MP4)** | Local video demonstration of features | - | [View](WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4) |
+| 6 | **Award Certificate** | Recognition for project excellence | - | [View](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf) |
 
 ---
 
