@@ -18,7 +18,7 @@
 
   ---
 
-  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Laboratory](#web-designing-laboratory) &nbsp;·&nbsp; [Mini Project](#web-designing-mini-project) &nbsp;·&nbsp; [Practical Exam](#practical-exam) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Online Exam](#online-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#web-designing-laboratory) &nbsp;·&nbsp; [Mini Project](#web-designing-mini-project) &nbsp;·&nbsp; [Practical Exam](#practical-exam) &nbsp;·&nbsp; [Online Exam](#online-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -70,6 +70,20 @@ This collection includes **comprehensive reference materials** covering all majo
 | # | Resource | Focus Area |
 |:-:|:---|:---|
 | 1 | [Semester 5 Books](Reference%20Books/Semester%205%20Books.png) | Curated book recommendations |
+
+---
+
+<!-- =========================================================================================
+                                     QUIZZES SECTION
+     ========================================================================================= -->
+## Quizzes
+
+WDL-specific quizzes conducted during the course:
+
+| # | Quiz | Topics |
+|:-:|:---|:---|
+| 1 | [**Quiz 1**](Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Introduction, HTML, CSS, JavaScript (CO1-CO3) |
+| 2 | [**Quiz 2**](Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | PHP, XML, AJAX (CO4-CO6) |
 
 ---
 
@@ -343,19 +357,7 @@ Laboratory practical examination and submission:
 
 ---
 
-<!-- =========================================================================================
-                                     QUIZZES SECTION
-     ========================================================================================= -->
-## Quizzes
 
-WDL-specific quizzes conducted during the course:
-
-| # | Quiz | Topics |
-|:-:|:---|:---|
-| 1 | [**Quiz 1**](Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Introduction, HTML, CSS, JavaScript (CO1-CO3) |
-| 2 | [**Quiz 2**](Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | PHP, XML, AJAX (CO4-CO6) |
-
----
 
 <!-- =========================================================================================
                                      ONLINE EXAM SECTION
@@ -468,7 +470,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
   <!-- Footer Navigation -->
   **[↑ Back to Top](#web-designing-lab)**
 
-  **[Overview](#overview)** &nbsp;·&nbsp; **[Contents](#repository-contents)** &nbsp;·&nbsp; **[Laboratory](#web-designing-laboratory)** &nbsp;·&nbsp; **[Mini Project](#web-designing-mini-project)** &nbsp;·&nbsp; **[Practical Exam](#practical-exam)** &nbsp;·&nbsp; **[Quizzes](#quizzes)** &nbsp;·&nbsp; **[Online Exam](#online-exam)** &nbsp;·&nbsp; **[Submission Report](#submission-completion-report)** &nbsp;·&nbsp; **[Syllabus](#syllabus)** &nbsp;·&nbsp; **[Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[License](#license)** &nbsp;·&nbsp; **[About](#about-this-repository)** &nbsp;·&nbsp; **[Acknowledgments](#acknowledgments)**
+  **[Overview](#overview)** &nbsp;·&nbsp; **[Contents](#repository-contents)** &nbsp;·&nbsp; **[Quizzes](#quizzes)** &nbsp;·&nbsp; **[Laboratory](#web-designing-laboratory)** &nbsp;·&nbsp; **[Mini Project](#web-designing-mini-project)** &nbsp;·&nbsp; **[Practical Exam](#practical-exam)** &nbsp;·&nbsp; **[Online Exam](#online-exam)** &nbsp;·&nbsp; **[Submission Report](#submission-completion-report)** &nbsp;·&nbsp; **[Syllabus](#syllabus)** &nbsp;·&nbsp; **[Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[License](#license)** &nbsp;·&nbsp; **[About](#about-this-repository)** &nbsp;·&nbsp; **[Acknowledgments](#acknowledgments)**
 
   <br>
 
