@@ -76,7 +76,7 @@ This collection includes **comprehensive reference materials** covering all majo
 <!-- =========================================================================================
                                      QUIZZES SECTION
      ========================================================================================= -->
-## Quizzes
+### Quizzes
 
 WDL-specific quizzes conducted during the course:
 
