@@ -18,7 +18,7 @@
 
   ---
 
-  [📖 Overview](#overview) &nbsp;·&nbsp; [📂 Contents](#repository-contents) &nbsp;·&nbsp; [🧪 Laboratory](#web-designing-laboratory) &nbsp;·&nbsp; [🚀 Mini Project](#web-designing-mini-project) &nbsp;·&nbsp; [🎓 Practical Exam](#practical-exam) &nbsp;·&nbsp; [🧠 Quizzes](#quizzes) &nbsp;·&nbsp; [💻 Online Exam](#online-exam) &nbsp;·&nbsp; [✅ Submission Report](#submission-completion-report) &nbsp;·&nbsp; [📋 Syllabus](#syllabus) &nbsp;·&nbsp; [📘 Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [📜 License](#license) &nbsp;·&nbsp; [ℹ️ About](#about-this-repository) &nbsp;·&nbsp; [🙏🏻 Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Laboratory](#web-designing-laboratory) &nbsp;·&nbsp; [Mini Project](#web-designing-mini-project) &nbsp;·&nbsp; [Practical Exam](#practical-exam) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Online Exam](#online-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -111,19 +111,19 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 > [!TIP]
 > **Developer Workflow**: Leverage the **Browser Developer Tools** (F12) for real-time JavaScript debugging and use the **Network** tab to monitor AJAX/PHP payloads in Experiments 8-10. For a quick structural and responsive evaluation, use the **🚀 (Rocket)** links in the 'Live Demo' column to view the implementations directly in your browser.
 
-| # | Experiment Name | Description | Date | Marks | Resource | Live Demo |
-|:-:|:---|:---|:---:|:---:|:-:|:-:|
-| 1 | **Semantic HTML5** | Structural elements and semantic markup | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-1/) |
-| 2A | **CSS3 Layouts** | Flexbox and Grid layout implementations | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2A/) |
-| 2B | **Responsive Design** | Media queries and mobile-first principles | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2B/) |
-| 3 | **JavaScript Basics** | Functions, scripting, and client-side logic | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-3/) |
-| 4 | **DOM Manipulation** | Event handling and dynamic UI updates | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-4/) |
-| 5 | **XML & XSLT** | Data representation and transformation | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-5/) |
-| 6 | **Server-Side PHP** | Introduction to PHP and backend logic | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-6/) |
-| 7 | **PHP Prime Numbers** | Server-side algorithms and form processing | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-7/) |
-| 8 | **Database Connectivity** | PHP and MySQL database integration | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-8/) |
-| 9 | **AJAX & Dynamic Web** | Asynchronous requests and dynamic content | October 15, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/) |
-| 10 | **Web Frameworks Study** | Analysis of modern web application frameworks | October 17, 2020 | 09/10 | [📄](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/) |
+| # | Experiment Name | Description | Live Demo |
+|:-:|:---|:---|:-:|
+| 1 | [**Semantic HTML5**](WDL%20Experiments/WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) | Structural elements and semantic markup | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-1/) |
+| 2A | [**CSS3 Layouts**](WDL%20Experiments/WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) | Flexbox and Grid layout implementations | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2A/) |
+| 2B | [**Responsive Design**](WDL%20Experiments/WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) | Media queries and mobile-first principles | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2B/) |
+| 3 | [**JavaScript Basics**](WDL%20Experiments/WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) | Functions, scripting, and client-side logic | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-3/) |
+| 4 | [**DOM Manipulation**](WDL%20Experiments/WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) | Event handling and dynamic UI updates | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-4/) |
+| 5 | [**XML & XSLT**](WDL%20Experiments/WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) | Data representation and transformation | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-5/) |
+| 6 | [**Server-Side PHP**](WDL%20Experiments/WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) | Introduction to PHP and backend logic | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-6/) |
+| 7 | [**PHP Prime Numbers**](WDL%20Experiments/WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) | Server-side algorithms and form processing | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-7/) |
+| 8 | [**Database Connectivity**](WDL%20Experiments/WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) | PHP and MySQL database integration | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-8/) |
+| 9 | [**AJAX & Dynamic Web**](WDL%20Experiments/WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) | Asynchronous requests and dynamic content | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/) |
+| 10 | [**Web Frameworks Study**](WDL%20Experiments/WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) | Analysis of modern web application frameworks | [🚀](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/) |
 
 ### Program Details
 
@@ -311,14 +311,14 @@ A comprehensive real-time chat platform developed as a mini project for the Web 
 
 ### 🔗 Resources
 
-| Resource | Description | Date | Marks |
-|:---|:---|:---:|:---:|
-| 💬 [Project Repository](https://github.com/Amey-Thakur/CHAT-ROOM) | Complete source code and documentation | December 02, 2020 | — |
-| 📄 [Project Report](WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) | Detailed documentation and system design | December 02, 2020 | **09/10** |
-| 📊 [Project Presentation](WDL%20Mini%20Project/CHAT%20ROOM%20USING%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX%20PRESENTATION.pdf) | Visual overview of the development lifecycle | December 02, 2020 | **09/10** |
-| 🎥 [Project Demo (YouTube)](https://youtu.be/Aem0k2Dl9fU) | Real-time demonstration of features | December 02, 2020 | — |
-| 🎞️ [Project Demo (MP4)](WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4) | Local video demonstration of features | December 02, 2020 | — |
-| 🏆 [Award Certificate](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf) | Recognition for project excellence | June 2021 | — |
+| # | Resource | Description |
+|:-:|:---|:---|
+| 1 | [**Project Repository**](https://github.com/Amey-Thakur/CHAT-ROOM) | Complete source code and documentation |
+| 2 | [**Project Report**](WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) | Detailed documentation and system design |
+| 3 | [**Project Presentation**](WDL%20Mini%20Project/CHAT%20ROOM%20USING%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX%20PRESENTATION.pdf) | Visual overview of the development lifecycle |
+| 4 | [**Project Demo (YouTube)**](https://youtu.be/Aem0k2Dl9fU) | Real-time demonstration of features |
+| 5 | [**Project Demo (MP4)**](WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4) | Local video demonstration of features |
+| 6 | [**Award Certificate**](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf) | Recognition for project excellence |
 
 ---
 
@@ -335,11 +335,11 @@ A comprehensive real-time chat platform developed as a mini project for the Web 
 
 Laboratory practical examination and submission:
 
-| # | Resource | Description | Date | Link |
-|:-:|:---|:---|:---:|:---:|
-| 1 | 📄 **Practical Exam Report** | Write a JavaScript function to calculate compound and simple interest of user-provided input. | December 17, 2020 | [View](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) |
-| 2 | 💻 **Interest Calculator** | Source code for the interest calculator implementation. | December 17, 2020 | [Source](WDL%20EXAM/Source%20Code/interest_calculator.html) · [**Live Demo**](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR) |
-| 3 | 📋 **Exam Submission** | Official Practical Exam Submission (10:30am-12:30pm) | December 17, 2020 | [View](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) |
+| # | Resource | Description |
+|:-:|:---|:---|
+| 1 | [**Practical Exam Report**](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | Write a JavaScript function to calculate compound and simple interest of user-provided input. |
+| 2 | [**Interest Calculator**](WDL%20EXAM/Source%20Code/interest_calculator.html) | Source code for the interest calculator implementation. <br> [**Live Demo**](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR) |
+| 3 | [**Exam Submission**](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | Official Practical Exam Submission (10:30am-12:30pm) |
 
 ---
 
@@ -350,10 +350,10 @@ Laboratory practical examination and submission:
 
 WDL-specific quizzes conducted during the course:
 
-| Quiz | Topics | Date | Marks |
-|:---|:---|:---:|:---:|
-| [Quiz 1](Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Introduction, HTML, CSS, JavaScript (CO1-CO3) | September 25, 2020 | **19/20** |
-| [Quiz 2](Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | PHP, XML, AJAX (CO4-CO6) | October 23, 2020 | **10/10** |
+| # | Quiz | Topics |
+|:-:|:---|:---|
+| 1 | [**Quiz 1**](Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Introduction, HTML, CSS, JavaScript (CO1-CO3) |
+| 2 | [**Quiz 2**](Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | PHP, XML, AJAX (CO4-CO6) |
 
 ---
 
@@ -367,12 +367,12 @@ WDL-specific quizzes conducted during the course:
 
 Online assessments conducted during the semester:
 
-| Resource | Date | Marks | Description |
-|:---|:---:|:---:|:---|
-| 📊 [Online Test 1](Online%20Exam/TE_B_Online_Test(All%20Subjects)-1.pdf) | July 18, 2020 | **40/40** | Online Test (All Subjects) - 1 |
-| 📊 [Online Test 2](Online%20Exam/TE_B_Online_Test(All%20Subjects)-2.pdf) | July 25, 2020 | **50/50** | Online Test (All Subjects) - 2 |
-| 📊 [Online Test 3](Online%20Exam/TE_B_Online_Test(All%20Subjects)-3.pdf) | August 03, 2020 | **50/50** | Online Test (All Subjects) - 3 |
-| 📊 [Online Test 4](Online%20Exam/TE_B_Online_Test(All%20Subjects)-4.pdf) | August 08, 2020 | **50/50** | Online Test (All Subjects) - 4 |
+| # | Resource | Description |
+|:-:|:---|:---|
+| 1 | [**Online Test 1**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-1.pdf) | Online Test (All Subjects) - 1 |
+| 2 | [**Online Test 2**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-2.pdf) | Online Test (All Subjects) - 2 |
+| 3 | [**Online Test 3**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-3.pdf) | Online Test (All Subjects) - 3 |
+| 4 | [**Online Test 4**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-4.pdf) | Online Test (All Subjects) - 4 |
 
 ---
 
@@ -383,11 +383,11 @@ Online assessments conducted during the semester:
 
 Course completion documentation with exit survey:
 
-| Document | Description | Link |
-|:---|:---|:---:|
-| Submission Report | Final coursework submission report | 📋 [View](Submission%20Report/Amey_B-50_WDL_Submission_Report.pdf) |
-| Exit Survey (Theory) | Course outcome survey for WDL Theory | 📋 [View](Submission%20Report/WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf) |
-| Exit Survey (Lab) | Course outcome survey for WDL Lab | 📋 [View](Submission%20Report/WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf) |
+| # | Document | Description |
+|:-:|:---|:---|
+| 1 | [**Submission Report**](Submission%20Report/Amey_B-50_WDL_Submission_Report.pdf) | Final coursework submission report |
+| 2 | [**Exit Survey (Theory)**](Submission%20Report/WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Course outcome survey for WDL Theory |
+| 3 | [**Exit Survey (Lab)**](Submission%20Report/WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Course outcome survey for WDL Lab |
 
 ---
 
@@ -396,7 +396,7 @@ Course completion documentation with exit survey:
      ========================================================================================= -->
 ## Syllabus
 
-> 📋 **[Official CBCGS Syllabus](Syllabus/TE%20BE%20Comp%20Engg%20CBCGS%20Syllabus.pdf)**  
+> **[Official CBCGS Syllabus](Syllabus/TE%20BE%20Comp%20Engg%20CBCGS%20Syllabus.pdf)**  
 > Complete Third Year Computer Engineering lab syllabus document from the University of Mumbai, including detailed course outcomes, assessment criteria, and module specifications for WDL.
 
 > [!IMPORTANT]
@@ -466,9 +466,9 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 <div align="center">
 
   <!-- Footer Navigation -->
-  **[⬆ Back to Top](#web-designing-lab)**
+  **[↑ Back to Top](#web-designing-lab)**
 
-  **[📖 Overview](#overview)** &nbsp;·&nbsp; **[📂 Contents](#repository-contents)** &nbsp;·&nbsp; **[🧪 Laboratory](#web-designing-laboratory)** &nbsp;·&nbsp; **[🚀 Mini Project](#web-designing-mini-project)** &nbsp;·&nbsp; **[🎓 Practical Exam](#practical-exam)** &nbsp;·&nbsp; **[🧠 Quizzes](#quizzes)** &nbsp;·&nbsp; **[💻 Online Exam](#online-exam)** &nbsp;·&nbsp; **[✅ Submission Report](#submission-completion-report)** &nbsp;·&nbsp; **[📋 Syllabus](#syllabus)** &nbsp;·&nbsp; **[📘 Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[📜 License](#license)** &nbsp;·&nbsp; **[ℹ️ About](#about-this-repository)** &nbsp;·&nbsp; **[🙏🏻 Acknowledgments](#acknowledgments)**
+  **[Overview](#overview)** &nbsp;·&nbsp; **[Contents](#repository-contents)** &nbsp;·&nbsp; **[Laboratory](#web-designing-laboratory)** &nbsp;·&nbsp; **[Mini Project](#web-designing-mini-project)** &nbsp;·&nbsp; **[Practical Exam](#practical-exam)** &nbsp;·&nbsp; **[Quizzes](#quizzes)** &nbsp;·&nbsp; **[Online Exam](#online-exam)** &nbsp;·&nbsp; **[Submission Report](#submission-completion-report)** &nbsp;·&nbsp; **[Syllabus](#syllabus)** &nbsp;·&nbsp; **[Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[License](#license)** &nbsp;·&nbsp; **[About](#about-this-repository)** &nbsp;·&nbsp; **[Acknowledgments](#acknowledgments)**
 
   <br>
 
@@ -480,7 +480,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
 <div align="center">
 
-  ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
+  ### [🎓 Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
 
   **Computer Engineering (B.E.) - University of Mumbai**
 
