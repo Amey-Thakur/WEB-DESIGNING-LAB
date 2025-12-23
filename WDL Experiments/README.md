@@ -31,7 +31,7 @@
 
 ---
 
-### How to Run
+## How to Run
 
 1.  **Static Experiments (1-5)**:
     *   Navigate to the specific experiment folder (e.g., `WDL Experiment - 1`).
@@ -46,14 +46,14 @@
 
 ---
 
-### Learning Path
+## Learning Path
 
-1.  **Frontend Foundation**: Master semantic structure with **HTML5** (Exp 1) and styling layouts with **CSS3** (Exp 2).
-2.  **Scripting Logic**: Implement client-side interactivity using **JavaScript** and **DOM Manipulation** (Exp 3-4).
-3.  **Data Representation**: Understand data transport and transformation using **XML** and **XSLT** (Exp 5).
-4.  **Backend Development**: Develop server-side logic with **PHP** for dynamic content generation (Exp 6-7).
-5.  **Full Stack Integration**: Connect your application to a **MySQL** database and implement asynchronous updates with **AJAX** (Exp 8-9).
-6.  **Comparative Analysis**: Study modern web frameworks to understand enterprise-level architecture (Exp 10).
+1.  **Frontend Foundation**: Master semantic structure with **HTML5** (Experiment 1) and styling layouts with **CSS3** (Experiment 2).
+2.  **Scripting Logic**: Implement client-side interactivity using **JavaScript** and **DOM Manipulation** (Experiment 3-4).
+3.  **Data Representation**: Understand data transport and transformation using **XML** and **XSLT** (Experiment 5).
+4.  **Backend Development**: Develop server-side logic with **PHP** for dynamic content generation (Experiment 6-7).
+5.  **Full Stack Integration**: Connect your application to a **MySQL** database and implement asynchronous updates with **AJAX** (Experiment 8-9).
+6.  **Comparative Analysis**: Study modern web frameworks to understand enterprise-level architecture (Experiment 10).
 
 ---
 
