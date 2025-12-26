@@ -473,7 +473,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   <br>
 
-  **[Web Designing Laboratory](WDL%20Experiments/README.md)** &nbsp;·&nbsp; **[💬 Chat Room](https://github.com/Amey-Thakur/CHAT-ROOM)**
+  **[Web Designing Lab](WDL%20Experiments/README.md)** &nbsp;·&nbsp; **[💬 Chat Room](https://github.com/Amey-Thakur/CHAT-ROOM)**
 
 </div>
 
