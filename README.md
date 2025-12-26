@@ -82,8 +82,8 @@ WDL-specific quizzes conducted during the course:
 
 | # | Quiz | Topics |
 |:-:|:---|:---|
-| 1 | [**Quiz 1**](Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Introduction, HTML, CSS, JavaScript (CO1-CO3) |
-| 2 | [**Quiz 2**](Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | PHP, XML, AJAX (CO4-CO6) |
+| 1 | [Quiz 1](Quizzes/WDL%20MCQ%20Quiz%20on%20Chapter%20No%201%2C2%20and%203_TE%20Div%20B_25%20sep%202020.pdf) | Introduction, HTML, CSS, JavaScript (CO1-CO3) |
+| 2 | [Quiz 2](Quizzes/WDL%20Quiz%20on%20Chapter%20No%204%2C5%20and%206_TE%20Div%20B_SH%202020.pdf) | PHP, XML, AJAX (CO4-CO6) |
 
 ---
 
@@ -273,7 +273,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [**Lab README**](WDL%20Experiments/README.md) | Detailed navigation guide with program descriptions |
+| 1 | [Lab README](WDL%20Experiments/README.md) | Detailed navigation guide with program descriptions |
 
 ---
 
@@ -326,12 +326,12 @@ A comprehensive real-time chat platform developed as a mini project for the Web 
 
 | # | Resource | Description | Date | Marks | Link |
 |:-:|:---|:---|:-:|:-:|:-:|
-| 1 | **Project Repository** | Complete source code and documentation | - | - | [View](https://github.com/Amey-Thakur/CHAT-ROOM) |
-| 2 | **Project Report** | Detailed documentation and system design | December 02, 2020 | **09/10** | [View](WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) |
-| 3 | **Project Presentation** | Visual overview of the development lifecycle | December 02, 2020 | **09/10** | [View](WDL%20Mini%20Project/CHAT%20ROOM%20USING%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX%20PRESENTATION.pdf) |
-| 4 | **Project Demo (YouTube)** | Real-time demonstration of features | - | - | [View](https://youtu.be/Aem0k2Dl9fU) |
-| 5 | **Project Demo (MP4)** | Local video demonstration of features | - | - | [View](WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4) |
-| 6 | **Award Certificate** | Recognition for project excellence | - | - | [View](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf) |
+| 1 | Project Repository | Complete source code and documentation | — | — | [View](https://github.com/Amey-Thakur/CHAT-ROOM) |
+| 2 | Project Report | Detailed documentation and system design | December 02, 2020 | 09/10 | [View](WDL%20Mini%20Project/B-28%2C31%2C50%2C51_WDL_Mini_Project_Report.pdf) |
+| 3 | Project Presentation | Visual overview of the development lifecycle | December 02, 2020 | 09/10 | [View](WDL%20Mini%20Project/CHAT%20ROOM%20USING%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX%20PRESENTATION.pdf) |
+| 4 | Project Demo (YouTube) | Real-time demonstration of features | — | — | [View](https://youtu.be/Aem0k2Dl9fU) |
+| 5 | Project Demo (MP4) | Local video demonstration of features | — | — | [View](WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4) |
+| 6 | Award Certificate | Recognition for project excellence | — | — | [View](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf) |
 
 ---
 
@@ -350,9 +350,9 @@ Laboratory practical examination and submission:
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [**Practical Exam Report**](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | Write a JavaScript function to calculate compound and simple interest of user-provided input. |
-| 2 | [**Interest Calculator**](WDL%20EXAM/Source%20Code/interest_calculator.html) | Source code for the interest calculator implementation. <br> [**Live Demo**](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR) |
-| 3 | [**Exam Submission**](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | Official Practical Exam Submission (10:30am-12:30pm) |
+| 1 | [Practical Exam Report](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | Write a JavaScript function to calculate compound and simple interest of user-provided input. |
+| 2 | [Interest Calculator](WDL%20EXAM/Source%20Code/interest_calculator.html) | Source code for the interest calculator implementation. <br> [**Live Demo**](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR) |
+| 3 | [Exam Submission](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | Official Practical Exam Submission (10:30am-12:30pm) |
 
 ---
 
@@ -370,10 +370,10 @@ Online assessments conducted during the semester:
 
 | # | Resource | Description | Date | Marks |
 |:-:|:---|:---|:-:|:-:|
-| 1 | [**Online Test 1**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-1.pdf) | Online Test (All Subjects) - 1 | July 18, 2020 | **40/40** |
-| 2 | [**Online Test 2**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-2.pdf) | Online Test (All Subjects) - 2 | July 25, 2020 | **50/50** |
-| 3 | [**Online Test 3**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-3.pdf) | Online Test (All Subjects) - 3 | August 03, 2020 | **50/50** |
-| 4 | [**Online Test 4**](Online%20Exam/TE_B_Online_Test(All%20Subjects)-4.pdf) | Online Test (All Subjects) - 4 | August 08, 2020 | **50/50** |
+| 1 | [Online Test 1](Online%20Exam/TE_B_Online_Test(All%20Subjects)-1.pdf) | Online Test (All Subjects) - 1 | July 18, 2020 | 40/40 |
+| 2 | [Online Test 2](Online%20Exam/TE_B_Online_Test(All%20Subjects)-2.pdf) | Online Test (All Subjects) - 2 | July 25, 2020 | 50/50 |
+| 3 | [Online Test 3](Online%20Exam/TE_B_Online_Test(All%20Subjects)-3.pdf) | Online Test (All Subjects) - 3 | August 03, 2020 | 50/50 |
+| 4 | [Online Test 4](Online%20Exam/TE_B_Online_Test(All%20Subjects)-4.pdf) | Online Test (All Subjects) - 4 | August 08, 2020 | 50/50 |
 
 ---
 
@@ -386,9 +386,9 @@ Course completion documentation with exit survey:
 
 | # | Document | Description |
 |:-:|:---|:---|
-| 1 | [**Submission Report**](Submission%20Report/Amey_B-50_WDL_Submission_Report.pdf) | Final coursework submission report |
-| 2 | [**Exit Survey (Theory)**](Submission%20Report/WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Course outcome survey for WDL Theory |
-| 3 | [**Exit Survey (Lab)**](Submission%20Report/WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Course outcome survey for WDL Lab |
+| 1 | [Submission Report](Submission%20Report/Amey_B-50_WDL_Submission_Report.pdf) | Final coursework submission report |
+| 2 | [Exit Survey (Theory)](Submission%20Report/WDL_Sem%205_Course%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Course outcome survey for WDL Theory |
+| 3 | [Exit Survey (Lab)](Submission%20Report/WDL_Sem%205_Laboratory%20Exit%20Survey%20_TE%20B_SH%202020.pdf) | Course outcome survey for WDL Lab |
 
 ---
 
@@ -451,9 +451,9 @@ This repository represents a comprehensive collection of laboratory implementati
 
 ### Acknowledgments
 
-Grateful acknowledgment to [Mega Satish](https://github.com/msatmod) for her exceptional support and collaboration during the laboratory experiments of this course. Her constant support, patience, and clarity as we learned the fundamentals of web engineering together made a real difference. Working alongside her was truly enriching; her ability to simplify complex concepts and her steady encouragement turned challenging experiments into meaningful learning moments. This repository reflects the growth that came from our shared curiosity and mutual dedication to mastering web design. Thank you, Mega, for being such an outstanding partner to learn with and for all the knowledge we shared along the way.
+Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** for her exceptional support and collaboration during the laboratory experiments of this course. Her constant support, patience, and clarity as we learned the fundamentals of web engineering together made a real difference. Working alongside her was truly enriching; her ability to simplify complex concepts and her steady encouragement turned challenging experiments into meaningful learning moments. This repository reflects the growth that came from our shared curiosity and mutual dedication to mastering web design. Thank you, Mega, for being such an outstanding partner to learn with and for all the knowledge we shared along the way.
 
-Grateful acknowledgment to [Karan Dhiman](https://github.com/Karan-Dhiman) for his exceptional support and collaboration during the development of the "Chat Room" mini project for this course. Working alongside him was a truly enriching experience; his technical expertise, dedication, and enthusiasm for innovation turned every challenge into a meaningful learning opportunity. Our shared curiosity and collaborative efforts in building this real-time communication platform were essential to its success. Thank you, Karan, for being such an outstanding project partner and for all the knowledge and encouragement you shared along the way.
+Grateful acknowledgment to **[Karan Dhiman](https://github.com/Karan-Dhiman)** for his exceptional support and collaboration during the development of the "Chat Room" mini project for this course. Working alongside him was a truly enriching experience; his technical expertise, dedication, and enthusiasm for innovation turned every challenge into a meaningful learning opportunity. Our shared curiosity and collaborative efforts in building this real-time communication platform were essential to its success. Thank you, Karan, for being such an outstanding project partner and for all the knowledge and encouragement you shared along the way.
 
 Special thanks to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Web Designing Lab. Their emphasis on semantic structure and responsive design helped build a solid foundation in web engineering.
 
@@ -467,13 +467,13 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 <div align="center">
 
   <!-- Footer Navigation -->
-  **[↑ Back to Top](#web-designing-lab)**
+  [↑ Back to Top](#web-designing-lab)
 
-  **[Overview](#overview)** &nbsp;·&nbsp; **[Contents](#repository-contents)** &nbsp;·&nbsp; **[Quizzes](#quizzes)** &nbsp;·&nbsp; **[Laboratory](#web-designing-laboratory)** &nbsp;·&nbsp; **[Mini Project](#web-designing-mini-project)** &nbsp;·&nbsp; **[Practical Exam](#practical-exam)** &nbsp;·&nbsp; **[Online Exam](#online-exam)** &nbsp;·&nbsp; **[Submission Report](#submission-completion-report)** &nbsp;·&nbsp; **[Syllabus](#syllabus)** &nbsp;·&nbsp; **[Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[License](#license)** &nbsp;·&nbsp; **[About](#about-this-repository)** &nbsp;·&nbsp; **[Acknowledgments](#acknowledgments)**
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#web-designing-laboratory) &nbsp;·&nbsp; [Mini Project](#web-designing-mini-project) &nbsp;·&nbsp; [Practical Exam](#practical-exam) &nbsp;·&nbsp; [Online Exam](#online-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
-  **[Web Designing Lab](WDL%20Experiments/README.md)** &nbsp;·&nbsp; **[💬 Chat Room](https://github.com/Amey-Thakur/CHAT-ROOM)**
+  **[Web Designing Lab](WDL%20Experiments/README.md)** &nbsp;·&nbsp; 💬 **[Chat Room](https://github.com/Amey-Thakur/CHAT-ROOM)**
 
 </div>
 
