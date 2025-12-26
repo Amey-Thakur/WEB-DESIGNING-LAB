@@ -76,7 +76,7 @@ Primary semantic structure and navigation.
 | 1 | <kbd>index.html</kbd> | Frontend Design | Primary semantic structure and navigation | [View](WDL%20Experiment%20-%201/WDL-1/index.html) |
 | 2 | <kbd>about.html</kbd> | Frontend Design | Personal profile information page | [View](WDL%20Experiment%20-%201/WDL-1/about.html) |
 | 3 | <kbd>galaxy.html</kbd> | Frontend Design | Topic-based content with HTML5 semantics | [View](WDL%20Experiment%20-%201/WDL-1/galaxy.html) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%201/Amey_B-50_WDL_Experiment-1.pdf) |
 
 ---
 
@@ -105,7 +105,7 @@ Flexbox and Grid layout implementations.
 | 8 | <kbd>map.html</kbd> | Layout Design | Image mapping and visual navigation | [View](WDL%20Experiment%20-%202A/WDL-2A/map.html) |
 | 9 | <kbd>reach.html</kbd> | Layout Design | Styled contact/reach section | [View](WDL%20Experiment%20-%202A/WDL-2A/reach.html) |
 | 10 | <kbd>milky.html</kbd> | Layout Design | Multimedia integration in layouts | [View](WDL%20Experiment%20-%202A/WDL-2A/milky.html) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%202A/Amey_B-50_WDL_Experiment-2A.pdf) |
 
 ---
 
@@ -127,7 +127,7 @@ Media queries and mobile-first principles.
 | 1 | <kbd>index.html</kbd> | Responsive Web | Mobile-first primary landing page | [View](WDL%20Experiment%20-%202B/WDL-2B/index.html) |
 | 2 | <kbd>about.html</kbd> | Responsive Web | Adaptive profile page with media queries | [View](WDL%20Experiment%20-%202B/WDL-2B/about.html) |
 | 3 | <kbd>galaxy.html</kbd> | Responsive Web | Structured content for various viewports | [View](WDL%20Experiment%20-%202B/WDL-2B/galaxy.html) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%202B/Amey_B-50_WDL_Experiment-2B.pdf) |
 
 ---
 
@@ -147,7 +147,7 @@ Functions, scripting, and client-side logic.
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.html</kbd> | Client Scripting | Fundamental JS logic and scripting | [View](WDL%20Experiment%20-%203/WDL-3/index.html) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%203/Amey_B-50_WDL_Experiment-3.pdf) |
 
 ---
 
@@ -169,7 +169,7 @@ Event handling and dynamic UI updates.
 | 1 | <kbd>calci.html</kbd> | DOM & Events | Calculator UI with dynamic updates | [View](WDL%20Experiment%20-%204/WDL-4/calci.html) |
 | 2 | <kbd>calculator.html</kbd> | DOM & Events | Advanced arithmetic DOM mapping | [View](WDL%20Experiment%20-%204/WDL-4/calculator.html) |
 | 3 | <kbd>javascript.js</kbd> | Logic Implementation | Core operational logic for DOM events | [View](WDL%20Experiment%20-%204/WDL-4/javascript.js) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%204/Amey_B-50_WDL_Experiment-4.pdf) |
 
 **Result Screenshots**: [Interest Calculator](WDL%20Experiment%20-%204/WDL-4/Outputs/Interest%20Calculator.png) · [Calculator UI](WDL%20Experiment%20-%204/WDL-4/Outputs/Calculator.png)
 
@@ -192,7 +192,7 @@ Data representation and transformation.
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>filly.xml</kbd> | Data Hierarchy | Structured student mark sheet data | [View](WDL%20Experiment%20-%205/WDL-5/filly.xml) |
 | 2 | <kbd>filly.xsl</kbd> | Data Rendering | XSLT transformation to HTML table | [View](WDL%20Experiment%20-%205/WDL-5/filly.xsl) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%205/Amey_B-50_WDL_Experiment-5.pdf) |
 
 **Result Screenshots**: [Mark Sheet Results](WDL%20Experiment%20-%205/WDL-5/Outputs/result.png)
 
@@ -215,7 +215,7 @@ Introduction to PHP and backend logic.
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.html</kbd> | Server Interaction | Input interface for server-side processing | [View](WDL%20Experiment%20-%206/WDL-6/index.html) |
 | 2 | <kbd>addition.php</kbd> | PHP Logic | Server-side arithmetic and dynamic response | [View](WDL%20Experiment%20-%206/WDL-6/addition.php) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%206/Amey_B-50_WDL_Experiment-6.pdf) |
 
 ---
 
@@ -236,7 +236,7 @@ Server-side algorithms and form processing.
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.php</kbd> | Form Handling | Interactive input for algorithmic processing | [View](WDL%20Experiment%20-%207/WDL-7/Filly/index.php) |
 | 2 | <kbd>Prime.php</kbd> | Algorithmic PHP | Core iterations for prime number identification | [View](WDL%20Experiment%20-%207/WDL-7/Filly/Prime.php) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%207/Amey_B-50_WDL_Experiment-7.pdf) |
 
 **Result Screenshots**: [Identifier](WDL%20Experiment%20-%207/WDL-7/Filly/Output/Prime%20Number%20Identifier.png) · [Finder Output](WDL%20Experiment%20-%207/WDL-7/Filly/Output/Finder%20(1-50).png) · [Findings Log](WDL%20Experiment%20-%207/WDL-7/Filly/Output/Findings%20(1-50).png)
 
@@ -259,7 +259,7 @@ PHP and MySQL database integration.
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>form.html</kbd> | Database UI | Data input form for MySQL integration | [View](WDL%20Experiment%20-%208/WDL-8/form.html) |
 | 2 | <kbd>insert.php</kbd> | MySQL Integration | Prepared statements for data persistence | [View](WDL%20Experiment%20-%208/WDL-8/insert.php) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%208/Amey_B-50_WDL_Experiment-8.pdf) |
 
 **Result Screenshots**: Registration Flow [Step 1](WDL%20Experiment%20-%208/WDL-8/Output/1.png) · [Step 2](WDL%20Experiment%20-%208/WDL-8/Output/2.png) · [Step 3](WDL%20Experiment%20-%208/WDL-8/Output/3.png) · [Step 4](WDL%20Experiment%20-%208/WDL-8/Output/4.png) · [Step 5](WDL%20Experiment%20-%208/WDL-8/Output/5.png) · [Step 6](WDL%20Experiment%20-%208/WDL-8/Output/6.png) · [Step 7](WDL%20Experiment%20-%208/WDL-8/Output/7.png) · [Step 8](WDL%20Experiment%20-%208/WDL-8/Output/8.png) · [Step 9](WDL%20Experiment%20-%208/WDL-8/Output/9.png) · [Step 10](WDL%20Experiment%20-%208/WDL-8/Output/10.png) · [Step 11](WDL%20Experiment%20-%208/WDL-8/Output/11.png)
 
@@ -282,7 +282,7 @@ Asynchronous requests and dynamic content.
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.php</kbd> | AJAX Interaction | Dynamic UI for asynchronous image loading | [View](WDL%20Experiment%20-%209/WDL-9/index.php) |
 | 2 | <kbd>action.php</kbd> | Async CRUD | Server-side responders for AJAX requests | [View](WDL%20Experiment%20-%209/WDL-9/action.php) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%209/Amey_B-50_WDL_Experiment-9.pdf) |
 
 **Result Screenshots**: Image Gallery Flow [Step 1](WDL%20Experiment%20-%209/WDL-9/Output/1.png) · [Step 2](WDL%20Experiment%20-%209/WDL-9/Output/2.png) · [Step 3](WDL%20Experiment%20-%209/WDL-9/Output/3.png) · [Step 4](WDL%20Experiment%20-%209/WDL-9/Output/4.png) · [Step 5](WDL%20Experiment%20-%209/WDL-9/Output/5.png) · [Step 6](WDL%20Experiment%20-%209/WDL-9/Output/6.png) · [Step 7](WDL%20Experiment%20-%209/WDL-9/Output/7.png) · [Step 8](WDL%20Experiment%20-%209/WDL-9/Output/8.png) · [Step 9](WDL%20Experiment%20-%209/WDL-9/Output/9.png) · [Step 10](WDL%20Experiment%20-%209/WDL-9/Output/10.png)
 
@@ -304,7 +304,7 @@ Comparative analysis of modern web architectures.
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.html</kbd> | Framework Analysis | Comparative analysis of modern web architectures | [View](WDL%20Experiment%20-%2010/WDL-10/index.html) |
-| — | Lab Report | Detailed experiment report | [View](WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) |
+| — | Lab Report | — | Detailed experiment report | [View](WDL%20Experiment%20-%2010/Amey_B-50_WDL_Experiment-10.pdf) |
 
 ---
 
