@@ -320,7 +320,7 @@ Comparative analysis of modern web architectures.
 
   <br>
 
-  **[🏠 Back to Main Repository](../)**
+  🏠 **[Back to Main Repository](../)**
 
 </div>
 
