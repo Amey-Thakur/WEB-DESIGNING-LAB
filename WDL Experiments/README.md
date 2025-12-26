@@ -65,6 +65,12 @@
 
 Primary semantic structure and navigation.
 
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-1/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--1-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
+
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.html</kbd> | Frontend Design | Primary semantic structure and navigation | [View](WDL%20Experiment%20-%201/WDL-1/index.html) |
@@ -80,6 +86,12 @@ Primary semantic structure and navigation.
 ## Experiment 2A: CSS3 Layouts
 
 Flexbox and Grid layout implementations.
+
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2A/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--2A-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
 
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
@@ -104,6 +116,12 @@ Flexbox and Grid layout implementations.
 
 Media queries and mobile-first principles.
 
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2B/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--2B-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
+
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.html</kbd> | Responsive Web | Mobile-first primary landing page | [View](WDL%20Experiment%20-%202B/WDL-2B/index.html) |
@@ -120,6 +138,12 @@ Media queries and mobile-first principles.
 
 Functions, scripting, and client-side logic.
 
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-3/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--3-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
+
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.html</kbd> | Client Scripting | Fundamental JS logic and scripting | [View](WDL%20Experiment%20-%203/WDL-3/index.html) |
@@ -133,6 +157,12 @@ Functions, scripting, and client-side logic.
 ## Experiment 4: DOM Manipulation
 
 Event handling and dynamic UI updates.
+
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-4/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--4-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
 
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
@@ -152,6 +182,12 @@ Event handling and dynamic UI updates.
 
 Data representation and transformation.
 
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-5/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--5-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
+
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>filly.xml</kbd> | Data Hierarchy | Structured student mark sheet data | [View](WDL%20Experiment%20-%205/WDL-5/filly.xml) |
@@ -169,6 +205,12 @@ Data representation and transformation.
 
 Introduction to PHP and backend logic.
 
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-6/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--6-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
+
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.html</kbd> | Server Interaction | Input interface for server-side processing | [View](WDL%20Experiment%20-%206/WDL-6/index.html) |
@@ -183,6 +225,12 @@ Introduction to PHP and backend logic.
 ## Experiment 7: PHP Prime Numbers
 
 Server-side algorithms and form processing.
+
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-7/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--7-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
 
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
@@ -201,6 +249,12 @@ Server-side algorithms and form processing.
 
 PHP and MySQL database integration.
 
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-8/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--8-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
+
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>form.html</kbd> | Database UI | Data input form for MySQL integration | [View](WDL%20Experiment%20-%208/WDL-8/form.html) |
@@ -218,6 +272,12 @@ PHP and MySQL database integration.
 
 Asynchronous requests and dynamic content.
 
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--9-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
+
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
 | 1 | <kbd>index.php</kbd> | AJAX Interaction | Dynamic UI for asynchronous image loading | [View](WDL%20Experiment%20-%209/WDL-9/index.php) |
@@ -234,6 +294,12 @@ Asynchronous requests and dynamic content.
 ## Experiment 10: Web Frameworks Study
 
 Comparative analysis of modern web architectures.
+
+<p align="center">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/">
+    <img src="https://img.shields.io/badge/Live_Demo-WDL--10-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+  </a>
+</p>
 
 | # | Program | Category | Description | Source Code |
 |:-:|:---|:---|:---|:---:|
