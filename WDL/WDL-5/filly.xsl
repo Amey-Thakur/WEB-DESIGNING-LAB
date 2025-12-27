@@ -13,49 +13,7 @@
 			xmlns="http://www.w3.org/1999/xhtml">
 			<head>
 				<title>MU RESULTS</title>
-                <style>
-                    /* Portfolio Button &amp; Page Transition */
-                    body {
-                        animation: pageFadeIn 0.4s ease-in;
-                    }
 
-                    @keyframes pageFadeIn {
-                        from {
-                            opacity: 0;
-                            transform: translateY(10px);
-                        }
-
-                        to {
-                            opacity: 1;
-                            transform: translateY(0);
-                        }
-                    }
-
-                    .back-to-dashboard {
-                        position: fixed !important;
-                        bottom: 20px !important;
-                        right: 20px !important;
-                        background: #2563eb !important;
-                        color: white !important;
-                        padding: 10px 20px !important;
-                        border-radius: 50px !important;
-                        text-decoration: none !important;
-                        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
-                        font-family: sans-serif !important;
-                        font-size: 16px !important;
-                        font-weight: bold !important;
-                        z-index: 10000 !important;
-                        display: inline-flex !important;
-                        align-items: center !important;
-                        gap: 8px !important;
-                        cursor: pointer !important;
-                    }
-
-                    .back-to-dashboard:hover {
-                        transform: translateY(-2px);
-                        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
-                    }
-                </style>
 			</head>
 			<body bgcolor="#dbdbdb">
                 <!-- University Header -->
@@ -185,7 +143,7 @@
 					</center>
 				</footer>
 
-                <a href="../index.html" class="back-to-dashboard">
+                <a href="../index.html" style="position: fixed; bottom: 20px; right: 20px; background: #2563eb; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 6px rgba(0,0,0,0.3); font-family: sans-serif; font-size: 16px; font-weight: bold; z-index: 10000; display: inline-flex; align-items: center; gap: 8px;">
                     <span>&#8592;</span> Back to Portfolio
                 </a>
 			</body>
