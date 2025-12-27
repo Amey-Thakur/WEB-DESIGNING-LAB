@@ -11,118 +11,120 @@
   <title>Amey B-50</title>
 </head>
 
-<br>
-<center>
-  <h1 style="color:#f70000;"><span class="highlight">Reach us</span></h1>
-</center>
-<center>
-  <!-- Contact Form -->
-  <form class="quote">
-    <div>
-      <label>Name</label><br>
-      <input type="text" placeholder="First Name">
-    </div>
-    <div>
-      <label>Email</label><br>
-      <input type="email" placeholder="Best Email">
-    </div>
-    <div>
-      <label>Query</label><br>
-      <textarea placeholder="Ask your question..."></textarea>
-    </div>
-    <br>
-    <button class="button_1" type="submit">Submit</button>
-  </form>
-</center>
-<footer><br><br>
+<body bgcolor="#000000">
+  <br>
   <center>
-    <p style="color:#f70000;">Search Space | Explore Extent <br><br> Amey Thakur <br> TE-Comps B-50</p>
+    <h1 style="color:#f70000;"><span class="highlight">Reach us</span></h1>
   </center>
-</footer>
-<style>
-  /* Styling for the button container */
-  .button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  /* Portfolio Button & Page Transition */
-  body {
-    animation: pageFadeIn 0.4s ease-in;
-  }
-
-  @keyframes pageFadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
+  <center>
+    <!-- Contact Form -->
+    <form class="quote">
+      <div>
+        <label>Name</label><br>
+        <input type="text" placeholder="First Name">
+      </div>
+      <div>
+        <label>Email</label><br>
+        <input type="email" placeholder="Best Email">
+      </div>
+      <div>
+        <label>Query</label><br>
+        <textarea placeholder="Ask your question..."></textarea>
+      </div>
+      <br>
+      <button class="button_1" type="submit">Submit</button>
+    </form>
+  </center>
+  <footer><br><br>
+    <center>
+      <p style="color:#f70000;">Search Space | Explore Extent <br><br> Amey Thakur <br> TE-Comps B-50</p>
+    </center>
+  </footer>
+  <style>
+    /* Styling for the button container */
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-top: 20px;
+      padding-bottom: 20px;
     }
 
-    to {
-      opacity: 1;
-      transform: translateY(0);
+    /* Portfolio Button & Page Transition */
+    body {
+      animation: pageFadeIn 0.4s ease-in;
     }
-  }
 
-  .back-to-dashboard {
-    position: static !important;
-    margin: 0 !important;
-    background: #2563eb !important;
-    color: white !important;
-    padding: 10px 20px !important;
-    border-radius: 50px !important;
-    text-decoration: none !important;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
-    font-family: sans-serif !important;
-    font-size: 14px !important;
-    font-weight: bold !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 5px !important;
-    cursor: pointer !important;
-  }
-
-  .back-to-dashboard:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
-  }
-
-  /* Override JS Injected Button to be Static */
-  .enhancer-btn {
-    position: static !important;
-    width: 40px !important;
-    height: 40px !important;
-    margin: 0 !important;
-    display: inline-flex !important;
-    transform: none !important;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
-  }
-
-  .enhancer-btn:hover {
-    transform: translateY(-2px) !important;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
-  }
-</style>
-<div class="button-container">
-  <a href="../index.html" class="back-to-dashboard" target="_top">
-    <span>&larr;</span> Back
-  </a>
-</div>
-
-<script src="../assets/js/portfolio-enhancer.js"></script>
-<script>
-  // Move the auto-injected enhancer button into our container
-  window.addEventListener('load', function () {
-    setTimeout(function () {
-      var btn = document.querySelector('.enhancer-btn');
-      var container = document.querySelector('.button-container');
-      if (btn && container) {
-        container.appendChild(btn);
+    @keyframes pageFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
       }
-    }, 100); // Slight delay to ensure injection happened
-  });
-</script>
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .back-to-dashboard {
+      position: static !important;
+      margin: 0 !important;
+      background: #2563eb !important;
+      color: white !important;
+      padding: 10px 20px !important;
+      border-radius: 50px !important;
+      text-decoration: none !important;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+      font-family: sans-serif !important;
+      font-size: 14px !important;
+      font-weight: bold !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 5px !important;
+      cursor: pointer !important;
+    }
+
+    .back-to-dashboard:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+    }
+
+    /* Override JS Injected Button to be Static */
+    .enhancer-btn {
+      position: static !important;
+      width: 40px !important;
+      height: 40px !important;
+      margin: 0 !important;
+      display: inline-flex !important;
+      transform: none !important;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .enhancer-btn:hover {
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+    }
+  </style>
+  <div class="button-container">
+    <a href="../index.html" class="back-to-dashboard" target="_top">
+      <span>&larr;</span> Back to Portfolio
+    </a>
+  </div>
+
+  <script src="../assets/js/portfolio-enhancer.js"></script>
+  <script>
+    // Move the auto-injected enhancer button into our container
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var btn = document.querySelector('.enhancer-btn');
+        var container = document.querySelector('.button-container');
+        if (btn && container) {
+          container.insertBefore(btn, container.firstChild);
+        }
+      }, 100); // Slight delay to ensure injection happened
+    });
+  </script>
 </body>
