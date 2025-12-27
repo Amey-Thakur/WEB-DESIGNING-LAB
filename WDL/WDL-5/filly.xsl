@@ -271,14 +271,26 @@
                 <a href="../index.html" style="position: fixed; bottom: 20px; right: 20px; background: #2563eb; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 6px rgba(0,0,0,0.3); font-family: sans-serif; font-size: 16px; font-weight: bold; z-index: 10000; display: inline-flex; align-items: center; gap: 8px;">
                     <span>&#8592;</span> Back to Portfolio
                 </a>
-                <!-- Manually added Enhancer Button with Inline Styles -->
-                <div id="repo-enhancer-btn" style="position: fixed; bottom: 80px; right: 20px; width: 50px; height: 50px; background: #ffffff; color: #2563eb; border-radius: 50%; border: 2px solid #2563eb; box-shadow: 0 4px 6px rgba(0,0,0,0.3); z-index: 2147483647; display: flex; align-items: center; justify-content: center; font-size: 24px; cursor: pointer; transition: all 0.3s ease; font-family: sans-serif;">
+                <!-- Manually added Enhancer Button with Inline Styles and Explicit Onclick -->
+                <div id="repo-enhancer-btn" onclick="window.toggleEnhancerModal()" style="position: fixed; bottom: 80px; right: 20px; width: 50px; height: 50px; background: #ffffff; color: #2563eb; border-radius: 50%; border: 2px solid #2563eb; box-shadow: 0 4px 6px rgba(0,0,0,0.3); z-index: 2147483647; display: flex; align-items: center; justify-content: center; font-size: 24px; cursor: pointer; transition: all 0.3s ease; font-family: sans-serif;">
                     ℹ️
                 </div>
 
                 <script>
 <![CDATA[
 (function () {
+    // Global toggle function
+    window.toggleEnhancerModal = function() {
+        const modal = document.querySelector('.enhancer-modal-overlay');
+        if (modal) {
+            modal.style.display = 'flex';
+            modal.offsetHeight; // reflow
+            modal.style.opacity = '1';
+        } else {
+            console.warn('Enhancer modal not found. Script might not have initialized correctly.');
+        }
+    };
+
     // 1. Define Experiment Data & Order
     const repoBase = "https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL/";
     const experimentOrder = [
@@ -302,7 +314,7 @@
     };
 
     // 2. Detect Current Experiment
-    let currentKey = null;
+    let currentKey = "WDL-5"; // Hardcoding fallback for reliability in this specific file
     const path = window.location.pathname.toUpperCase();
     for (const key of experimentOrder) {
         if (path.includes(key)) { currentKey = key; break; }
@@ -314,8 +326,8 @@
         const prevKey = currentIndex > 0 ? experimentOrder[currentIndex - 1] : null;
         const nextKey = currentIndex < experimentOrder.length - 1 ? experimentOrder[currentIndex + 1] : null;
 
-        const btn = document.getElementById('repo-enhancer-btn');
         const modalOverlay = document.createElement('div');
+        modalOverlay.className = 'enhancer-modal-overlay';
         
         // Inline Styles for Modal Overlay
         modalOverlay.style.cssText = "position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.6); z-index: 2147483647; display: none; justify-content: center; align-items: center; backdrop-filter: blur(3px); opacity: 0; transition: opacity 0.3s ease;";
@@ -333,7 +345,7 @@
         // Inline Styles for Modal Content
         modalOverlay.innerHTML = `
             <div style="background: white; width: 90%; max-width: 500px; padding: 30px; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); position: relative; font-family: 'Segoe UI', sans-serif; text-align: left; color: #333;">
-                <div class="enhancer-close" style="position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #999;">&times;</div>
+                <div class="enhancer-close" onclick="document.querySelector('.enhancer-modal-overlay').style.opacity='0'; setTimeout(()=>{document.querySelector('.enhancer-modal-overlay').style.display='none'}, 300)" style="position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #999;">&times;</div>
                 <h2 style="margin: 0 0 10px 0; font-size: 24px; font-weight: bold; color: #1e293b;">Exp ${currentExp.id}: ${currentExp.title}</h2>
                 <div style="font-size: 14px; color: #64748b; margin-bottom: 20px;">📅 ${currentExp.date}</div>
                 <p style="font-size: 16px; line-height: 1.6; margin-bottom: 25px; color: #475569;">${currentExp.desc}</p>
@@ -348,23 +360,16 @@
         `;
         document.body.appendChild(modalOverlay);
 
-        // Event Listeners
-        if(btn) {
-           btn.addEventListener('click', () => {
-               modalOverlay.style.display = 'flex';
-               // Trigger reflow
-               modalOverlay.offsetHeight; 
-               modalOverlay.style.opacity = '1';
-           });
-        }
-        
-        const closeBtn = modalOverlay.querySelector('.enhancer-close');
-        if(closeBtn) {
-            closeBtn.addEventListener('click', () => {
+        // Global keydown listener
+        document.addEventListener('keydown', (e) => {
+            if (modalOverlay.style.display !== 'flex') return;
+            if (e.key === 'ArrowLeft' && prevKey) window.location.href = `../${experiments[prevKey].path}`;
+            if (e.key === 'ArrowRight' && nextKey) window.location.href = `../${experiments[nextKey].path}`;
+            if (e.key === 'Escape') {
                 modalOverlay.style.opacity = '0';
                 setTimeout(() => { modalOverlay.style.display = 'none'; }, 300);
-            });
-        }
+            }
+        });
     }
 })();
 ]]>
