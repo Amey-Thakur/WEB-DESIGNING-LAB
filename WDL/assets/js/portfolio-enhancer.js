@@ -21,7 +21,7 @@
             date: "Sept 2020",
             stack: ["CSS3", "Flexbox", "Grid"],
             desc: "Sophisticated layout designs utilizing CSS3 Flexbox and Grid. Demonstrates multi-column architectures and specialized header components.",
-            path: "WDL-2A/index.html"
+            path: "WDL-2A/home.html"
         },
         "WDL-2B": {
             id: "02B",
