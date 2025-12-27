@@ -283,10 +283,11 @@
                 <script>
 <![CDATA[
 window.toggleEnhancerModal = function() {
+    let currentExp = null;
+    const repoBase = "https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL/";
+    
     // 1. Try to find existing modal
     let modal = document.querySelector('.enhancer-modal-overlay');
-    
-    // 2. If found, just show it
     if (modal) {
         modal.style.display = 'flex';
         modal.offsetHeight; // force reflow
@@ -294,9 +295,7 @@ window.toggleEnhancerModal = function() {
         return;
     }
 
-    // 3. If NOT found, build it now (Lazy Load)
     try {
-        const repoBase = "https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL/";
         const experimentOrder = [
             "WDL-1", "WDL-2A", "WDL-2B", "WDL-3", "WDL-4",
             "WDL-5", "WDL-6", "WDL-7", "WDL-8", "WDL-9",
@@ -318,47 +317,90 @@ window.toggleEnhancerModal = function() {
         };
 
         const currentKey = "WDL-5"; 
-        const currentExp = experiments[currentKey];
+        currentExp = experiments[currentKey];
         const currentIndex = experimentOrder.indexOf(currentKey);
         const prevKey = currentIndex > 0 ? experimentOrder[currentIndex - 1] : null;
         const nextKey = currentIndex < experimentOrder.length - 1 ? experimentOrder[currentIndex + 1] : null;
 
-        // CRITICAL FIX: Use namespace for element creation in XSLT/XHTML
+        // Helper for XHTML elements
         const ns = "http://www.w3.org/1999/xhtml";
-        modal = document.createElementNS(ns, 'div');
-        modal.className = 'enhancer-modal-overlay';
-        // Inline Styles
-        modal.style.cssText = "position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.6); z-index: 2147483647; display: flex; justify-content: center; align-items: center; backdrop-filter: blur(3px); opacity: 0; transition: opacity 0.3s ease;";
+        const mk = (tag, css, text) => {
+            const el = document.createElementNS(ns, tag);
+            if (css) el.style.cssText = css;
+            if (text) el.textContent = text;
+            return el;
+        };
 
-        let navHtml = '';
+        // Main Overlay
+        modal = mk('div', "position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.6); z-index: 2147483647; display: flex; justify-content: center; align-items: center; backdrop-filter: blur(3px); opacity: 0; transition: opacity 0.3s ease;");
+        modal.className = 'enhancer-modal-overlay';
+
+        // Content Card
+        const content = mk('div', "animation: popupEntry 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; background: white; width: 90%; max-width: 500px; padding: 30px; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); position: relative; font-family: 'Segoe UI', sans-serif; text-align: left; color: #333;");
+        
+        // Close Button
+        const closeBtn = mk('div', "position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #999;", "×");
+        closeBtn.className = 'enhancer-close';
+        closeBtn.onclick = function() {
+            modal.style.opacity = '0';
+            setTimeout(() => { modal.style.display = 'none'; }, 300);
+        };
+        content.appendChild(closeBtn);
+
+        // Title
+        const h2 = mk('h2', "margin: 0 0 10px 0; font-size: 24px; font-weight: bold; color: #1e293b;", `Exp ${currentExp.id}: ${currentExp.title}`);
+        content.appendChild(h2);
+
+        // Date
+        const dateDiv = mk('div', "font-size: 14px; color: #64748b; margin-bottom: 20px;", `📅 ${currentExp.date}`);
+        content.appendChild(dateDiv);
+
+        // Description
+        const descP = mk('p', "font-size: 16px; line-height: 1.6; margin-bottom: 25px; color: #475569;", currentExp.desc);
+        content.appendChild(descP);
+
+        // Stack
+        const stackDiv = mk('div', "margin-bottom: 25px;");
+        currentExp.stack.forEach(tech => {
+            const span = mk('span', "display: inline-block; background: #eff6ff; color: #2563eb; padding: 5px 12px; border-radius: 20px; font-size: 12px; margin-right: 8px; font-weight: 600;", tech);
+            stackDiv.appendChild(span);
+        });
+        content.appendChild(stackDiv);
+
+        // Actions (View Source)
+        const actionsDiv = mk('div', "display: flex; gap: 10px;");
+        const link = mk('a', "flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #1e293b; color: white;", "View Source");
+        link.href = repoBase + currentExp.path;
+        link.target = "_blank";
+        actionsDiv.appendChild(link);
+        content.appendChild(actionsDiv);
+
+        // Navigation
         if (prevKey || nextKey) {
-            navHtml = `<div style="display: flex; justify-content: space-between; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e2e8f0;">`;
-            if (prevKey) navHtml += `<a href="../${experiments[prevKey].path}" style="flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #f1f5f9; color: #475569; margin-right: 5px;">← Prev: ${experiments[prevKey].id}</a>`;
-            else navHtml += `<div style="flex:1"></div>`;
-            if (nextKey) navHtml += `<a href="../${experiments[nextKey].path}" style="flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #f1f5f9; color: #475569; margin-left: 5px;">Next: ${experiments[nextKey].id} →</a>`;
-            else navHtml += `<div style="flex:1"></div>`;
-            navHtml += `</div>`;
+            const navDiv = mk('div', "display: flex; justify-content: space-between; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e2e8f0;");
+            
+            if (prevKey) {
+                const prevLink = mk('a', "flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #f1f5f9; color: #475569; margin-right: 5px;", `← Prev: ${experiments[prevKey].id}`);
+                prevLink.href = `../${experiments[prevKey].path}`;
+                navDiv.appendChild(prevLink);
+            } else {
+                navDiv.appendChild(mk('div', "flex: 1"));
+            }
+
+            if (nextKey) {
+                const nextLink = mk('a', "flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #f1f5f9; color: #475569; margin-left: 5px;", `Next: ${experiments[nextKey].id} →`);
+                nextLink.href = `../${experiments[nextKey].path}`;
+                navDiv.appendChild(nextLink);
+            } else {
+                navDiv.appendChild(mk('div', "flex: 1"));
+            }
+            content.appendChild(navDiv);
         }
 
-        modal.innerHTML = `
-            <div style="animation: popupEntry 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; background: white; width: 90%; max-width: 500px; padding: 30px; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); position: relative; font-family: 'Segoe UI', sans-serif; text-align: left; color: #333;">
-                <div class="enhancer-close" onclick="document.querySelector('.enhancer-modal-overlay').style.opacity='0'; setTimeout(()=>{document.querySelector('.enhancer-modal-overlay').style.display='none'}, 300)" style="position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #999;">×</div>
-                <h2 style="margin: 0 0 10px 0; font-size: 24px; font-weight: bold; color: #1e293b;">Exp ${currentExp.id}: ${currentExp.title}</h2>
-                <div style="font-size: 14px; color: #64748b; margin-bottom: 20px;">📅 ${currentExp.date}</div>
-                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 25px; color: #475569;">${currentExp.desc}</p>
-                <div style="margin-bottom: 25px;">
-                    ${currentExp.stack.map(tech => `<span style="display: inline-block; background: #eff6ff; color: #2563eb; padding: 5px 12px; border-radius: 20px; font-size: 12px; margin-right: 8px; font-weight: 600;">${tech}</span>`).join('')}
-                </div>
-                <div style="display: flex; gap: 10px;">
-                    <a href="${repoBase + currentExp.path}" target="_blank" style="flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #1e293b; color: white;">View Source</a>
-                </div>
-                ${navHtml}
-            </div>
-        `;
-
+        modal.appendChild(content);
         (document.body || document.documentElement).appendChild(modal);
 
-         // Keydown listener (only attach once)
+         // Keydown listener_
         if (!window.enhancerKeysAttached) {
             document.addEventListener('keydown', (e) => {
                 const m = document.querySelector('.enhancer-modal-overlay');
@@ -379,7 +421,11 @@ window.toggleEnhancerModal = function() {
 
     } catch (err) {
         console.error("Enhancer error:", err);
-        alert("Enhancer Error: " + err);
+        if (currentExp) {
+            alert(`Exp ${currentExp.id}: ${currentExp.title}\n📅 ${currentExp.date}\n\n${currentExp.desc}\n\nStack: ${currentExp.stack.join(', ')}`);
+        } else {
+            alert("Error loading experiment details. Please check console.");
+        }
     }
 };
 ]]>
