@@ -96,8 +96,8 @@
           display: table;
         }
 
-        /* Box Styling */
-        div {
+        /* Box Styling - applied to specific content containers, not globally */
+        .content-box {
           border: 1px solid black;
           margin-right: 100px;
           margin-left: 100px;
@@ -107,7 +107,7 @@
 
       <!-- About Info Column -->
       <article id="main-col">
-        <div class="col">
+        <div class="col content-box">
           <h1 style="color:#0044ff" class="page-title">About Us</h1>
           <p style="color:#ffffff">Search Space | Explore Extent Leadership</p>
           <p style="color:#ffffff">Search Space is led by Administrator Amey Thakur, Search Space's 1st administrator.
@@ -144,7 +144,7 @@
 
       <!-- Contact/Map Section -->
       <section id="map">
-        <div class="col">
+        <div class="col content-box">
           <h1 style="color:#0044ff" class="page-title">Contact Us</h1>
           <p style="color:#ffffff">
             <strong>Address:</strong>
@@ -167,7 +167,7 @@
 
   <!-- Footer Section -->
   <footer>
-    <section id="ft">
+    <section id="ft" style="clear: both; width: 100%;">
       <div class="center">
         <center>
           <p style="color:#0044ff">Search Space | Explore Extent © Amey Thakur B-50</p>
