@@ -330,6 +330,17 @@
             color: var(--accent-hover);
         }
 
+        .animated-gradient-card {
+            background: linear-gradient(-45deg, #ffffff, #f0f4ff, #e0e7ff, #f8fafc);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        [data-theme="dark"] .animated-gradient-card {
+            background: linear-gradient(-45deg, #0f172a, #1e293b, #0f172a, #1a237e);
+            background-size: 400% 400%;
+        }
+
         /* Footer */
         .footer {
             text-align: center;
@@ -832,7 +843,7 @@
 
             <!-- Practical Exam -->
             <div class="col-md-12">
-                <div class="card-custom">
+                <div class="card-custom animated-gradient-card">
                     <div class="icon-wrapper">
                         <i class="fas fa-award"></i>
                     </div>
