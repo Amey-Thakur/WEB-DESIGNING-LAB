@@ -8,11 +8,56 @@
 -->
 <xsl:transform version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="html" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes" />
 	<xsl:template match="/">
 		<html
 			xmlns="http://www.w3.org/1999/xhtml">
 			<head>
 				<title>MU RESULTS</title>
+                <xsl:text disable-output-escaping="yes">&lt;meta charset=&quot;UTF-8&quot;&gt;</xsl:text>
+                <style>
+                    /* Portfolio Button &amp; Page Transition */
+                    body {
+                        animation: pageFadeIn 0.4s ease-in;
+                    }
+
+                    @keyframes pageFadeIn {
+                        from {
+                            opacity: 0;
+                            transform: translateY(10px);
+                        }
+
+                        to {
+                            opacity: 1;
+                            transform: translateY(0);
+                        }
+                    }
+
+                    .back-to-dashboard {
+                        position: fixed !important;
+                        bottom: 20px !important;
+                        right: 20px !important;
+                        background: #2563eb !important;
+                        color: white !important;
+                        padding: 10px 20px !important;
+                        border-radius: 50px !important;
+                        text-decoration: none !important;
+                        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+                        font-family: sans-serif !important;
+                        font-size: 16px !important;
+                        font-weight: bold !important;
+                        z-index: 10000 !important;
+                        display: inline-flex !important;
+                        align-items: center !important;
+                        gap: 8px !important;
+                        cursor: pointer !important;
+                    }
+
+                    .back-to-dashboard:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+                    }
+                </style>
 			</head>
 			<body bgcolor="#dbdbdb">
                 <!-- University Header -->
@@ -141,53 +186,10 @@
 						<p style="color:#f70000">Amey Thakur B-50</p>
 					</center>
 				</footer>
-                <style>
-                    /* Portfolio Button & Page Transition */
-                    body {
-                        animation: pageFadeIn 0.4s ease-in;
-                    }
 
-                    @keyframes pageFadeIn {
-                        from {
-                            opacity: 0;
-                            transform: translateY(10px);
-                        }
-
-                        to {
-                            opacity: 1;
-                            transform: translateY(0);
-                        }
-                    }
-
-                    .back-to-dashboard {
-                        position: fixed !important;
-                        bottom: 20px !important;
-                        right: 20px !important;
-                        background: #2563eb !important;
-                        color: white !important;
-                        padding: 10px 20px !important;
-                        border-radius: 50px !important;
-                        text-decoration: none !important;
-                        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
-                        font-family: sans-serif !important;
-                        font-size: 16px !important;
-                        font-weight: bold !important;
-                        z-index: 10000 !important;
-                        display: inline-flex !important;
-                        align-items: center !important;
-                        gap: 8px !important;
-                        cursor: pointer !important;
-                    }
-
-                    .back-to-dashboard:hover {
-                        transform: translateY(-2px);
-                        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
-                    }
-                </style>
                 <a href="../index.html" class="back-to-dashboard">
                     <span>&#8592;</span> Back to Portfolio
                 </a>
-                <script src="../assets/js/portfolio-enhancer.js"> </script>
 			</body>
 		</html>
 	</xsl:template>
