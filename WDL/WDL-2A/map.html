@@ -65,10 +65,16 @@
           box-sizing: border-box;
         }
 
+        .container {
+          width: 85%;
+          margin: auto;
+          overflow: hidden;
+        }
+
         .col {
           float: left;
-          width: 33.33%;
-          padding: 5px;
+          width: 50%;
+          padding: 15px;
         }
 
         /* Clearfix (clear floats) */
@@ -79,15 +85,14 @@
         }
 
         /* Box Styling for Content Areas */
-        div {
-          border: 1px solid black;
-          margin-right: 100px;
-          margin-left: 100px;
+        /* Box Styling for Content Areas */
+        .content-box {
+          padding: 20px;
           background-color: #000000;
         }
       </style>
       <article id="main-col">
-        <div class="col">
+        <div class="col content-box">
           <h1 style="color:#0044ff" class="page-title">About Us</h1>
           <p style="color:#ffffff">Search Space | Explore Extent Leadership</p>
           <p style="color:#ffffff">Search Space is led by Administrator Amey Thakur, Search Space's 1st administrator.
@@ -124,7 +129,7 @@
 
       <!-- Map Section: Embedded Google Map -->
       <section id="map">
-        <div class="col">
+        <div class="col content-box">
           <h1 style="color:#0044ff" class="page-title">Contact Us</h1>
           <p style="color:#ffffff">
             <strong>Address:</strong>
@@ -145,8 +150,8 @@
   </section>
 
   <!-- Footer Section -->
-  <footer>
-    <section id="ft">
+  <footer style="margin-top: 50px;">
+    <section id="ft" style="clear: both; width: 100%;">
       <div class="center">
         <center>
           <p style="color:#0044ff">Search Space | Explore Extent © Amey Thakur B-50</p>
