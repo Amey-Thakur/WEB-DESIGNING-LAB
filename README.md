@@ -103,30 +103,14 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
   <br />
 
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-INTEREST%20CALCULATOR-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR)
- 
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--1-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-1/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--2A-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2A/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--2B-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2B/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--3-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-3/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--4-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-4/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--5-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-5/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--6-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-6/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--7-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-7/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--8-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-8/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--9-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/)
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL--10-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/)
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/index.html)
 
 </div>
 
 > [!NOTE]
 > **WDL Portfolio**: This repository features a centralized portfolio dashboard designed to showcase all web designing laboratory implementations and responsive interactive prototypes. Access the full interactive experience through the [WDL Portfolio Index](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/index.html).
 >
-> <div align="center">
->
-> [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/index.html)
->
-> </div>
+
 
 > [!TIP]
 > **Database Configuration**: For experiments involving database connectivity, ensure the `filly` database is correctly imported or created in **phpMyAdmin** before execution. For a quick structural and responsive evaluation, use the **🚀 (Rocket)** links in the 'Live Demo' column to view the implementations directly in your browser.
