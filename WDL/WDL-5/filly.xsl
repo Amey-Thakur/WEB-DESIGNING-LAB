@@ -187,7 +187,7 @@
                 <a href="../index.html" class="back-to-dashboard">
                     <span>&#8592;</span> Back to Portfolio
                 </a>
-                <script src="../assets/js/portfolio-enhancer.js"></script>
+                <script src="../assets/js/portfolio-enhancer.js"> </script>
 			</body>
 		</html>
 	</xsl:template>
