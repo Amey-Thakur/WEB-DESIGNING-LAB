@@ -139,7 +139,7 @@
                     padding-top: 20px !important;
                     border-top: 1px solid #e2e8f0 !important;
                 }
-            </style
+            </style>
 			<body bgcolor="#dbdbdb">
                 <!-- University Header -->
 				<center>
