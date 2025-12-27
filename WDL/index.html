@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDL Lab Portfolio | Web Designing Experiments by Amey Thakur</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="description"
+        content="Explore a curated portfolio of Web Designing Lab (WDL) experiments showcasing semantic HTML5, responsive CSS3 layouts, JavaScript logic, PHP backend, and AJAX integration. Created by Amey Thakur at University of Mumbai.">
+    <meta name="keywords"
+        content="WDL, Web Designing Lab, Frontend Development, Responsive Design, PHP, MySQL, AJAX, Portfolio, Amey Thakur, University of Mumbai, Computer Engineering, HTML5, CSS3, JavaScript">
+    <meta name="author" content="Amey Thakur">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/">
+    <meta property="og:title" content="WDL Lab Portfolio | Web Architecture & Design Experiments">
+    <meta property="og:description"
+        content="A showcase of 11 Web Designing experiments demonstrating responsive layouts, client-side logic, server-side integration, and full-stack web solutions.">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png">
+
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/">
+    <meta property="twitter:title" content="WDL Lab Portfolio | Web Architecture & Design Experiments">
+    <meta property="twitter:description"
+        content="Explore responsive layouts, client-side logic, PHP backend & AJAX integration experiments.">
+    <meta property="twitter:image"
+        content="https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+    <!-- Fonts: Playfair Display (Scholarly/Elegant) & Poppins (Modern/Clean) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            /* Light Mode Variables */
+            --bg-color: #f4f6f9;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --card-bg: #ffffff;
+            --accent-color: #2563eb;
+            /* Royal Blue */
+            --accent-hover: #1d4ed8;
+            --border-color: #e2e8f0;
+            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --header-gradient: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            --badge-bg: #eff6ff;
+            --badge-text: #2563eb;
+            --footer-border: #cbd5e1;
+        }
+
+        [data-theme="dark"] {
+            /* Dark Mode Variables (High Contrast) */
+            --bg-color: #0f172a;
+            /* Deep Navy/Black */
+            --text-primary: #f8fafc;
+            /* White */
+            --text-secondary: #94a3b8;
+            /* Light Grey */
+            --card-bg: #1e293b;
+            /* Dark Slate */
+            --accent-color: #38bdf8;
+            /* Bright Sky Blue */
+            --accent-hover: #60a5fa;
+            --border-color: #334155;
+            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+            --header-gradient: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            --badge-bg: #0f172a;
+            --badge-text: #38bdf8;
+            --footer-border: #334155;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Back to Top Button */
+        #btn-back-to-top {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            display: none;
+            z-index: 100;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        #btn-back-to-top:hover {
+            transform: translateY(-5px);
+            background: var(--accent-hover);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1,
+        h2,
+        h3,
+        h5 {
+            font-family: 'Playfair Display', serif;
+            color: var(--text-primary);
+        }
+
+        .main-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            flex: 1;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(-45deg, #ffffff, #f0f4ff, #e0e7ff, #f8fafc);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite, fadeInDown 0.8s ease-out;
+            border-radius: 20px;
+            padding: 60px 40px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-md);
+            margin-bottom: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        [data-theme="dark"] .hero {
+            background: linear-gradient(-45deg, #0f172a, #1e293b, #0f172a, #1a237e);
+            background-size: 400% 400%;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .hero h1 {
+            font-weight: 900;
+            font-size: 3rem;
+            margin-bottom: 15px;
+            background: linear-gradient(120deg, var(--accent-color), #8b5cf6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .info-badges {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .badge-pill {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border: 1px solid var(--border-color);
+        }
+
+        .hero-buttons .btn {
+            border-radius: 50px;
+            padding: 12px 30px;
+            font-weight: 600;
+            margin: 10px;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: none;
+        }
+
+        .btn-primary-custom {
+            background: var(--accent-color);
+            color: #fff;
+        }
+
+        .btn-primary-custom:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            color: #fff;
+            box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4);
+        }
+
+        /* Section Title */
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .section-title h3 {
+            font-weight: 700;
+            margin-right: 20px;
+            white-space: nowrap;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: var(--border-color);
+            border-radius: 2px;
+        }
+
+        /* Cards */
+        .card-custom {
+            background: var(--card-bg);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            padding: 30px;
+            height: 100%;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-custom:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border-color: var(--accent-color);
+        }
+
+        .icon-wrapper {
+            width: 60px;
+            height: 60px;
+            background: var(--badge-bg);
+            color: var(--accent-color);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .card-custom:hover .icon-wrapper {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        .exp-tag {
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-color);
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .card-custom h5 {
+            font-weight: 700;
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+        }
+
+        .card-custom p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .launch-link {
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: 600;
+            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            transition: gap 0.2s;
+        }
+
+        .launch-link i {
+            font-size: 0.9em;
+        }
+
+        .launch-link:hover {
+            gap: 8px;
+            color: var(--accent-hover);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 1px solid var(--footer-border);
+            margin-top: 60px;
+            color: var(--text-secondary);
+        }
+
+        .footer a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+            transition: color 0.2s;
+        }
+
+        .footer a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Theme Toggle */
+        .theme-switch {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .theme-switch:hover {
+            transform: scale(1.1);
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .col-md-6,
+        .col-md-4 {
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+
+        .col-md-6:nth-child(1),
+        .col-md-4:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+
+        .col-md-6:nth-child(2),
+        .col-md-4:nth-child(2) {
+            animation-delay: 0.3s;
+        }
+
+        .col-md-6:nth-child(3),
+        .col-md-4:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        .col-md-6:nth-child(4),
+        .col-md-4:nth-child(4) {
+            animation-delay: 0.5s;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+        /* Clickable Badge Animation */
+        .clickable-badge {
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .clickable-badge:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+            background: var(--accent-color) !important;
+            color: #fff !important;
+            border-color: var(--accent-color) !important;
+        }
+
+        /* Tech Badges */
+        .badge-tech {
+            font-size: 0.75rem;
+            font-weight: 500;
+            background: var(--bg-color);
+            color: var(--text-secondary);
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-right: 5px;
+            border: 1px solid var(--border-color);
+            display: inline-block;
+            transition: all 0.2s;
+        }
+
+        .card-custom:hover .badge-tech {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            border-color: var(--badge-bg);
+        }
+
+        /* Custom Tooltips for Badges */
+        .badge[data-tooltip] {
+            position: relative;
+            cursor: help;
+        }
+
+        .badge[data-tooltip]::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-8px);
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s, transform 0.3s;
+            z-index: 1000;
+            font-weight: normal;
+        }
+
+        .badge[data-tooltip]::before {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(0px);
+            border: 6px solid transparent;
+            border-top-color: rgba(0, 0, 0, 0.9);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s, transform 0.3s;
+            z-index: 1001;
+        }
+
+        .badge[data-tooltip]:hover::after,
+        .badge[data-tooltip]:hover::before {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <button class="theme-switch" id="theme-toggle" title="Switch Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <h1>Web Designing Lab Portfolio</h1>
+            <p>A comprehensive showcase of responsive, accessible, and dynamic web architectures, covering full-stack
+                development and modern web design principles.</p>
+
+            <div class="info-badges">
+                <a href="https://github.com/Amey-Thakur" class="badge-pill clickable-badge" target="_blank">
+                    <i class="fas fa-user-graduate me-2"></i>Amey Thakur
+                </a>
+                <span class="badge-pill">Roll No: 50</span>
+                <span class="badge-pill">Batch: B3</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="https://github.com/Amey-Thakur/WEB-DESIGNING-LAB" class="btn btn-primary-custom">
+                    <i class="fab fa-github me-2"></i>WDL Repository
+                </a>
+                <a href="https://github.com/Amey-Thakur" class="btn btn-primary-custom"
+                    style="background:var(--card-bg); color:var(--text-primary); border:1px solid var(--border-color);">
+                    <i class="fas fa-code-branch me-2"></i>Computer Engineering Repo
+                </a>
+            </div>
+        </div>
+
+        <!-- Section Title -->
+        <div class="section-title">
+            <h3>Laboratory Experiments</h3>
+        </div>
+
+        <!-- Experiments Grid -->
+        <div class="row g-4">
+
+            <!-- Experiment 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 01</span>
+                    <h5>Semantic HTML5</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">HTML5</span>
+                        <span class="badge-tech">Semantics</span>
+                        <span class="badge bg-primary ms-1" data-tooltip="Semantic HTML5 architecture"
+                            style="font-size: 0.7rem;">Structure</span>
+                    </div>
+                    <p>
+                        Implementation of core structural elements using HTML5 semantic tags. Focuses on accessibility,
+                        logical document flow, and meaningful markup for browsers.
+                    </p>
+                    <a href="WDL-1/index.html" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 2A -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-th-large"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 02A</span>
+                    <h5>CSS3 Layouts</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">CSS3</span>
+                        <span class="badge-tech">Flexbox</span>
+                        <span class="badge-tech">Grid</span>
+                        <span class="badge bg-success ms-1" data-tooltip="Modern CSS3 architectures"
+                            style="font-size: 0.7rem;">Layout</span>
+                    </div>
+                    <p>
+                        Sophisticated layout designs utilizing CSS3 Flexbox and Grid. Demonstrates multi-column
+                        architectures and specialized header components.
+                    </p>
+                    <a href="WDL-2A/index.html" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 2B -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 02B</span>
+                    <h5>Responsive Design</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">Media Queries</span>
+                        <span class="badge-tech">Mobile-First</span>
+                        <span class="badge bg-info text-dark ms-1" data-tooltip="Cross-device optimizations"
+                            style="font-size: 0.7rem;">Adaptive</span>
+                    </div>
+                    <p>
+                        Mobile-first responsive design implementation. Uses media queries to create adaptive interfaces
+                        that provide optimal viewing experiences across device viewports.
+                    </p>
+                    <a href="WDL-2B/index.html" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 03</span>
+                    <h5>JavaScript Basics</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">ES6</span>
+                        <span class="badge-tech">Logic</span>
+                        <span class="badge bg-warning text-dark ms-1" data-tooltip="Browser-native JavaScript logic"
+                            style="font-size: 0.7rem;">Client-Side</span>
+                    </div>
+                    <p>
+                        Fundamental client-side scripting using JavaScript. Implements core programming logic,
+                        functional abstractions, and interactive behavior for the web browser.
+                    </p>
+                    <a href="WDL-3/index.html" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 4 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 04</span>
+                    <h5>DOM Manipulation</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">DOM API</span>
+                        <span class="badge-tech">Events</span>
+                        <span class="badge bg-danger ms-1" data-tooltip="Dynamic DOM event handling"
+                            style="font-size: 0.7rem;">Interactive</span>
+                    </div>
+                    <p>
+                        Advanced DOM interaction and event handling. Features dynamic UI updates and specialized
+                        computational interfaces with real-time feedback.
+                    </p>
+                    <a href="WDL-4/index.html" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 5 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-file-code"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 05</span>
+                    <h5>XML & XSLT</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">XML</span>
+                        <span class="badge-tech">XSLT</span>
+                        <span class="badge bg-secondary ms-1" data-tooltip="XML/XSLT transformation logic"
+                            style="font-size: 0.7rem;">Data</span>
+                    </div>
+                    <p>
+                        Data representation and transformation. Structured student mark sheet data transformation to
+                        HTML
+                        tables using XSLT styling principles.
+                    </p>
+                    <a href="WDL-5/index.xml" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 6 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 06</span>
+                    <h5>Server-Side PHP</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">PHP 7</span>
+                        <span class="badge-tech">Backend</span>
+                        <span class="badge bg-primary ms-1" data-tooltip="Server-side PHP processing"
+                            style="font-size: 0.7rem;">Server-Side</span>
+                    </div>
+                    <p>
+                        Introduction to server-side processing using PHP. Implements form handling, arithmetic
+                        processing, and dynamic HTML response generation.
+                    </p>
+                    <a href="WDL-6/index.html" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 7 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 07</span>
+                    <h5>PHP Prime Numbers</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">Algorithms</span>
+                        <span class="badge-tech">PHP</span>
+                        <span class="badge bg-success ms-1" data-tooltip="Algorithmic PHP execution"
+                            style="font-size: 0.7rem;">Processing</span>
+                    </div>
+                    <p>
+                        Server-side algorithms and form processing. Interactive input for algorithmic processing with
+                        core iterations for prime number identification.
+                    </p>
+                    <a href="WDL-7/Filly/index.php" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 8 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 08</span>
+                    <h5>Database Connectivity</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">MySQL</span>
+                        <span class="badge-tech">PHP</span>
+                        <span class="badge bg-info text-dark ms-1" data-tooltip="PHP-MySQL integrated solutions"
+                            style="font-size: 0.7rem;">Full-Stack</span>
+                    </div>
+                    <p>
+                        PHP and MySQL database integration. Data input form for MySQL integration with prepared
+                        statements for robust data persistence.
+                    </p>
+                    <a href="WDL-8/form.html" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 9 -->
+            <div class="col-md-6">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 09</span>
+                    <h5>AJAX & Dynamic Web</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">AJAX</span>
+                        <span class="badge-tech">JSON</span>
+                        <span class="badge bg-warning text-dark ms-1" data-tooltip="Asynchronous data transport"
+                            style="font-size: 0.7rem;">Async</span>
+                    </div>
+                    <p>
+                        Asynchronous requests and dynamic content. Dynamic UI for asynchronous image loading and
+                        server-side responders for AJAX requests.
+                    </p>
+                    <a href="WDL-9/index.php" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Experiment 10 -->
+            <div class="col-md-6">
+                <div class="card-custom">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <span class="exp-tag">Experiment 10</span>
+                    <h5>Web Frameworks Study</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">React</span>
+                        <span class="badge-tech">Angular</span>
+                        <span class="badge bg-danger ms-1" data-tooltip="SPA Concept & Modular Frameworks"
+                            style="font-size: 0.7rem;">Architectures</span>
+                    </div>
+                    <p>
+                        Comparative analysis of modern web architectures and enterprise frameworks like React, Angular,
+                        and Vue for scalable application design.
+                    </p>
+                    <a href="WDL-10/index.html" class="launch-link">
+                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Practical Exam -->
+            <div class="col-md-12">
+                <div class="card-custom" style="background: linear-gradient(135deg, var(--card-bg) 0%, #f0f4ff 100%);">
+                    <div class="icon-wrapper" style="background:var(--accent-color); color:#fff;">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <span class="exp-tag">Practical Examination</span>
+                    <h5>Interest Calculator (Mastery)</h5>
+                    <div class="tech-stack mb-3">
+                        <span class="badge-tech">JavaScript</span>
+                        <span class="badge-tech">DOM</span>
+                        <span class="badge-tech">Algorithm</span>
+                        <span class="badge bg-dark ms-1" data-tooltip="Professional Certification Logic"
+                            style="font-size: 0.7rem;">Certification</span>
+                    </div>
+                    <p>
+                        The final practical exam implementation. A robust tool designed to calculate Compound and Simple
+                        Interest based on precise user-provided inputs, demonstrating mastery over JS logic.
+                    </p>
+                    <a href="INTEREST-CALCULATOR/index.html" class="launch-link">
+                        Launch Full Demo <i class="fas fa-rocket ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>2020 &copy; All Rights Reserved | Designed and Developed by <a href="https://github.com/Amey-Thakur">Amey
+                Thakur</a></p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button type="button" class="btn" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        const themeIcon = toggleBtn.querySelector('i');
+        const htmlElement = document.documentElement;
+
+        // Back to Top Logic
+        const backToTopBtn = document.getElementById("btn-back-to-top");
+
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopBtn.style.display = "flex";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        }
+
+        backToTopBtn.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // Check for saved user preference
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        htmlElement.setAttribute('data-theme', savedTheme);
+        updateIcon(savedTheme);
+
+        toggleBtn.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            htmlElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateIcon(newTheme);
+        });
+
+        function updateIcon(theme) {
+            if (theme === 'dark') {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        }
+    </script>
+</body>
+
+</html>

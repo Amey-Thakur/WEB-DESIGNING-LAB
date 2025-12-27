@@ -24,6 +24,15 @@
 
 ---
 
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-WDL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/index.html)
+
+</div>
+
+> [!NOTE]
+> **WDL Portfolio**: This repository features a centralized portfolio dashboard designed to showcase all web designing laboratory implementations and responsive interactive prototypes. Access the full interactive experience through the [WDL Portfolio Index](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/index.html).
+
 > [!TIP]
 > **Lab Manual**: This directory contains source code and implementations for all experiments. For live demos and the final Mini Project, please visit the [**Web Designing Lab**](../README.md#web-designing-laboratory) section in the main repository. Additionally, for experiments involving database connectivity, ensure the `filly` database is correctly imported or created in **phpMyAdmin** before execution.
 
