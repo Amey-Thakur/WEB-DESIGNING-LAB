@@ -14,7 +14,6 @@
 			<head>
 				<title>MU RESULTS</title>
 
-			</head>
             <style>
                 .enhancer-btn {
                     position: fixed !important;
@@ -140,6 +139,7 @@
                     border-top: 1px solid #e2e8f0 !important;
                 }
             </style>
+			</head>
 			<body bgcolor="#dbdbdb">
                 <!-- University Header -->
 				<center>
