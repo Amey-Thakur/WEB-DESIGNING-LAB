@@ -323,7 +323,9 @@ window.toggleEnhancerModal = function() {
         const prevKey = currentIndex > 0 ? experimentOrder[currentIndex - 1] : null;
         const nextKey = currentIndex < experimentOrder.length - 1 ? experimentOrder[currentIndex + 1] : null;
 
-        modal = document.createElement('div');
+        // CRITICAL FIX: Use namespace for element creation in XSLT/XHTML
+        const ns = "http://www.w3.org/1999/xhtml";
+        modal = document.createElementNS(ns, 'div');
         modal.className = 'enhancer-modal-overlay';
         // Inline Styles
         modal.style.cssText = "position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.6); z-index: 2147483647; display: flex; justify-content: center; align-items: center; backdrop-filter: blur(3px); opacity: 0; transition: opacity 0.3s ease;";
