@@ -69,7 +69,7 @@
             date: "Nov 2020",
             stack: ["Algorithms", "PHP", "Processing"],
             desc: "Server-side algorithms and form processing. Interactive input for algorithmic processing with core iterations for prime number identification.",
-            path: "WDL-7/Filly/index.php"
+            path: "WDL-7/index.html"
         },
         "WDL-8": {
             id: "08",
