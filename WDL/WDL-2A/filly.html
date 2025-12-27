@@ -66,6 +66,53 @@
   </footer>
 
 
+  <style>
+    /* Portfolio Button & Page Transition */
+    body {
+      animation: pageFadeIn 0.4s ease-in;
+    }
+
+    @keyframes pageFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .back-to-dashboard {
+      position: fixed !important;
+      bottom: 20px !important;
+      right: 20px !important;
+      background: #2563eb !important;
+      color: white !important;
+      padding: 10px 20px !important;
+      border-radius: 50px !important;
+      text-decoration: none !important;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+      font-family: sans-serif !important;
+      font-size: 16px !important;
+      font-weight: bold !important;
+      z-index: 10000 !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 8px !important;
+      cursor: pointer !important;
+    }
+
+    .back-to-dashboard:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+    }
+  </style>
+  <a href="../index.html" class="back-to-dashboard" target="_top">
+    <span>&larr;</span> Back to Portfolio
+  </a>
+  <script src="../assets/js/portfolio-enhancer.js"></script>
 </body>
 
 </html>
