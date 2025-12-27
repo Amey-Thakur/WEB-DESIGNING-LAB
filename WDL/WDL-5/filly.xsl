@@ -146,6 +146,7 @@
                 <a href="../index.html" style="position: fixed; bottom: 20px; right: 20px; background: #2563eb; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 6px rgba(0,0,0,0.3); font-family: sans-serif; font-size: 16px; font-weight: bold; z-index: 10000; display: inline-flex; align-items: center; gap: 8px;">
                     <span>&#8592;</span> Back to Portfolio
                 </a>
+                <script src="../assets/js/portfolio-enhancer.js"></script>
 			</body>
 		</html>
 	</xsl:template>
