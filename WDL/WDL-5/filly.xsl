@@ -138,6 +138,10 @@
                     padding-top: 20px !important;
                     border-top: 1px solid #e2e8f0 !important;
                 }
+                @keyframes popupEntry {
+                    0% { opacity: 0; transform: translateY(20px) scale(0.96); }
+                    100% { opacity: 1; transform: translateY(0) scale(1); }
+                }
             </style>
 			</head>
 			<body bgcolor="#dbdbdb">
@@ -335,7 +339,7 @@ window.toggleEnhancerModal = function() {
         }
 
         modal.innerHTML = `
-            <div style="background: white; width: 90%; max-width: 500px; padding: 30px; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); position: relative; font-family: 'Segoe UI', sans-serif; text-align: left; color: #333;">
+            <div style="animation: popupEntry 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; background: white; width: 90%; max-width: 500px; padding: 30px; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); position: relative; font-family: 'Segoe UI', sans-serif; text-align: left; color: #333;">
                 <div class="enhancer-close" onclick="document.querySelector('.enhancer-modal-overlay').style.opacity='0'; setTimeout(()=>{document.querySelector('.enhancer-modal-overlay').style.display='none'}, 300)" style="position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #999;">×</div>
                 <h2 style="margin: 0 0 10px 0; font-size: 24px; font-weight: bold; color: #1e293b;">Exp ${currentExp.id}: ${currentExp.title}</h2>
                 <div style="font-size: 14px; color: #64748b; margin-bottom: 20px;">📅 ${currentExp.date}</div>
