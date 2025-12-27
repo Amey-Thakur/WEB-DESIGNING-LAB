@@ -283,148 +283,113 @@
                 <script>
 <![CDATA[
 window.toggleEnhancerModal = function() {
-    let currentExp = null;
-    const repoBase = "https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL/";
-    
-    // 1. Try to find existing modal
-    let modal = document.querySelector('.enhancer-modal-overlay');
-    if (modal) {
-        modal.style.display = 'flex';
-        modal.offsetHeight; // force reflow
-        modal.style.opacity = '1';
-        return;
-    }
+    var repoBase = "https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL/";
+    var currentExp = null;
 
     try {
-        const experimentOrder = [
-            "WDL-1", "WDL-2A", "WDL-2B", "WDL-3", "WDL-4",
-            "WDL-5", "WDL-6", "WDL-7", "WDL-8", "WDL-9",
-            "WDL-10", "INTEREST-CALCULATOR"
-        ];
-        const experiments = {
-            "WDL-1": { id: "01", title: "Semantic HTML5", date: "Sept 2020", stack: ["HTML5", "Semantics", "Accessibility"], desc: "Implementation of core structural elements using HTML5 semantic tags.", path: "WDL-1/index.html" },
-            "WDL-2A": { id: "02A", title: "CSS3 Layouts", date: "Sept 2020", stack: ["CSS3", "Flexbox", "Grid"], desc: "Sophisticated layout designs utilizing CSS3 Flexbox and Grid.", path: "WDL-2A/home.html" },
-            "WDL-2B": { id: "02B", title: "Responsive Design", date: "Sept 2020", stack: ["Media Queries", "Mobile-First", "Adaptive"], desc: "Mobile-first responsive design implementation.", path: "WDL-2B/index.html" },
-            "WDL-3": { id: "03", title: "JavaScript Basics", date: "Oct 2020", stack: ["ES6", "Logic", "Client-Side"], desc: "Fundamental client-side scripting using JavaScript.", path: "WDL-3/index.html" },
-            "WDL-4": { id: "04", title: "DOM Manipulation", date: "Oct 2020", stack: ["DOM API", "Events", "Interactive"], desc: "Advanced DOM interaction and event handling.", path: "WDL-4/index.html" },
-            "WDL-5": { id: "05", title: "XML & XSLT", date: "Oct 2020", stack: ["XML", "XSLT", "Data"], desc: "Structured student mark sheet data transformation to HTML tables using XSLT.", path: "WDL-5/index.xml" },
-            "WDL-6": { id: "06", title: "Server-Side PHP", date: "Nov 2020", stack: ["PHP 7", "Backend", "Server-Side"], desc: "Introduction to server-side processing using PHP.", path: "WDL-6/index.html" },
-            "WDL-7": { id: "07", title: "PHP Prime Numbers", date: "Nov 2020", stack: ["Algorithms", "PHP"], desc: "Server-side algorithms and form processing.", path: "WDL-7/index.html" },
-            "WDL-8": { id: "08", title: "Database Connectivity", date: "Nov 2020", stack: ["MySQL", "PHP", "Full-Stack"], desc: "PHP and MySQL database integration.", path: "WDL-8/index.html" },
-            "WDL-9": { id: "09", title: "AJAX & Dynamic Web", date: "Dec 2020", stack: ["AJAX", "JSON", "Async"], desc: "Asynchronous requests and dynamic content.", path: "WDL-9/index.html" },
-            "WDL-10": { id: "10", title: "Web Frameworks Study", date: "Dec 2020", stack: ["React", "Angular", "Architectures"], desc: "Comparative analysis of modern web architectures.", path: "WDL-10/index.html" },
-            "INTEREST-CALCULATOR": { id: "EXAM", title: "Interest Calculator", date: "Dec 2020", stack: ["JS Mastery", "DOM"], desc: "Compound and Simple Interest calculator.", path: "INTEREST-CALCULATOR/index.html" }
+        var experiments = {
+            "WDL-5": { 
+                id: "05", 
+                title: "XML & XSLT", 
+                date: "Oct 2020", 
+                stack: ["XML", "XSLT", "Data"], 
+                desc: "Structured student mark sheet data transformation to HTML tables using XSLT.", 
+                path: "WDL-5/index.xml" 
+            }
         };
+        currentExp = experiments["WDL-5"];
 
-        const currentKey = "WDL-5"; 
-        currentExp = experiments[currentKey];
-        const currentIndex = experimentOrder.indexOf(currentKey);
-        const prevKey = currentIndex > 0 ? experimentOrder[currentIndex - 1] : null;
-        const nextKey = currentIndex < experimentOrder.length - 1 ? experimentOrder[currentIndex + 1] : null;
+        // Helper to show alert if modal fails
+        function showFallbackAlert() {
+            var msg = "Exp " + currentExp.id + ": " + currentExp.title + "\n" +
+                      "Date: " + currentExp.date + "\n\n" +
+                      currentExp.desc + "\n\n" +
+                      "Stack: " + currentExp.stack.join(", ");
+            alert(msg);
+        }
 
-        // Helper for XHTML elements
-        const ns = "http://www.w3.org/1999/xhtml";
-        const mk = (tag, css, text) => {
-            const el = document.createElementNS(ns, tag);
-            if (css) el.style.cssText = css;
+        // 1. Try to find existing modal
+        var modal = document.querySelector('.enhancer-modal-overlay');
+        if (modal) {
+            modal.style.display = 'flex';
+            modal.offsetHeight; // reflow
+            modal.style.opacity = '1';
+            return;
+        }
+
+        // 2. Try to build modal using safe DOM methods
+        var ns = "http://www.w3.org/1999/xhtml";
+        
+        // Safety check: can we create elements?
+        try {
+            modal = document.createElementNS(ns, 'div');
+        } catch(e) {
+            console.error("DOM creation failed, using fallback");
+            showFallbackAlert();
+            return;
+        }
+
+        modal.className = 'enhancer-modal-overlay';
+        modal.setAttribute("style", "position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.6); z-index: 2147483647; display: flex; justify-content: center; align-items: center; backdrop-filter: blur(3px); opacity: 0; transition: opacity 0.3s ease;");
+
+        // Helper to create elements
+        function mk(tag, css, text) {
+            var el = document.createElementNS(ns, tag);
+            if (css) el.setAttribute("style", css);
             if (text) el.textContent = text;
             return el;
-        };
+        }
 
-        // Main Overlay
-        modal = mk('div', "position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.6); z-index: 2147483647; display: flex; justify-content: center; align-items: center; backdrop-filter: blur(3px); opacity: 0; transition: opacity 0.3s ease;");
-        modal.className = 'enhancer-modal-overlay';
-
-        // Content Card
-        const content = mk('div', "animation: popupEntry 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; background: white; width: 90%; max-width: 500px; padding: 30px; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); position: relative; font-family: 'Segoe UI', sans-serif; text-align: left; color: #333;");
+        // Container
+        var content = mk('div', "animation: popupEntry 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; background: white; width: 90%; max-width: 500px; padding: 30px; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); position: relative; font-family: 'Segoe UI', sans-serif; text-align: left; color: #333;");
         
-        // Close Button
-        const closeBtn = mk('div', "position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #999;", "×");
-        closeBtn.className = 'enhancer-close';
+        // Close Btn
+        var closeBtn = mk('div', "position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #999;", "×");
         closeBtn.onclick = function() {
-            modal.style.opacity = '0';
-            setTimeout(() => { modal.style.display = 'none'; }, 300);
+            var m = document.querySelector('.enhancer-modal-overlay');
+            if(m) {
+                m.style.opacity = '0';
+                setTimeout(function(){ m.style.display = 'none'; }, 300);
+            }
         };
         content.appendChild(closeBtn);
 
-        // Title
-        const h2 = mk('h2', "margin: 0 0 10px 0; font-size: 24px; font-weight: bold; color: #1e293b;", `Exp ${currentExp.id}: ${currentExp.title}`);
-        content.appendChild(h2);
-
-        // Date
-        const dateDiv = mk('div', "font-size: 14px; color: #64748b; margin-bottom: 20px;", `📅 ${currentExp.date}`);
-        content.appendChild(dateDiv);
-
-        // Description
-        const descP = mk('p', "font-size: 16px; line-height: 1.6; margin-bottom: 25px; color: #475569;", currentExp.desc);
-        content.appendChild(descP);
-
-        // Stack
-        const stackDiv = mk('div', "margin-bottom: 25px;");
-        currentExp.stack.forEach(tech => {
-            const span = mk('span', "display: inline-block; background: #eff6ff; color: #2563eb; padding: 5px 12px; border-radius: 20px; font-size: 12px; margin-right: 8px; font-weight: 600;", tech);
+        // Content
+        content.appendChild(mk('h2', "margin: 0 0 10px 0; font-size: 24px; font-weight: bold; color: #1e293b;", "Exp " + currentExp.id + ": " + currentExp.title));
+        content.appendChild(mk('div', "font-size: 14px; color: #64748b; margin-bottom: 20px;", "📅 " + currentExp.date));
+        content.appendChild(mk('p', "font-size: 16px; line-height: 1.6; margin-bottom: 25px; color: #475569;", currentExp.desc));
+        
+        var stackDiv = mk('div', "margin-bottom: 25px;");
+        for (var i = 0; i < currentExp.stack.length; i++) {
+            var span = mk('span', "display: inline-block; background: #eff6ff; color: #2563eb; padding: 5px 12px; border-radius: 20px; font-size: 12px; margin-right: 8px; font-weight: 600;", currentExp.stack[i]);
             stackDiv.appendChild(span);
-        });
+        }
         content.appendChild(stackDiv);
 
-        // Actions (View Source)
-        const actionsDiv = mk('div', "display: flex; gap: 10px;");
-        const link = mk('a', "flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #1e293b; color: white;", "View Source");
-        link.href = repoBase + currentExp.path;
-        link.target = "_blank";
+        var actionsDiv = mk('div', "display: flex; gap: 10px;");
+        var link = mk('a', "flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #1e293b; color: white;", "View Source");
+        link.setAttribute("href", repoBase + currentExp.path);
+        link.setAttribute("target", "_blank");
         actionsDiv.appendChild(link);
         content.appendChild(actionsDiv);
 
-        // Navigation
-        if (prevKey || nextKey) {
-            const navDiv = mk('div', "display: flex; justify-content: space-between; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e2e8f0;");
-            
-            if (prevKey) {
-                const prevLink = mk('a', "flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #f1f5f9; color: #475569; margin-right: 5px;", `← Prev: ${experiments[prevKey].id}`);
-                prevLink.href = `../${experiments[prevKey].path}`;
-                navDiv.appendChild(prevLink);
-            } else {
-                navDiv.appendChild(mk('div', "flex: 1"));
-            }
-
-            if (nextKey) {
-                const nextLink = mk('a', "flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #f1f5f9; color: #475569; margin-left: 5px;", `Next: ${experiments[nextKey].id} →`);
-                nextLink.href = `../${experiments[nextKey].path}`;
-                navDiv.appendChild(nextLink);
-            } else {
-                navDiv.appendChild(mk('div', "flex: 1"));
-            }
-            content.appendChild(navDiv);
-        }
-
         modal.appendChild(content);
-        (document.body || document.documentElement).appendChild(modal);
+        
+        var body = document.body || document.documentElement;
+        body.appendChild(modal);
 
-         // Keydown listener_
-        if (!window.enhancerKeysAttached) {
-            document.addEventListener('keydown', (e) => {
-                const m = document.querySelector('.enhancer-modal-overlay');
-                if (!m || m.style.display !== 'flex') return;
-                if (e.key === 'ArrowLeft' && prevKey) window.location.href = `../${experiments[prevKey].path}`;
-                if (e.key === 'ArrowRight' && nextKey) window.location.href = `../${experiments[nextKey].path}`;
-                if (e.key === 'Escape') {
-                    m.style.opacity = '0';
-                    setTimeout(() => { m.style.display = 'none'; }, 300);
-                }
-            });
-            window.enhancerKeysAttached = true;
-        }
-
-        // Show it
-        modal.offsetHeight; // force reflow
-        modal.style.opacity = '1';
+        // Show
+        setTimeout(function() {
+            modal.style.opacity = '1';
+        }, 10);
 
     } catch (err) {
         console.error("Enhancer error:", err);
+        // Guaranteed fallback
         if (currentExp) {
-            alert(`Exp ${currentExp.id}: ${currentExp.title}\n📅 ${currentExp.date}\n\n${currentExp.desc}\n\nStack: ${currentExp.stack.join(', ')}`);
+            alert("Exp " + currentExp.id + ": " + currentExp.title + "\n" + currentExp.desc);
         } else {
-            alert("Error loading experiment details. Please check console.");
+            alert("Details: WDL-5 XML & XSLT - Structured data transformation.");
         }
     }
 };
