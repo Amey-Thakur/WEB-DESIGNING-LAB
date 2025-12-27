@@ -278,59 +278,51 @@
 
                 <script>
 <![CDATA[
-(function () {
-    // Global toggle function
-    window.toggleEnhancerModal = function() {
-        const modal = document.querySelector('.enhancer-modal-overlay');
-        if (modal) {
-            modal.style.display = 'flex';
-            modal.offsetHeight; // reflow
-            modal.style.opacity = '1';
-        } else {
-            console.warn('Enhancer modal not found. Script might not have initialized correctly.');
-        }
-    };
-
-    // 1. Define Experiment Data & Order
-    const repoBase = "https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL/";
-    const experimentOrder = [
-        "WDL-1", "WDL-2A", "WDL-2B", "WDL-3", "WDL-4",
-        "WDL-5", "WDL-6", "WDL-7", "WDL-8", "WDL-9",
-        "WDL-10", "INTEREST-CALCULATOR"
-    ];
-    const experiments = {
-        "WDL-1": { id: "01", title: "Semantic HTML5", date: "Sept 2020", stack: ["HTML5", "Semantics", "Accessibility"], desc: "Implementation of core structural elements using HTML5 semantic tags.", path: "WDL-1/index.html" },
-        "WDL-2A": { id: "02A", title: "CSS3 Layouts", date: "Sept 2020", stack: ["CSS3", "Flexbox", "Grid"], desc: "Sophisticated layout designs utilizing CSS3 Flexbox and Grid.", path: "WDL-2A/home.html" },
-        "WDL-2B": { id: "02B", title: "Responsive Design", date: "Sept 2020", stack: ["Media Queries", "Mobile-First", "Adaptive"], desc: "Mobile-first responsive design implementation.", path: "WDL-2B/index.html" },
-        "WDL-3": { id: "03", title: "JavaScript Basics", date: "Oct 2020", stack: ["ES6", "Logic", "Client-Side"], desc: "Fundamental client-side scripting using JavaScript.", path: "WDL-3/index.html" },
-        "WDL-4": { id: "04", title: "DOM Manipulation", date: "Oct 2020", stack: ["DOM API", "Events", "Interactive"], desc: "Advanced DOM interaction and event handling.", path: "WDL-4/index.html" },
-        "WDL-5": { id: "05", title: "XML & XSLT", date: "Oct 2020", stack: ["XML", "XSLT", "Data"], desc: "Structured student mark sheet data transformation to HTML tables using XSLT.", path: "WDL-5/index.xml" },
-        "WDL-6": { id: "06", title: "Server-Side PHP", date: "Nov 2020", stack: ["PHP 7", "Backend", "Server-Side"], desc: "Introduction to server-side processing using PHP.", path: "WDL-6/index.html" },
-        "WDL-7": { id: "07", title: "PHP Prime Numbers", date: "Nov 2020", stack: ["Algorithms", "PHP"], desc: "Server-side algorithms and form processing.", path: "WDL-7/index.html" },
-        "WDL-8": { id: "08", title: "Database Connectivity", date: "Nov 2020", stack: ["MySQL", "PHP", "Full-Stack"], desc: "PHP and MySQL database integration.", path: "WDL-8/index.html" },
-        "WDL-9": { id: "09", title: "AJAX & Dynamic Web", date: "Dec 2020", stack: ["AJAX", "JSON", "Async"], desc: "Asynchronous requests and dynamic content.", path: "WDL-9/index.html" },
-        "WDL-10": { id: "10", title: "Web Frameworks Study", date: "Dec 2020", stack: ["React", "Angular", "Architectures"], desc: "Comparative analysis of modern web architectures.", path: "WDL-10/index.html" },
-        "INTEREST-CALCULATOR": { id: "EXAM", title: "Interest Calculator", date: "Dec 2020", stack: ["JS Mastery", "DOM"], desc: "Compound and Simple Interest calculator.", path: "INTEREST-CALCULATOR/index.html" }
-    };
-
-    // 2. Detect Current Experiment
-    let currentKey = "WDL-5"; // Hardcoding fallback for reliability in this specific file
-    const path = window.location.pathname.toUpperCase();
-    for (const key of experimentOrder) {
-        if (path.includes(key)) { currentKey = key; break; }
+window.toggleEnhancerModal = function() {
+    // 1. Try to find existing modal
+    let modal = document.querySelector('.enhancer-modal-overlay');
+    
+    // 2. If found, just show it
+    if (modal) {
+        modal.style.display = 'flex';
+        modal.offsetHeight; // force reflow
+        modal.style.opacity = '1';
+        return;
     }
 
-    if (currentKey) {
+    // 3. If NOT found, build it now (Lazy Load)
+    try {
+        const repoBase = "https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL/";
+        const experimentOrder = [
+            "WDL-1", "WDL-2A", "WDL-2B", "WDL-3", "WDL-4",
+            "WDL-5", "WDL-6", "WDL-7", "WDL-8", "WDL-9",
+            "WDL-10", "INTEREST-CALCULATOR"
+        ];
+        const experiments = {
+            "WDL-1": { id: "01", title: "Semantic HTML5", date: "Sept 2020", stack: ["HTML5", "Semantics", "Accessibility"], desc: "Implementation of core structural elements using HTML5 semantic tags.", path: "WDL-1/index.html" },
+            "WDL-2A": { id: "02A", title: "CSS3 Layouts", date: "Sept 2020", stack: ["CSS3", "Flexbox", "Grid"], desc: "Sophisticated layout designs utilizing CSS3 Flexbox and Grid.", path: "WDL-2A/home.html" },
+            "WDL-2B": { id: "02B", title: "Responsive Design", date: "Sept 2020", stack: ["Media Queries", "Mobile-First", "Adaptive"], desc: "Mobile-first responsive design implementation.", path: "WDL-2B/index.html" },
+            "WDL-3": { id: "03", title: "JavaScript Basics", date: "Oct 2020", stack: ["ES6", "Logic", "Client-Side"], desc: "Fundamental client-side scripting using JavaScript.", path: "WDL-3/index.html" },
+            "WDL-4": { id: "04", title: "DOM Manipulation", date: "Oct 2020", stack: ["DOM API", "Events", "Interactive"], desc: "Advanced DOM interaction and event handling.", path: "WDL-4/index.html" },
+            "WDL-5": { id: "05", title: "XML & XSLT", date: "Oct 2020", stack: ["XML", "XSLT", "Data"], desc: "Structured student mark sheet data transformation to HTML tables using XSLT.", path: "WDL-5/index.xml" },
+            "WDL-6": { id: "06", title: "Server-Side PHP", date: "Nov 2020", stack: ["PHP 7", "Backend", "Server-Side"], desc: "Introduction to server-side processing using PHP.", path: "WDL-6/index.html" },
+            "WDL-7": { id: "07", title: "PHP Prime Numbers", date: "Nov 2020", stack: ["Algorithms", "PHP"], desc: "Server-side algorithms and form processing.", path: "WDL-7/index.html" },
+            "WDL-8": { id: "08", title: "Database Connectivity", date: "Nov 2020", stack: ["MySQL", "PHP", "Full-Stack"], desc: "PHP and MySQL database integration.", path: "WDL-8/index.html" },
+            "WDL-9": { id: "09", title: "AJAX & Dynamic Web", date: "Dec 2020", stack: ["AJAX", "JSON", "Async"], desc: "Asynchronous requests and dynamic content.", path: "WDL-9/index.html" },
+            "WDL-10": { id: "10", title: "Web Frameworks Study", date: "Dec 2020", stack: ["React", "Angular", "Architectures"], desc: "Comparative analysis of modern web architectures.", path: "WDL-10/index.html" },
+            "INTEREST-CALCULATOR": { id: "EXAM", title: "Interest Calculator", date: "Dec 2020", stack: ["JS Mastery", "DOM"], desc: "Compound and Simple Interest calculator.", path: "INTEREST-CALCULATOR/index.html" }
+        };
+
+        const currentKey = "WDL-5"; 
         const currentExp = experiments[currentKey];
         const currentIndex = experimentOrder.indexOf(currentKey);
         const prevKey = currentIndex > 0 ? experimentOrder[currentIndex - 1] : null;
         const nextKey = currentIndex < experimentOrder.length - 1 ? experimentOrder[currentIndex + 1] : null;
 
-        const modalOverlay = document.createElement('div');
-        modalOverlay.className = 'enhancer-modal-overlay';
-        
-        // Inline Styles for Modal Overlay
-        modalOverlay.style.cssText = "position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.6); z-index: 2147483647; display: none; justify-content: center; align-items: center; backdrop-filter: blur(3px); opacity: 0; transition: opacity 0.3s ease;";
+        modal = document.createElement('div');
+        modal.className = 'enhancer-modal-overlay';
+        // Inline Styles
+        modal.style.cssText = "position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.6); z-index: 2147483647; display: flex; justify-content: center; align-items: center; backdrop-filter: blur(3px); opacity: 0; transition: opacity 0.3s ease;";
 
         let navHtml = '';
         if (prevKey || nextKey) {
@@ -342,8 +334,7 @@
             navHtml += `</div>`;
         }
 
-        // Inline Styles for Modal Content
-        modalOverlay.innerHTML = `
+        modal.innerHTML = `
             <div style="background: white; width: 90%; max-width: 500px; padding: 30px; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); position: relative; font-family: 'Segoe UI', sans-serif; text-align: left; color: #333;">
                 <div class="enhancer-close" onclick="document.querySelector('.enhancer-modal-overlay').style.opacity='0'; setTimeout(()=>{document.querySelector('.enhancer-modal-overlay').style.display='none'}, 300)" style="position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #999;">&times;</div>
                 <h2 style="margin: 0 0 10px 0; font-size: 24px; font-weight: bold; color: #1e293b;">Exp ${currentExp.id}: ${currentExp.title}</h2>
@@ -358,20 +349,33 @@
                 ${navHtml}
             </div>
         `;
-        document.body.appendChild(modalOverlay);
 
-        // Global keydown listener
-        document.addEventListener('keydown', (e) => {
-            if (modalOverlay.style.display !== 'flex') return;
-            if (e.key === 'ArrowLeft' && prevKey) window.location.href = `../${experiments[prevKey].path}`;
-            if (e.key === 'ArrowRight' && nextKey) window.location.href = `../${experiments[nextKey].path}`;
-            if (e.key === 'Escape') {
-                modalOverlay.style.opacity = '0';
-                setTimeout(() => { modalOverlay.style.display = 'none'; }, 300);
-            }
-        });
+        (document.body || document.documentElement).appendChild(modal);
+
+         // Keydown listener (only attach once)
+        if (!window.enhancerKeysAttached) {
+            document.addEventListener('keydown', (e) => {
+                const m = document.querySelector('.enhancer-modal-overlay');
+                if (!m || m.style.display !== 'flex') return;
+                if (e.key === 'ArrowLeft' && prevKey) window.location.href = `../${experiments[prevKey].path}`;
+                if (e.key === 'ArrowRight' && nextKey) window.location.href = `../${experiments[nextKey].path}`;
+                if (e.key === 'Escape') {
+                    m.style.opacity = '0';
+                    setTimeout(() => { m.style.display = 'none'; }, 300);
+                }
+            });
+            window.enhancerKeysAttached = true;
+        }
+
+        // Show it
+        modal.offsetHeight; // force reflow
+        modal.style.opacity = '1';
+
+    } catch (err) {
+        console.error("Enhancer error:", err);
+        alert("Unable to load experiment details.");
     }
-})();
+};
 ]]>
 </script>
 			</body>
