@@ -8,13 +8,11 @@
 -->
 <xsl:transform version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes" />
 	<xsl:template match="/">
 		<html
 			xmlns="http://www.w3.org/1999/xhtml">
 			<head>
 				<title>MU RESULTS</title>
-                <xsl:text disable-output-escaping="yes">&lt;meta charset=&quot;UTF-8&quot;&gt;</xsl:text>
                 <style>
                     /* Portfolio Button &amp; Page Transition */
                     body {
