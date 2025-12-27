@@ -77,7 +77,7 @@
             date: "Nov 2020",
             stack: ["MySQL", "PHP", "Full-Stack"],
             desc: "PHP and MySQL database integration. Data input form for MySQL integration with prepared statements for robust data persistence.",
-            path: "WDL-8/form.html"
+            path: "WDL-8/index.html"
         },
         "WDL-9": {
             id: "09",
@@ -85,7 +85,7 @@
             date: "Dec 2020",
             stack: ["AJAX", "JSON", "Async"],
             desc: "Asynchronous requests and dynamic content. Dynamic UI for asynchronous image loading and server-side responders for AJAX requests.",
-            path: "WDL-9/index.php"
+            path: "WDL-9/index.html"
         },
         "WDL-10": {
             id: "10",
