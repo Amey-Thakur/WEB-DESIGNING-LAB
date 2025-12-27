@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <!--
      * =========================================================================================
@@ -14,19 +15,21 @@
     <meta name="description" content="Interest Calculator for WDL Practical Exam">
     <meta name="keywords" content="Calculator, Interest, WDL, Amey Thakur">
     <meta name="author" content="Amey Thakur">
-    
+
     <title>Interest Calculator | Amey B-50</title>
-    
+
     <!-- External CSS Reference -->
     <link rel="stylesheet" href="style.css">
-    
+
     <!-- External JS Reference -->
     <script src="script.js"></script>
 </head>
+
 <body>
     <!-- Identification Sidebar Section -->
     <aside id="sidebar">
-        <table border="0" bgcolor="#000000" align="center" cellspacing="20" style="margin-top: 20px; border-radius: 10px;">
+        <table border="0" bgcolor="#000000" align="center" cellspacing="20"
+            style="margin-top: 20px; border-radius: 10px;">
             <tr style="color:#000dff">
                 <th>Name</th>
                 <th>College</th>
@@ -74,13 +77,18 @@
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <button style="color:#ff0000; cursor: pointer; padding: 5px 15px;" onclick="myFunction1()">CALCULATE SI</button>
+                    <button style="color:#ff0000; cursor: pointer; padding: 5px 15px;" onclick="myFunction1()">CALCULATE
+                        SI</button>
                     <p id="SI" style="margin-top: 10px;"></p>
                 </td>
             </tr>
 
             <!-- Divider -->
-            <tr><td colspan="2"><hr style="border-color: #444;"></td></tr>
+            <tr>
+                <td colspan="2">
+                    <hr style="border-color: #444;">
+                </td>
+            </tr>
 
             <!-- Compound Interest Section -->
             <tr style="color:#000dff">
@@ -105,7 +113,8 @@
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <button style="color:#ff0000; cursor: pointer; padding: 5px 15px;" onclick="myFunction2()">CALCULATE CI</button>
+                    <button style="color:#ff0000; cursor: pointer; padding: 5px 15px;" onclick="myFunction2()">CALCULATE
+                        CI</button>
                     <p id="CI" style="margin-top: 10px;"></p>
                 </td>
             </tr>
@@ -120,5 +129,53 @@
             </p>
         </center>
     </footer>
+    <style>
+        /* Portfolio Button & Page Transition */
+        body {
+            animation: pageFadeIn 0.4s ease-in;
+        }
+
+        @keyframes pageFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .back-to-dashboard {
+            position: fixed !important;
+            bottom: 20px !important;
+            right: 20px !important;
+            background: #2563eb !important;
+            color: white !important;
+            padding: 10px 20px !important;
+            border-radius: 50px !important;
+            text-decoration: none !important;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+            font-family: sans-serif !important;
+            font-size: 16px !important;
+            font-weight: bold !important;
+            z-index: 10000 !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 8px !important;
+            cursor: pointer !important;
+        }
+
+        .back-to-dashboard:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+        }
+    </style>
+    <a href="../index.html" class="back-to-dashboard">
+        <span>&larr;</span> Back to Portfolio
+    </a>
+    <script src="../assets/js/portfolio-enhancer.js"></script>
 </body>
+
 </html>
