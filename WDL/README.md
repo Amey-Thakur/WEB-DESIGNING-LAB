@@ -26,18 +26,18 @@
 
 | Experiment | Title | Description | Tech Stack |
 | :--- | :--- | :--- | :--- |
-| **WDL-1** | [Semantic HTML5](WDL-1/index.html) | Structural and semantic markup. | HTML5 |
-| **WDL-2A** | [CSS3 Layouts](WDL-2A/index.html) | Flexbox and Grid implementations. | CSS3 |
-| **WDL-2B** | [Responsive Design](WDL-2B/index.html) | Mobile-first media query principles. | CSS3 |
-| **WDL-3** | [JavaScript Basics](WDL-3/index.html) | Client-side core programming logic. | ES6 |
-| **WDL-4** | [DOM Manipulation](WDL-4/index.html) | Advanced event handling and UI updates. | JS, DOM |
-| **WDL-5** | [XML & XSLT](WDL-5/index.xml) | Data representation and transformation. | XML, XSLT |
-| **WDL-6** | [Server-Side PHP](WDL-6/index.html) | Backend logic and form processing. | PHP 7 |
-| **WDL-7** | [PHP Prime Numbers](WDL-7/Filly/index.php) | Server-side algorithms and forms. | PHP, Alg |
-| **WDL-8** | [Database Conn](WDL-8/form.html) | PHP and MySQL database integration. | PHP, MySQL |
-| **WDL-9** | [AJAX Interaction](WDL-9/index.php) | Asynchronous requests and dynamic web. | AJAX, PHP |
-| **WDL-10** | [Web Frameworks](WDL-10/index.html) | Study of modern web architectures. | React/Angular |
-| **Exam** | [Interest Calculator](INTEREST-CALCULATOR/index.html) | Practical exam mastery implementation. | JS Mastery |
+| **WDL-1** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--1-007bff?style=for-the-badge&logo=github)](WDL-1/index.html) | Structural and semantic markup. | HTML5 |
+| **WDL-2A** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--2A-007bff?style=for-the-badge&logo=github)](WDL-2A/index.html) | Flexbox and Grid implementations. | CSS3 |
+| **WDL-2B** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--2B-007bff?style=for-the-badge&logo=github)](WDL-2B/index.html) | Mobile-first media query principles. | CSS3 |
+| **WDL-3** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--3-007bff?style=for-the-badge&logo=github)](WDL-3/index.html) | Client-side core programming logic. | ES6 |
+| **WDL-4** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--4-007bff?style=for-the-badge&logo=github)](WDL-4/index.html) | Advanced event handling and UI updates. | JS, DOM |
+| **WDL-5** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--5-007bff?style=for-the-badge&logo=github)](WDL-5/index.xml) | Data representation and transformation. | XML, XSLT |
+| **WDL-6** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--6-007bff?style=for-the-badge&logo=github)](WDL-6/index.html) | Backend logic and form processing. | PHP 7 |
+| **WDL-7** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--7-007bff?style=for-the-badge&logo=github)](WDL-7/Filly/index.php) | Server-side algorithms and forms. | PHP, Alg |
+| **WDL-8** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--8-007bff?style=for-the-badge&logo=github)](WDL-8/form.html) | PHP and MySQL database integration. | PHP, MySQL |
+| **WDL-9** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--9-007bff?style=for-the-badge&logo=github)](WDL-9/index.php) | Asynchronous requests and dynamic web. | AJAX, PHP |
+| **WDL-10** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-WDL--10-007bff?style=for-the-badge&logo=github)](WDL-10/index.html) | Study of modern web architectures. | React/Angular |
+| **Exam** | [![Live Demo](https://img.shields.io/badge/Live%20Demo-INTEREST%20CALCULATOR-007bff?style=for-the-badge&logo=github)](INTEREST-CALCULATOR/index.html) | Practical exam mastery implementation. | JS Mastery |
 
 ## 🛠️ Enhancements & Modernization
 
