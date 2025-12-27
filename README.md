@@ -302,7 +302,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 > [!IMPORTANT]
 > ### 🤝🏻 Special Acknowledgement
-> *Special thanks to [Karan Dhiman](https://github.com/Karan-Dhiman) for his meaningful contributions, guidance, and support that helped shape this work.*
+> Special thanks to **[Karan Dhiman](https://github.com/Karan-Dhiman)** for his meaningful contributions, guidance, and support that helped shape this work.
 
 ### Project Overview
 
