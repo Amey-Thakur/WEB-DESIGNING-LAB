@@ -283,115 +283,20 @@
                 <script>
 <![CDATA[
 window.toggleEnhancerModal = function() {
-    var repoBase = "https://github.com/Amey-Thakur/WEB-DESIGNING-LAB/tree/main/WDL/";
-    var currentExp = null;
+    var exp = { 
+        id: "05", 
+        title: "XML & XSLT", 
+        date: "Oct 2020", 
+        stack: ["XML", "XSLT", "Data"], 
+        desc: "Structured student mark sheet data transformation to HTML tables using XSLT." 
+    };
 
-    try {
-        var experiments = {
-            "WDL-5": { 
-                id: "05", 
-                title: "XML & XSLT", 
-                date: "Oct 2020", 
-                stack: ["XML", "XSLT", "Data"], 
-                desc: "Structured student mark sheet data transformation to HTML tables using XSLT.", 
-                path: "WDL-5/index.xml" 
-            }
-        };
-        currentExp = experiments["WDL-5"];
-
-        // Helper to show alert if modal fails
-        function showFallbackAlert() {
-            var msg = "Exp " + currentExp.id + ": " + currentExp.title + "\n" +
-                      "Date: " + currentExp.date + "\n\n" +
-                      currentExp.desc + "\n\n" +
-                      "Stack: " + currentExp.stack.join(", ");
-            alert(msg);
-        }
-
-        // 1. Try to find existing modal
-        var modal = document.querySelector('.enhancer-modal-overlay');
-        if (modal) {
-            modal.style.display = 'flex';
-            modal.offsetHeight; // reflow
-            modal.style.opacity = '1';
-            return;
-        }
-
-        // 2. Try to build modal using safe DOM methods
-        var ns = "http://www.w3.org/1999/xhtml";
-        
-        // Safety check: can we create elements?
-        try {
-            modal = document.createElementNS(ns, 'div');
-        } catch(e) {
-            console.error("DOM creation failed, using fallback");
-            showFallbackAlert();
-            return;
-        }
-
-        modal.className = 'enhancer-modal-overlay';
-        modal.setAttribute("style", "position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.6); z-index: 2147483647; display: flex; justify-content: center; align-items: center; backdrop-filter: blur(3px); opacity: 0; transition: opacity 0.3s ease;");
-
-        // Helper to create elements
-        function mk(tag, css, text) {
-            var el = document.createElementNS(ns, tag);
-            if (css) el.setAttribute("style", css);
-            if (text) el.textContent = text;
-            return el;
-        }
-
-        // Container
-        var content = mk('div', "animation: popupEntry 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; background: white; width: 90%; max-width: 500px; padding: 30px; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); position: relative; font-family: 'Segoe UI', sans-serif; text-align: left; color: #333;");
-        
-        // Close Btn
-        var closeBtn = mk('div', "position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #999;", "×");
-        closeBtn.onclick = function() {
-            var m = document.querySelector('.enhancer-modal-overlay');
-            if(m) {
-                m.style.opacity = '0';
-                setTimeout(function(){ m.style.display = 'none'; }, 300);
-            }
-        };
-        content.appendChild(closeBtn);
-
-        // Content
-        content.appendChild(mk('h2', "margin: 0 0 10px 0; font-size: 24px; font-weight: bold; color: #1e293b;", "Exp " + currentExp.id + ": " + currentExp.title));
-        content.appendChild(mk('div', "font-size: 14px; color: #64748b; margin-bottom: 20px;", "📅 " + currentExp.date));
-        content.appendChild(mk('p', "font-size: 16px; line-height: 1.6; margin-bottom: 25px; color: #475569;", currentExp.desc));
-        
-        var stackDiv = mk('div', "margin-bottom: 25px;");
-        for (var i = 0; i < currentExp.stack.length; i++) {
-            var span = mk('span', "display: inline-block; background: #eff6ff; color: #2563eb; padding: 5px 12px; border-radius: 20px; font-size: 12px; margin-right: 8px; font-weight: 600;", currentExp.stack[i]);
-            stackDiv.appendChild(span);
-        }
-        content.appendChild(stackDiv);
-
-        var actionsDiv = mk('div', "display: flex; gap: 10px;");
-        var link = mk('a', "flex: 1; padding: 12px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; border: none; cursor: pointer; font-size: 14px; background: #1e293b; color: white;", "View Source");
-        link.setAttribute("href", repoBase + currentExp.path);
-        link.setAttribute("target", "_blank");
-        actionsDiv.appendChild(link);
-        content.appendChild(actionsDiv);
-
-        modal.appendChild(content);
-        
-        var body = document.body || document.documentElement;
-        body.appendChild(modal);
-
-        // Show
-        setTimeout(function() {
-            modal.style.opacity = '1';
-        }, 10);
-
-    } catch (err) {
-        console.error("Enhancer error:", err);
-        // Guaranteed fallback
-        if (currentExp) {
-            alert("Exp " + currentExp.id + ": " + currentExp.title + "\n" + currentExp.desc);
-        } else {
-            alert("Details: WDL-5 XML & XSLT - Structured data transformation.");
-        }
-    }
+    var msg = "Exp " + exp.id + ": " + exp.title + "\n" +
+              "Date: " + exp.date + "\n\n" +
+              exp.desc + "\n\n" +
+              "Stack: " + exp.stack.join(", ");
+    
+    alert(msg);
 };
 ]]>
 </script>
