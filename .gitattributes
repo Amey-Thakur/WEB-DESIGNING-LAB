@@ -1,42 +1,40 @@
-# Auto detect text files and perform LF normalization
-* text=auto eol=lf
+# Web Designing Lab - Academic Repository
+# Professional .gitattributes for scholarly archiving
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+# Set default behavior to automatically normalize line endings
+* text=auto
 
-# Binary files
+# Ensure text and source files use LF on checkout
+*.md text eol=lf
+*.txt text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.php text eol=lf
+*.json text eol=lf
+*.cff text eol=lf
+LICENSE text eol=lf
+
+# Explicitly mark binary files
 *.png binary
 *.jpg binary
 *.jpeg binary
 *.gif binary
+*.pdf binary
 *.ico binary
 *.bmp binary
 *.tif binary
 *.tiff binary
-*.mov binary
+*.svg text
+
+# Multimedia
 *.mp4 binary
 *.mp3 binary
-*.flv binary
-*.fla binary
-*.swf binary
-*.gz binary
-*.zip binary
-*.7z binary
-*.rar binary
-*.tar binary
-*.iso binary
+*.webm binary
+*.ogg binary
 
-# Source Codes
-*.html  text
-*.css   text
-*.js    text
-*.php   text
+# Improve diff handling
+*.md text diff=markdown
+*.html text diff=html
+*.css text
+*.js text
