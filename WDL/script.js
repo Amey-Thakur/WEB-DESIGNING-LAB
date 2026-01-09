@@ -66,14 +66,17 @@ document.addEventListener('DOMContentLoaded', () => {
     htmlElement.setAttribute('data-theme', savedTheme);
     if (themeIcon) updateIcon(savedTheme, themeIcon);
 
+    const toggleTheme = () => {
+        const currentTheme = htmlElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        htmlElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        if (themeIcon) updateIcon(newTheme, themeIcon);
+        playCelebrateSound();
+    };
+
     if (toggleBtn) {
-        toggleBtn.addEventListener('click', () => {
-            const currentTheme = htmlElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            htmlElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            if (themeIcon) updateIcon(newTheme, themeIcon);
-        });
+        toggleBtn.addEventListener('click', toggleTheme);
     }
 
     function updateIcon(theme, icon) {
@@ -102,6 +105,191 @@ document.addEventListener('DOMContentLoaded', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     }
+
+    // =========================================
+    //   SOUND EFFECTS (AudioContext)
+    // =========================================
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+    function playLaunchSound() {
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(440, audioCtx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(880, audioCtx.currentTime + 0.1);
+        gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.1);
+    }
+
+    function playCelebrateSound() {
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(523.25, audioCtx.currentTime); // C5
+        osc.frequency.exponentialRampToValueAtTime(1046.5, audioCtx.currentTime + 0.2); // C6
+        gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.2);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.2);
+    }
+
+    // Attach launch sound to experiment links
+    document.querySelectorAll('.launch-link').forEach(link => {
+        link.addEventListener('mouseenter', playLaunchSound);
+        link.addEventListener('click', () => {
+            playCelebrateSound();
+        });
+    });
+
+    // =========================================
+    //   SCROLL REVEAL ANIMATIONS
+    // =========================================
+    const revealCallback = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                observer.unobserve(entry.target);
+            }
+        });
+    };
+
+    const revealObserver = new IntersectionObserver(revealCallback, {
+        threshold: 0.1
+    });
+
+    document.querySelectorAll('.reveal').forEach(el => {
+        revealObserver.observe(el);
+    });
+
+    // =========================================
+    //   COMMAND PALETTE SYSTEM
+    // =========================================
+    const cmdOverlay = document.getElementById('cmd-overlay');
+    const cmdInput = document.getElementById('cmd-input');
+    const cmdResults = document.getElementById('cmd-results');
+    const kbdHint = document.getElementById('kbd-hint');
+
+    // Index content for search
+    const searchIndex = [];
+    document.querySelectorAll('.card-custom').forEach(card => {
+        const title = card.querySelector('h5').innerText;
+        const tag = card.querySelector('.exp-tag').innerText;
+        const link = card.querySelector('.launch-link').href;
+        searchIndex.push({ title: `${tag}: ${title}`, type: 'Experiment', link });
+    });
+    searchIndex.push({ title: 'Toggle Theme', type: 'Command', action: toggleTheme });
+    searchIndex.push({ title: 'Go to GitHub', type: 'External', link: 'https://github.com/Amey-Thakur/WEB-DESIGNING-LAB' });
+
+    let selectedIndex = 0;
+
+    function openPalette() {
+        cmdOverlay.classList.add('active');
+        cmdInput.focus();
+        renderResults("");
+    }
+
+    function closePalette() {
+        cmdOverlay.classList.remove('active');
+        cmdInput.value = "";
+    }
+
+    function renderResults(query) {
+        cmdResults.innerHTML = "";
+        const filtered = searchIndex.filter(item =>
+            item.title.toLowerCase().includes(query.toLowerCase())
+        );
+
+        if (filtered.length === 0) {
+            cmdResults.innerHTML = '<div class="cmd-item">No results found</div>';
+            return;
+        }
+
+        filtered.forEach((item, index) => {
+            const div = document.createElement('div');
+            div.className = `cmd-item ${index === selectedIndex ? 'selected' : ''}`;
+            div.innerHTML = `
+                <span class="cmd-item-icon"><i class="${item.type === 'Experiment' ? 'fas fa-flask' : item.type === 'Command' ? 'fas fa-terminal' : 'fab fa-github'}"></i></span>
+                <span class="cmd-item-text">${item.title}</span>
+                <span class="cmd-item-type">${item.type}</span>
+            `;
+            div.onclick = () => executeItem(item);
+            cmdResults.appendChild(div);
+        });
+    }
+
+    function executeItem(item) {
+        if (item.link) {
+            window.location.href = item.link;
+        } else if (item.action) {
+            item.action();
+            closePalette();
+        }
+    }
+
+    // Keyboard controls
+    document.addEventListener('keydown', (e) => {
+        // Ctrl + K to open
+        if (e.ctrlKey && e.key === 'k') {
+            e.preventDefault();
+            openPalette();
+        }
+
+        // T to toggle theme (only if palette is closed)
+        if (!cmdOverlay.classList.contains('active') && e.key.toLowerCase() === 't') {
+            const tag = e.target.tagName.toLowerCase();
+            if (tag !== 'input' && tag !== 'textarea') {
+                toggleTheme();
+            }
+        }
+
+        if (cmdOverlay.classList.contains('active')) {
+            const results = cmdResults.querySelectorAll('.cmd-item');
+            if (e.key === 'Escape') closePalette();
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                selectedIndex = (selectedIndex + 1) % results.length;
+                renderResults(cmdInput.value);
+            }
+            if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                selectedIndex = (selectedIndex - 1 + results.length) % results.length;
+                renderResults(cmdInput.value);
+            }
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                const filtered = searchIndex.filter(item =>
+                    item.title.toLowerCase().includes(cmdInput.value.toLowerCase())
+                );
+                if (filtered[selectedIndex]) executeItem(filtered[selectedIndex]);
+            }
+        }
+    });
+
+    cmdInput.addEventListener('input', (e) => {
+        selectedIndex = 0;
+        renderResults(e.target.value);
+    });
+
+    cmdOverlay.addEventListener('click', (e) => {
+        if (e.target === cmdOverlay) closePalette();
+    });
+
+    // Auto-hide kbd hint after 10 seconds or on interaction
+    setTimeout(() => {
+        if (kbdHint) kbdHint.classList.add('hidden');
+    }, 10000);
+
+    document.addEventListener('scroll', () => {
+        if (kbdHint) kbdHint.classList.add('hidden');
+    }, { once: true });
 
     // Register Service Worker
     if ('serviceWorker' in navigator) {
