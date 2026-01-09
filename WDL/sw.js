@@ -22,7 +22,10 @@ const CORE_ASSETS = [
     'index.html',
     'script.js',
     'manifest.json',
-    OFFLINE_URL
+    OFFLINE_URL,
+    'assets/icon-192.png',
+    'assets/icon-512.png',
+    'assets/og-image.png'
 ];
 
 self.addEventListener('install', (event) => {
