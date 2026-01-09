@@ -30,7 +30,7 @@
 
 </div>
 
-> [!IMPORTANT]
+> [!NOTE]
 > **WDL Portfolio**: This repository features a centralized portfolio dashboard designed to showcase all web designing laboratory implementations and responsive interactive prototypes. Access the full interactive experience through the [WDL Portfolio Index](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/index.html).
 
 > [!TIP]
