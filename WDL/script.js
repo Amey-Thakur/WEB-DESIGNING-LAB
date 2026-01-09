@@ -33,13 +33,20 @@ console.log(
     "font-size: 12px; color: #f59e0b; font-weight: bold;"
 );
 
-// Anti-Inspection / Right-Click Protection
+// Anti-Inspection / Selection / Right-Click Protection
 document.addEventListener('contextmenu', (e) => e.preventDefault());
+document.addEventListener('selectstart', (e) => e.preventDefault());
+document.addEventListener('dragstart', (e) => e.preventDefault());
+document.addEventListener('copy', (e) => {
+    e.preventDefault();
+    return false;
+});
 
 document.onkeydown = function (e) {
     if (e.keyCode === 123) return false; // F12
     if (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) return false; // Ctrl+Shift+I/J
     if (e.ctrlKey && e.keyCode === 85) return false; // Ctrl+U (View Source)
+    if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 83 || e.keyCode === 65)) return false; // Ctrl+C, V, S, A
 };
 
 /**

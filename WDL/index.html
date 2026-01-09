@@ -120,6 +120,16 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+
+        input,
+        textarea {
+            user-select: auto !important;
+            -webkit-user-select: auto !important;
         }
 
         /* Back to Top Button */
