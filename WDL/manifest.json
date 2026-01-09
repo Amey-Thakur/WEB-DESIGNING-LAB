@@ -1,0 +1,21 @@
+{
+    "name": "WDL Lab Portfolio",
+    "short_name": "WDL Portfolio",
+    "description": "Comprehensive showcase of Web Designing Lab experiments by Amey Thakur.",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#2563eb",
+    "icons": [
+        {
+            "src": "https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -14,6 +14,35 @@
     <meta name="author" content="Amey Thakur">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
+    <link rel="canonical" href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/">
+
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2563eb">
+    <link rel="apple-touch-icon"
+        href="https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png">
+
+    <!-- Security Meta Tags -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' blob: https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; img-src 'self' data: blob: https: raw.githubusercontent.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; connect-src 'self' blob:; worker-src 'self' blob:;">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "WDL Lab Portfolio",
+        "url": "https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/",
+        "description": "Comprehensive showcase of Web Designing Lab experiments by Amey Thakur",
+        "author": {
+            "@type": "Person",
+            "name": "Amey Thakur",
+            "url": "https://github.com/Amey-Thakur"
+        },
+        "educationalLevel": "Undergraduate",
+        "teaches": ["Web Designing", "Frontend Development", "Back-end Integration", "Responsive UI"]
+    }
+    </script>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -881,57 +910,7 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
-    <script>
-        const toggleBtn = document.getElementById('theme-toggle');
-        const themeIcon = toggleBtn.querySelector('i');
-        const htmlElement = document.documentElement;
-
-        // Back to Top Logic
-        const backToTopBtn = document.getElementById("btn-back-to-top");
-
-        window.onscroll = function () {
-            scrollFunction();
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                backToTopBtn.style.display = "flex";
-            } else {
-                backToTopBtn.style.display = "none";
-            }
-        }
-
-        backToTopBtn.addEventListener("click", backToTop);
-
-        function backToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-        // Check for saved user preference
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        htmlElement.setAttribute('data-theme', savedTheme);
-        updateIcon(savedTheme);
-
-        toggleBtn.addEventListener('click', () => {
-            const currentTheme = htmlElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-
-            htmlElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            updateIcon(newTheme);
-        });
-
-        function updateIcon(theme) {
-            if (theme === 'dark') {
-                themeIcon.classList.remove('fa-moon');
-                themeIcon.classList.add('fa-sun');
-            } else {
-                themeIcon.classList.remove('fa-sun');
-                themeIcon.classList.add('fa-moon');
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
