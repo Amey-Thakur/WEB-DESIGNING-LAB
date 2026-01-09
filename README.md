@@ -300,7 +300,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 | :---: | :---: |
 </div>
 
-> [!IMPORTANT]
+> [!NOTE]
 > ### 🤝🏻 Special Acknowledgement
 > *Special thanks to **[Karan Dhiman](https://github.com/Karan-Dhiman)** for his meaningful contributions, guidance, and support that helped shape this work.*
 
@@ -308,7 +308,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 A comprehensive real-time chat platform developed as a mini-project for the Web Designing Lab. The application facilitates asynchronous communication between users through a clean, responsive interface. It leverages **PHP** for server-side logic, **MySQL** for data persistence, and **AJAX** for seamless message updates without page reloads. This mini-project showcases the practical integration of full-stack web technologies to solve real-world communication challenges.
 
-> [!IMPORTANT]
+> [!NOTE]
 > **Research Impact & Certification**: This mini-project was published as an academic research paper in the **International Research Journal of Engineering and Technology (IRJET)** (Volume 8, Issue 6), with a scholarly Preprint available on **arXiv**. The project received an official Publication Certificate for its research contribution to web development education.
 > - [Preprint @arXiv](https://arxiv.org/abs/2106.14704)
 > - [Published Paper @IRJET](https://www.irjet.net/archives/V8/i6/IRJET-V8I6348.pdf)
