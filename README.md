@@ -18,7 +18,7 @@
 
   ---
 
-  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#web-designing-laboratory) &nbsp;·&nbsp; [Mini Project](#web-designing-mini-project) &nbsp;·&nbsp; [Practical Exam](#practical-exam) &nbsp;·&nbsp; [Online Exam](#online-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#web-designing-laboratory) &nbsp;·&nbsp; [Mini-Project](#web-designing-mini-project) &nbsp;·&nbsp; [Practical Exam](#practical-exam) &nbsp;·&nbsp; [Online Exam](#online-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -107,7 +107,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 </div>
 
-> [!NOTE]
+> [!IMPORTANT]
 > **WDL Portfolio**: This repository features a centralized portfolio dashboard designed to showcase all web designing laboratory implementations and responsive interactive prototypes. Access the full interactive experience through the [WDL Portfolio Index](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/index.html).
 >
 
@@ -271,7 +271,7 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 <!-- =========================================================================================
                                      MINI PROJECT SECTION
      ========================================================================================= -->
-## Web Designing Mini Project
+## Web Designing Mini-Project
 
 <div align="center">
 
@@ -306,12 +306,13 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 ### Project Overview
 
-A comprehensive real-time chat platform developed as a mini project for the Web Designing Lab. The application facilitates asynchronous communication between users through a clean, responsive interface. It leverages **PHP** for server-side logic, **MySQL** for data persistence, and **AJAX** for seamless message updates without page reloads. This project showcases the practical integration of full-stack web technologies to solve real-world communication challenges.
+A comprehensive real-time chat platform developed as a mini-project for the Web Designing Lab. The application facilitates asynchronous communication between users through a clean, responsive interface. It leverages **PHP** for server-side logic, **MySQL** for data persistence, and **AJAX** for seamless message updates without page reloads. This mini-project showcases the practical integration of full-stack web technologies to solve real-world communication challenges.
 
-> [!NOTE]
-> **Research Impact**: This project was published as a research paper in **International Research Journal of Engineering and Technology (IRJET)** (Volume 8, Issue 6) and is also available as a preprint on **arXiv**.
+> [!IMPORTANT]
+> **Research Impact & Certification**: This mini-project was published as an academic research paper in the **International Research Journal of Engineering and Technology (IRJET)** (Volume 8, Issue 6), with a scholarly Preprint available on **arXiv**. The project received an official Publication Certificate for its research contribution to web development education.
 > - [Preprint @arXiv](https://arxiv.org/abs/2106.14704)
 > - [Published Paper @IRJET](https://www.irjet.net/archives/V8/i6/IRJET-V8I6348.pdf)
+> - [Publication Certificate](https://github.com/Amey-Thakur/CHAT-ROOM/blob/main/Mini-Project/IRJET%20-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.jpg)
 
 ### Resources
 
@@ -322,7 +323,7 @@ A comprehensive real-time chat platform developed as a mini project for the Web 
 | 3 | Project Presentation | Visual overview of the development lifecycle | December 02, 2020 | 09/10 | [View](WDL%20Mini%20Project/CHAT%20ROOM%20USING%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX%20PRESENTATION.pdf) |
 | 4 | Project Demo (YouTube) | Real-time demonstration of features | — | — | [View](https://youtu.be/Aem0k2Dl9fU) |
 | 5 | Project Demo (MP4) | Local video demonstration of features | — | — | [View](WDL%20Mini%20Project/TE_B_WDL_Mini_Project_Roll_No_28_31_50_51_CHAT_ROOM.mp4) |
-| 6 | Award Certificate | Recognition for project excellence | — | — | [View](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX/IRJET-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.pdf) |
+| 6 | Award Certificate | Recognition for project excellence | — | — | [View](https://github.com/Amey-Thakur/CHAT-ROOM/blob/main/Mini-Project/IRJET%20-%20Chat%20Room%20using%20HTML%2C%20PHP%2C%20CSS%2C%20JS%2C%20AJAX.jpg) |
 
 ---
 
@@ -438,7 +439,7 @@ This repository and all linked academic content are made available under the **C
 
 This repository represents a comprehensive collection of laboratory implementations and study materials curated during my academic journey. All content has been carefully organized and documented to serve as a valuable resource for students and developers pursuing Web Designing.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
+**Connect**: [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 
@@ -446,7 +447,7 @@ Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** for her
 
 Grateful acknowledgment to **[Karan Dhiman](https://github.com/Karan-Dhiman)** for his exceptional support and collaboration during the development of the "Chat Room" mini project for this course. Working alongside him was a truly enriching experience; his technical expertise, dedication, and enthusiasm for innovation turned every challenge into a meaningful learning opportunity. Our shared curiosity and collaborative efforts in building this real-time communication platform were essential to its success. Thank you, Karan, for being such an outstanding project partner and for all the knowledge and encouragement you shared along the way.
 
-Special thanks to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Web Designing Lab. Their emphasis on semantic structure and responsive design helped build a solid foundation in web engineering.
+Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Web Designing Lab. Their emphasis on semantic structure and responsive design helped build a solid foundation in web engineering.
 
 Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning experience.
 
@@ -460,7 +461,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
   <!-- Footer Navigation -->
   [↑ Back to Top](#web-designing-lab)
 
-  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#web-designing-laboratory) &nbsp;·&nbsp; [Mini Project](#web-designing-mini-project) &nbsp;·&nbsp; [Practical Exam](#practical-exam) &nbsp;·&nbsp; [Online Exam](#online-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#web-designing-laboratory) &nbsp;·&nbsp; [Mini-Project](#web-designing-mini-project) &nbsp;·&nbsp; [Practical Exam](#practical-exam) &nbsp;·&nbsp; [Online Exam](#online-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
