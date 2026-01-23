@@ -469,4 +469,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 .catch(err => console.error('[SW] Registration failed', err));
         });
     }
+    // =========================================
+    //   SIMPLE SHARE BUTTON HANDLER
+    // =========================================
+    const simpleShareBtn = document.getElementById('share-btn');
+    if (simpleShareBtn && !simpleShareBtn.hasAttribute('onclick')) {
+        simpleShareBtn.addEventListener('click', async () => {
+            const shareData = {
+                title: 'Web Designing Lab Portfolio — Amey Thakur',
+                text: 'Web Designing Lab Portfolio — Amey Thakur. Explore responsive layouts, client-side logic, and full-stack web solutions!',
+                url: window.location.href
+            };
+
+            try {
+                await navigator.share(shareData);
+            } catch (err) {
+                // Fallback: Copy to clipboard
+                const dummy = document.createElement('input');
+                document.body.appendChild(dummy);
+                dummy.value = window.location.href;
+                dummy.select();
+                document.execCommand('copy');
+                document.body.removeChild(dummy);
+                alert('Portfolio link copied to clipboard!');
+            }
+        });
+    }
 });
