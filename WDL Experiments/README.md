@@ -26,7 +26,7 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-WDL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/index.html)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-WDL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/)
 
 </div>
 
@@ -75,7 +75,7 @@
 Primary semantic structure and navigation.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-1/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-1/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--1-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -97,7 +97,7 @@ Primary semantic structure and navigation.
 Flexbox and Grid layout implementations.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2A/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-2A/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--2A-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -126,7 +126,7 @@ Flexbox and Grid layout implementations.
 Media queries and mobile-first principles.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-2B/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-2B/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--2B-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -148,7 +148,7 @@ Media queries and mobile-first principles.
 Functions, scripting, and client-side logic.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-3/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-3/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--3-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -168,7 +168,7 @@ Functions, scripting, and client-side logic.
 Event handling and dynamic UI updates.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-4/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-4/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--4-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -192,7 +192,7 @@ Event handling and dynamic UI updates.
 Data representation and transformation.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-5/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-5/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--5-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -215,7 +215,7 @@ Data representation and transformation.
 Introduction to PHP and backend logic.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-6/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-6/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--6-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -236,7 +236,7 @@ Introduction to PHP and backend logic.
 Server-side algorithms and form processing.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-7/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-7/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--7-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -259,7 +259,7 @@ Server-side algorithms and form processing.
 PHP and MySQL database integration.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-8/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-8/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--8-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -282,7 +282,7 @@ PHP and MySQL database integration.
 Asynchronous requests and dynamic content.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-9/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-9/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--9-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -305,7 +305,7 @@ Asynchronous requests and dynamic content.
 Comparative analysis of modern web architectures.
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/WDL-10/">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL-10/">
     <img src="https://img.shields.io/badge/Live_Demo-WDL--10-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>

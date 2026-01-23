@@ -14,7 +14,7 @@
     <meta name="author" content="Amey Thakur">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
-    <link rel="canonical" href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/">
+    <link rel="canonical" href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/">
 
     <!-- PWA Support -->
     <link rel="manifest" href="manifest.json">
@@ -31,7 +31,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "WDL Lab Portfolio",
-        "url": "https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/",
+        "url": "https://amey-thakur.github.io/WEB-DESIGNING-LAB/",
         "description": "Comprehensive showcase of Web Designing Lab experiments by Amey Thakur",
         "author": {
             "@type": "Person",
@@ -45,7 +45,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/">
+    <meta property="og:url" content="https://amey-thakur.github.io/WEB-DESIGNING-LAB/">
     <meta property="og:title" content="WDL Lab Portfolio | Web Architecture & Design Experiments">
     <meta property="og:description"
         content="A showcase of 11 Web Designing experiments demonstrating responsive layouts, client-side logic, server-side integration, and full-stack web solutions.">
@@ -53,7 +53,7 @@
 
     <!-- Twitter Card -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/">
+    <meta property="twitter:url" content="https://amey-thakur.github.io/WEB-DESIGNING-LAB/">
     <meta property="twitter:title" content="WDL Lab Portfolio | Web Architecture & Design Experiments">
     <meta property="twitter:description"
         content="Explore responsive layouts, client-side logic, PHP backend & AJAX integration experiments.">
@@ -68,16 +68,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2563eb">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 
 <body>
+    <!-- Loading Screen (AOA Style) -->
+    <div id="loading-screen">
+        <div class="loader-spinner"></div>
+        <p class="loader-text">Initializing WDL Portfolio...</p>
+    </div>
+
     <div class="main-container">
 
         <!-- Hero Section -->
         <div class="hero">
-            <button class="theme-switch" id="theme-toggle" title="Switch Theme">
-                <i class="fas fa-moon"></i>
-            </button>
+            <div class="top-controls">
+                <button class="control-btn" id="pwa-install-btn" title="Install App" style="display: none;">
+                    <i class="fas fa-download"></i>
+                </button>
+                <button class="control-btn" id="share-btn" onclick="shareResult('portfolio', 'portfolio')"
+                    title="Share Portfolio">
+                    <i class="fas fa-share-nodes"></i>
+                </button>
+                <button class="control-btn theme-switch" id="theme-toggle" title="Switch Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
 
             <h1>Web Designing Lab Portfolio</h1>
             <p>A comprehensive showcase of responsive, accessible, and dynamic web architectures, covering full-stack
@@ -92,18 +111,46 @@
             </div>
 
             <div class="hero-buttons">
-                <a href="https://github.com/Amey-Thakur/WEB-DESIGNING-LAB" class="btn btn-primary-custom">
-                    <i class="fab fa-github me-2"></i>WDL Repository
+                <a href="https://github.com/Amey-Thakur/WEB-DESIGNING-LAB" class="btn btn-primary-custom"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github me-2"></i>WDL Repo
                 </a>
-                <a href="https://github.com/Amey-Thakur" class="btn btn-primary-custom"
-                    style="background:var(--card-bg); color:var(--text-primary); border:1px solid var(--border-color);">
+                <a href="https://github.com/Amey-Thakur/COMPUTER-ENGINEERING"
+                    class="btn btn-primary-custom btn-secondary-custom" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-code-branch me-2"></i>Computer Engineering Repo
                 </a>
+            </div>
+
+            <!-- Stats Counter -->
+            <div class="stats-container">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="12">0</span>
+                    <span class="stat-label">Experiments</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="1">0</span>
+                    <span class="stat-label">Practical Exam</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100" data-suffix="%">0%</span>
+                    <span class="stat-label">Complete</span>
+                </div>
+            </div>
+
+            <!-- Scroll Hint -->
+            <div class="scroll-hint-container">
+                <div class="scroll-line"></div>
+                <a href="#experiments-title" class="scroll-link">
+                    <i class="fas fa-chevron-down"></i>
+                    <span>Scroll down for Laboratory Experiments</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="scroll-line"></div>
             </div>
         </div>
 
         <!-- Section Title -->
-        <div class="section-title">
+        <div class="section-title" id="experiments-title">
             <h3>Laboratory Experiments</h3>
         </div>
 
@@ -128,9 +175,11 @@
                         Implementation of core structural elements using HTML5 semantic tags. Focuses on accessibility,
                         logical document flow, and meaningful markup for browsers.
                     </p>
-                    <a href="WDL-1/index.html" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-1/index.html" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -153,9 +202,11 @@
                         Sophisticated layout designs utilizing CSS3 Flexbox and Grid. Demonstrates multi-column
                         architectures and specialized header components.
                     </p>
-                    <a href="WDL-2A/home.html" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-2A/home.html" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -177,9 +228,11 @@
                         Mobile-first responsive design implementation. Uses media queries to create adaptive interfaces
                         that provide optimal viewing experiences across device viewports.
                     </p>
-                    <a href="WDL-2B/index.html" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-2B/index.html" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -201,9 +254,11 @@
                         Fundamental client-side scripting using JavaScript. Implements core programming logic,
                         functional abstractions, and interactive behavior for the web browser.
                     </p>
-                    <a href="WDL-3/index.html" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-3/index.html" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -225,9 +280,11 @@
                         Advanced DOM interaction and event handling. Features dynamic UI updates and specialized
                         computational interfaces with real-time feedback.
                     </p>
-                    <a href="WDL-4/index.html" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-4/index.html" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -250,9 +307,11 @@
                         HTML
                         tables using XSLT styling principles.
                     </p>
-                    <a href="WDL-5/index.xml" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-5/index.xml" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -274,9 +333,11 @@
                         Introduction to server-side processing using PHP. Implements form handling, arithmetic
                         processing, and dynamic HTML response generation.
                     </p>
-                    <a href="WDL-6/index.html" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-6/index.html" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -298,9 +359,11 @@
                         Server-side algorithms and form processing. Interactive input for algorithmic processing with
                         core iterations for prime number identification.
                     </p>
-                    <a href="WDL-7/" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-7/index.html" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -322,9 +385,11 @@
                         PHP and MySQL database integration. Data input form for MySQL integration with prepared
                         statements for robust data persistence.
                     </p>
-                    <a href="WDL-8/" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-8/index.html" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -346,9 +411,11 @@
                         Asynchronous requests and dynamic content. Dynamic UI for asynchronous image loading and
                         server-side responders for AJAX requests.
                     </p>
-                    <a href="WDL-9/" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-9/" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -370,10 +437,17 @@
                         Comparative analysis of modern web architectures and enterprise frameworks like React, Angular,
                         and Vue for scalable application design.
                     </p>
-                    <a href="WDL-10/index.html" class="launch-link">
-                        Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="WDL-10/index.html" class="launch-link">
+                            Launch Experiment <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
+            </div>
+
+            <!-- Section Title -->
+            <div class="section-title">
+                <h3>Practical Examination</h3>
             </div>
 
             <!-- Practical Exam -->
@@ -395,9 +469,11 @@
                         The final practical exam implementation. A robust tool designed to calculate Compound and Simple
                         Interest based on precise user-provided inputs, demonstrating mastery over JS logic.
                     </p>
-                    <a href="INTEREST-CALCULATOR/index.html" class="launch-link">
-                        Launch Full Demo <i class="fas fa-rocket ms-2"></i>
-                    </a>
+                    <div class="card-footer-actions">
+                        <a href="INTEREST-CALCULATOR/index.html" class="launch-link" id="practical-exam-link">
+                            Launch Full Demo <i class="fas fa-rocket ms-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -448,7 +524,49 @@
         </div>
     </div>
 
+    <!-- Share Result Modal -->
+    <div id="share-modal" class="share-modal-overlay">
+        <div class="share-modal">
+            <div class="share-modal-header">
+                <h5><i class="fas fa-share-alt me-2"></i>Share Portfolio</h5>
+                <button class="share-modal-close" onclick="closeShareModal()">&times;</button>
+            </div>
+            <div class="share-modal-body">
+                <div id="share-preview" class="share-preview">
+                    <!-- Preview will be rendered here -->
+                </div>
+                <div class="share-author-badge">
+                    <i class="fas fa-code me-2"></i>
+                    Created by <a href="https://github.com/Amey-Thakur" target="_blank">Amey Thakur</a>
+                    <span class="share-badge-separator">|</span>
+                    <a href="https://github.com/Amey-Thakur/WEB-DESIGNING-LAB" target="_blank">WDL Portfolio</a>
+                </div>
+            </div>
+            <div class="share-modal-footer">
+                <button class="btn btn-sm btn-primary-custom" onclick="downloadShareImage()">
+                    <i class="fas fa-download me-2"></i>Download Image
+                </button>
+                <button class="btn btn-sm btn-primary-custom btn-secondary-custom" onclick="copyShareLink()">
+                    <i class="fas fa-link me-2"></i>Copy Link
+                </button>
+                <button class="btn btn-sm btn-primary-custom btn-secondary-custom" id="native-share-btn"
+                    onclick="shareNative()">
+                    <i class="fas fa-share me-2"></i>Share
+                </button>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('SW registered'))
+                    .catch(err => console.log('SW failed', err));
+            });
+        }
+    </script>
 </body>
 
 </html>

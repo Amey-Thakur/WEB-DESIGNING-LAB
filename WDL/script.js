@@ -60,6 +60,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeIcon = toggleBtn ? toggleBtn.querySelector('i') : null;
     const htmlElement = document.documentElement;
     const backToTopBtn = document.getElementById("btn-back-to-top");
+    const loader = document.getElementById('loading-screen');
+
+    // =========================================
+    //   LOADING SCREEN HIDE
+    // =========================================
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            if (loader) loader.classList.add('hidden');
+        }, 800);
+    });
 
     // Theme Logic
     const savedTheme = localStorage.getItem('theme') || 'light';
@@ -144,10 +154,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // Attach launch sound to experiment links
     document.querySelectorAll('.launch-link').forEach(link => {
         link.addEventListener('mouseenter', playLaunchSound);
-        link.addEventListener('click', () => {
+        link.addEventListener('click', (e) => {
             playCelebrateSound();
+            if (link.id === 'practical-exam-link') {
+                triggerConfetti();
+            }
         });
     });
+
+    function triggerConfetti() {
+        if (typeof confetti === 'function') {
+            confetti({
+                particleCount: 150,
+                spread: 70,
+                origin: { y: 0.6 },
+                colors: ['#2563eb', '#38bdf8', '#ffffff']
+            });
+        }
+    }
 
     // =========================================
     //   SCROLL REVEAL ANIMATIONS
@@ -170,6 +194,146 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // =========================================
+    //   STATS COUNTER ANIMATION
+    // =========================================
+    const animateCounters = () => {
+        const counters = document.querySelectorAll('.stat-number');
+        const duration = 2000;
+
+        counters.forEach(counter => {
+            const target = +counter.getAttribute('data-target');
+            const suffix = counter.getAttribute('data-suffix') || '';
+            const startTime = performance.now();
+
+            const updateCount = (currentTime) => {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const easeOut = 1 - Math.pow(1 - progress, 3);
+                const current = Math.floor(easeOut * target);
+
+                counter.innerText = current + suffix;
+
+                if (progress < 1) {
+                    requestAnimationFrame(updateCount);
+                } else {
+                    counter.innerText = target + suffix;
+                }
+            };
+            requestAnimationFrame(updateCount);
+        });
+    };
+
+    const statsSection = document.querySelector('.stats-container');
+    if (statsSection) {
+        const statsObserver = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                animateCounters();
+                statsObserver.unobserve(statsSection);
+            }
+        }, { threshold: 0.5 });
+        statsObserver.observe(statsSection);
+    }
+
+    // =========================================
+    //   SHARE SYSTEM
+    // =========================================
+    let currentShareImageBlob = null;
+    const shareModal = document.getElementById('share-modal');
+    const sharePreview = document.getElementById('share-preview');
+    const nativeShareBtn = document.getElementById('native-share-btn');
+
+    window.shareResult = async (type, id) => {
+        playCelebrateSound();
+        shareModal.classList.add('active');
+        sharePreview.innerHTML = '<div class="text-center p-5"><i class="fas fa-spinner fa-spin fa-2x"></i><p class="mt-2">Generating Preview...</p></div>';
+
+        try {
+            const target = id === 'portfolio' ? document.querySelector('.hero') : document.getElementById(id) || document.querySelector(`[onclick*="${id}"]`).closest('.card-custom');
+
+            const canvas = await html2canvas(target, {
+                backgroundColor: getComputedStyle(document.documentElement).getPropertyValue('--card-bg'),
+                scale: 2,
+                logging: false,
+                useCORS: true
+            });
+
+            sharePreview.innerHTML = '';
+            const img = document.createElement('img');
+            img.src = canvas.toDataURL('image/png');
+            sharePreview.appendChild(img);
+
+            canvas.toBlob(blob => {
+                currentShareImageBlob = blob;
+            });
+
+            if (navigator.share) {
+                nativeShareBtn.style.display = 'block';
+            }
+        } catch (err) {
+            console.error("Capture failed", err);
+            sharePreview.innerHTML = '<p class="text-danger">Failed to generate preview.</p>';
+        }
+    };
+
+    window.closeShareModal = () => {
+        shareModal.classList.remove('active');
+    };
+
+    window.downloadShareImage = () => {
+        if (!currentShareImageBlob) return;
+        const url = URL.createObjectURL(currentShareImageBlob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `WDL_Lab_Result_Amey_Thakur_${Date.now()}.png`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    };
+
+    window.copyShareLink = () => {
+        const url = window.location.href;
+        navigator.clipboard.writeText(url).then(() => {
+            const btn = document.querySelector('button[onclick="copyShareLink()"]');
+            const originalContent = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check me-2"></i>Copied!';
+            btn.classList.add('btn-success');
+
+            setTimeout(() => {
+                btn.innerHTML = originalContent;
+                btn.classList.remove('btn-success');
+            }, 2000);
+        });
+    };
+
+    window.shareNative = async () => {
+        if (navigator.share && currentShareImageBlob) {
+            try {
+                const file = new File([currentShareImageBlob], 'WDL_Portfolio_Result.png', { type: 'image/png' });
+                await navigator.share({
+                    title: 'WDL Lab Portfolio - Amey Thakur',
+                    text: 'Check out this Web Designing Lab Portfolio showcasing responsive layouts, client-side logic, and full-stack web solutions!',
+                    url: window.location.href,
+                    files: [file]
+                });
+            } catch (err) {
+                console.log('Error sharing:', err);
+                // Fallback for browsers that support share but not files
+                try {
+                    await navigator.share({
+                        title: 'WDL Lab Portfolio - Amey Thakur',
+                        text: 'Check out this Web Designing Lab Portfolio showcasing responsive layouts, client-side logic, and full-stack web solutions!',
+                        url: window.location.href
+                    });
+                } catch (e) { console.log('Share failed', e); }
+            }
+        } else {
+            alert("Web Share API not supported on this device/browser.");
+        }
+    };
+
+
+    // =========================================
     //   COMMAND PALETTE SYSTEM
     // =========================================
     const cmdOverlay = document.getElementById('cmd-overlay');
@@ -179,14 +343,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Index content for search
     const searchIndex = [];
-    document.querySelectorAll('.card-custom').forEach(card => {
+    document.querySelectorAll('.card-custom').forEach((card, idx) => {
         const title = card.querySelector('h5').innerText;
         const tag = card.querySelector('.exp-tag').innerText;
         const link = card.querySelector('.launch-link').href;
         searchIndex.push({ title: `${tag}: ${title}`, type: 'Experiment', link });
     });
+
     searchIndex.push({ title: 'Toggle Theme', type: 'Command', action: toggleTheme });
+    searchIndex.push({ title: 'Share Portfolio', type: 'Command', action: () => window.shareResult('portfolio', 'portfolio') });
     searchIndex.push({ title: 'Go to GitHub', type: 'External', link: 'https://github.com/Amey-Thakur/WEB-DESIGNING-LAB' });
+
+    // PWA Install Prompt Capture
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        searchIndex.push({
+            title: 'Install App', type: 'Command', action: () => {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then(() => { deferredPrompt = null; });
+            }
+        });
+    });
 
     let selectedIndex = 0;
 
@@ -236,18 +415,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Keyboard controls
     document.addEventListener('keydown', (e) => {
-        // Ctrl + K to open
         if (e.ctrlKey && e.key === 'k') {
             e.preventDefault();
             openPalette();
         }
 
-        // T to toggle theme (only if palette is closed)
         if (!cmdOverlay.classList.contains('active') && e.key.toLowerCase() === 't') {
             const tag = e.target.tagName.toLowerCase();
-            if (tag !== 'input' && tag !== 'textarea') {
-                toggleTheme();
-            }
+            if (tag !== 'input' && tag !== 'textarea') toggleTheme();
         }
 
         if (cmdOverlay.classList.contains('active')) {
@@ -282,14 +457,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === cmdOverlay) closePalette();
     });
 
-    // Auto-hide kbd hint after 10 seconds or on interaction
-    setTimeout(() => {
-        if (kbdHint) kbdHint.classList.add('hidden');
-    }, 10000);
-
-    document.addEventListener('scroll', () => {
-        if (kbdHint) kbdHint.classList.add('hidden');
-    }, { once: true });
+    // Auto-hide kbd hint
+    setTimeout(() => { if (kbdHint) kbdHint.classList.add('hidden'); }, 10000);
+    document.addEventListener('scroll', () => { if (kbdHint) kbdHint.classList.add('hidden'); }, { once: true });
 
     // Register Service Worker
     if ('serviceWorker' in navigator) {
