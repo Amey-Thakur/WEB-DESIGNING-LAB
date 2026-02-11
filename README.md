@@ -54,7 +54,8 @@ As a computer engineer, mastering web technologies is essential for developing s
 - **Academic Documentation**: To authentically document my learning journey through WDL.
 - **Community Contribution**: To share these resources with students and learners who may benefit from them.
 
-All materials in this repository were implemented, organized, and documented by me during my undergraduate studies (2018-2022) as part of my coursework and practical training.
+> [!NOTE]
+> All materials in this repository were created, compiled, and organized by me throughout my undergraduate program (2018-2022) as part of my coursework, laboratory assignments, and project implementations.
 
 ---
 
