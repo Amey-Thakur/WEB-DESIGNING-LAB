@@ -51,7 +51,7 @@ As a computer engineer, mastering web technologies is essential for developing s
 
 - **Knowledge Preservation**: To maintain organized access to foundational web development implementations.
 - **Continuous Learning**: To support lifelong learning by enabling easy revisitation of core web technologies.
-- **Academic Documentation**: To authentically document my learning journey through WDL.
+- **Academic Documentation**: To authentically document my learning journey through Web Designing Lab.
 - **Community Contribution**: To share these resources with students and learners who may benefit from them.
 
 > [!NOTE]
