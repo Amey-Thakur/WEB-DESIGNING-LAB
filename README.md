@@ -334,7 +334,7 @@ A comprehensive real-time chat platform developed as a mini-project for the Web 
 ## Practical Exam
 
 <p align="center">
-  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/WDL/INTEREST-CALCULATOR">
+  <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/INTEREST-CALCULATOR/">
     <img src="https://img.shields.io/badge/Live_Demo-INTEREST%20CALCULATOR-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
@@ -344,8 +344,8 @@ Laboratory practical examination and submission:
 | # | Resource | Description |
 |:-:|:---|:---|
 | 1 | [Practical Exam Report](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | Write a JavaScript function to calculate compound and simple interest of user-provided input. |
-| 2 | [Interest Calculator](WDL%20EXAM/Source%20Code/interest_calculator.html) | Source code for the interest calculator implementation. <br> [**Live Demo**](https://amey-thakur.github.io/WEB-DESIGNING-LAB/INTEREST-CALCULATOR/) |
-| 3 | [Exam Submission](WDL%20EXAM/Amey_B-50_WDL_Practical_Exam.pdf) | Official Practical Exam Submission (10:30am-12:30pm) |
+| 2 | [Interest Calculator](WDL%20EXAM/Source%20Code/interest_calculator.html) | Source code for the interest calculator implementation, with [script.js](WDL%20EXAM/Source%20Code/script.js) and [style.css](WDL%20EXAM/Source%20Code/style.css). <br> [**Live Demo**](https://amey-thakur.github.io/WEB-DESIGNING-LAB/INTEREST-CALCULATOR/) |
+| 3 | [Exam Outputs](WDL%20EXAM/Outputs/Interest%20Calculator.png) | Screenshots of the running calculator, also the [plain calculator](WDL%20EXAM/Outputs/Calculator.png). Submitted 10:30am to 12:30pm. |
 
 ---
 
@@ -391,6 +391,7 @@ Course completion documentation with exit survey:
 ## Syllabus
 
 > **[Official CBCGS Syllabus](Syllabus/TE%20BE%20Comp%20Engg%20CBCGS%20Syllabus.pdf)**  
+> **[Third and Fourth Year Syllabus](Syllabus/MU%20COMP%20TE%20BE.pdf)**  
 > Complete Third Year Computer Engineering lab syllabus document from the University of Mumbai, including detailed course outcomes, assessment criteria, and module specifications for WDL.
 
 > [!IMPORTANT]
