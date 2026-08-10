@@ -10,9 +10,9 @@
   ### CSL504 · Semester V · Computer Engineering
 
   [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-  [![University](https://img.shields.io/badge/University-Mumbai-%23A6192E.svg)](https://mu.ac.in/)
-  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-orange.svg)](https://ternaengg.ac.in/)
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+  [![University](https://img.shields.io/badge/University-Mumbai-A6192E.svg)](https://mu.ac.in/)
+  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-E8710A.svg)](https://ternaengg.ac.in/)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
 
   **A comprehensive laboratory resource for Web Designing Lab (WDL), featuring HTML5, CSS3, JavaScript, PHP, XML, and full-stack web development experiments.**
 
@@ -98,13 +98,13 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
 <div align="center">
 
-  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-11-yellowgreen.svg)](WDL%20Experiments/)
-  [![Language](https://img.shields.io/badge/Language-HTML%2FCSS%2FJS-blueviolet.svg)](WDL%20Experiments/)
-  [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](WDL%20Experiments/)
+  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-11-3949AB.svg)](WDL%20Experiments/)
+  [![Language](https://img.shields.io/badge/Language-HTML%2FCSS%2FJS-8250DF.svg)](WDL%20Experiments/)
+  [![Status](https://img.shields.io/badge/Status-Complete-2EA043.svg)](WDL%20Experiments/)
 
   <br />
 
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL%20Portfolio-007bff?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/)
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-WDL%20Portfolio-00B8D9?style=flat&logo=github&logoColor=lightgray)](https://amey-thakur.github.io/WEB-DESIGNING-LAB/)
 
 </div>
 
@@ -280,9 +280,9 @@ The laboratory component (CSL504) focuses on hands-on implementation of building
 
   **Design and Implementation of a Web-Based Chat Room using HTML, CSS, JavaScript, PHP, and AJAX**
 
-  [![Project](https://img.shields.io/badge/Project-Chat%20Room-purple.svg)](https://github.com/Amey-Thakur/CHAT-ROOM)
-  [![Stack](https://img.shields.io/badge/Stack-PHP%20%7C%20MySQL-blue.svg)](https://github.com/Amey-Thakur/CHAT-ROOM)
-  [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)](https://github.com/Amey-Thakur/CHAT-ROOM)
+  [![Project](https://img.shields.io/badge/Project-Chat%20Room-BF3989.svg)](https://github.com/Amey-Thakur/CHAT-ROOM)
+  [![Stack](https://img.shields.io/badge/Stack-PHP%20%7C%20MySQL-8250DF.svg)](https://github.com/Amey-Thakur/CHAT-ROOM)
+  [![Status](https://img.shields.io/badge/Status-Completed-2EA043.svg)](https://github.com/Amey-Thakur/CHAT-ROOM)
 
 </div>
 
@@ -335,7 +335,7 @@ A comprehensive real-time chat platform developed as a mini-project for the Web 
 
 <p align="center">
   <a href="https://amey-thakur.github.io/WEB-DESIGNING-LAB/INTEREST-CALCULATOR/">
-    <img src="https://img.shields.io/badge/Live_Demo-INTEREST%20CALCULATOR-007bff?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
+    <img src="https://img.shields.io/badge/Live_Demo-INTEREST%20CALCULATOR-00B8D9?style=flat&logo=github&logoColor=lightgray" alt="Live Demo">
   </a>
 </p>
 
