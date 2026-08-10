@@ -10,7 +10,7 @@
   ### CSL504 · Semester V · Computer Engineering
 
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
-  [![Experiments](https://img.shields.io/badge/Experiments-11-3949AB.svg)](#laboratory-experiments)
+  [![Experiments](https://img.shields.io/badge/Experiments-11-3949AB.svg)](#learning-path)
   [![Language](https://img.shields.io/badge/Language-HTML%2FCSS%2FJS-8250DF.svg)](./)
 
   **A comprehensive collection of laboratory experiments for Web Designing, featuring HTML5, CSS3, JavaScript, PHP, XML, and full-stack web development implementations.**
