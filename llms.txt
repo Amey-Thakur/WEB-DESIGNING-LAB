@@ -1,0 +1,38 @@
+# Web Designing Lab
+
+> CSL504: Web Design Lab [WDL] | TE Semester V | Computer Engineering
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Mega Satish, ORCID 0000-0002-1844-9557
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering, Third Year, Semester V
+Course code: CSL504
+Licence: CC BY 4.0, attribution required
+Repository created: 28 July 2021
+Work dated: 19 January 2021
+
+## What is in this repository
+
+- Online Exam, 4 files
+- Quizzes, 2 files
+- Reference Books, 1 file
+- Submission Report, 3 files
+- Syllabus, 2 files
+- WDL, 119 files
+- WDL EXAM, 6 files
+- WDL Experiments, 115 files
+- WDL Mini Project, 3 files
+
+## Subject terms
+
+bootstrap, computer-engineering, computer-science, css, css3, engineering,
+full-stack-web-development, html, html5, javascript, php,
+university-of-mumbai, web-design, web-designing, web-development
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/WEB-DESIGNING-LAB
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Project page: https://amey-thakur.github.io/WEB-DESIGNING-LAB/
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/

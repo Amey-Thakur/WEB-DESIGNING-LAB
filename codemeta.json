@@ -1,0 +1,83 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "additionalType": "https://schema.org/LearningResource",
+    "name": "WEB-DESIGNING-LAB",
+    "description": "CSL504: Web Design Lab [WDL] | TE Semester V | Computer Engineering",
+    "identifier": "WEB-DESIGNING-LAB",
+    "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Amey",
+            "familyName": "Thakur",
+            "id": "https://orcid.org/0000-0001-5644-1575",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mega",
+            "familyName": "Satish",
+            "id": "https://orcid.org/0000-0002-1844-9557",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        }
+    ],
+    "dateCreated": "2021-07-28",
+    "dateReleased": "2021-01-19",
+    "codeRepository": "https://github.com/Amey-Thakur/WEB-DESIGNING-LAB",
+    "isPartOf": "https://github.com/Amey-Thakur/COMPUTER-ENGINEERING",
+    "developmentStatus": "complete",
+    "applicationCategory": "Academic Course Archive",
+    "educationalLevel": "Undergraduate, Third Year, Semester V",
+    "keywords": [
+        "Bootstrap",
+        "Computer Engineering",
+        "Computer Science",
+        "CSS",
+        "CSS3",
+        "Engineering",
+        "Full Stack Web Development",
+        "HTML",
+        "HTML5",
+        "JavaScript",
+        "PHP",
+        "University Of Mumbai",
+        "Web Design",
+        "Web Designing",
+        "Web Development",
+        "CSL504",
+        "WDL",
+        "Web Design Lab",
+        "University of Mumbai",
+        "Mumbai University",
+        "Terna Engineering College",
+        "Navi Mumbai",
+        "India",
+        "B.E. Computer Engineering",
+        "TE Semester V",
+        "Semester V",
+        "Reference Books",
+        "Syllabus",
+        "CBCGS",
+        "Amey Thakur",
+        "amey",
+        "ameythakur",
+        "amey-thakur",
+        "ameyarc",
+        "Mega Satish",
+        "megasatish",
+        "Web Designing Lab",
+        "Frontend Development",
+        "Responsive Design",
+        "MySQL",
+        "AJAX",
+        "Portfolio"
+    ],
+    "url": "https://amey-thakur.github.io/WEB-DESIGNING-LAB/"
+}
